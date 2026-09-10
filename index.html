@@ -3,116 +3,223 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Linear AI Index — Open Source AI Velocity & Rankings</title>
-  <meta name="description" content="Discover fast-growing AI repositories, real-time star velocity, and 1-click cloud deployment pipelines.">
+  <title>Good AI List — AI Open Source Projects, Developers & Rankings</title>
+  <meta name="description" content="Daily tracked rankings of AI open source projects, developers, countries, and categories with 1-click cloud deployment.">
   <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
 
-  <!-- Linear Ambient Glow Background -->
+  <!-- Background Glow -->
   <div class="ambient-glow"></div>
 
-  <!-- Header -->
+  <!-- Shared Header -->
   <header class="site-header">
-    <div class="logo-group">
-      <div class="logo-icon">▲</div>
-      <div class="logo-title">Linear AI Index</div>
+    <div class="header-left">
+      <div class="logo-group">
+        <a href="/" class="logo-link">
+          <div class="logo-icon">▲</div>
+          <div class="logo-texts">
+            <span class="logo-title">Good AI List</span>
+            <span class="logo-tagline">AI open source projects & developers</span>
+          </div>
+        </a>
+      </div>
     </div>
-    <div class="header-links">
-      <a href="#repos" class="nav-link">Directory</a>
-      <a href="config/affiliates.json" class="nav-link" target="_blank">Cloud Deals</a>
-      <a href="https://runpod.io" target="_blank" rel="noopener sponsored" class="btn-primary-glow">
-        <span>Deploy GPU</span>
-        <span style="opacity: 0.7; font-size: 0.75rem;">$25 Credit</span>
+    <div class="header-right">
+      <div class="header-chip">
+        <span class="chip-emoji">⚙️</span>
+        <span class="chip-text">
+          <span id="header-repos-count">—</span>
+          <span class="chip-label">repos</span>
+        </span>
+      </div>
+      <div class="header-chip">
+        <span class="chip-emoji">👤</span>
+        <span class="chip-text">
+          <span id="header-devs-count">—</span>
+          <span class="chip-label">devs</span>
+        </span>
+      </div>
+      <div class="header-chip">
+        <span class="chip-emoji">⭐</span>
+        <span class="chip-text">
+          <span id="header-stars-count">—</span>
+          <span class="chip-label">stars</span>
+        </span>
+      </div>
+      <a href="https://railway.com?referralCode=Ks00DU" target="_blank" rel="noopener sponsored" class="btn-primary-deploy">
+        <span>Deploy Cloud</span>
       </a>
     </div>
   </header>
 
-  <!-- Main Container -->
-  <main class="container" id="repos">
-    
-    <!-- Hero Section -->
-    <section class="hero">
-      <div class="hero-pill">
-        <span class="hero-pill-dot"></span>
-        <span>Tracking 250+ top velocity repositories daily</span>
-      </div>
-      <h1 class="hero-title">The pulse of open source AI.</h1>
-      <p class="hero-subtitle">
-        Curated velocity tracking across modern AI frameworks, LLMs, and autonomous agents. Optimized with 1-click cloud deployment.
-      </p>
-    </section>
-
-    <!-- Bento Stats -->
-    <div class="bento-grid">
-      <div class="bento-card">
-        <div class="bento-label">Tracked Repos</div>
-        <div class="bento-value" id="stat-total-repos">-</div>
-        <div class="bento-sub">Active open source projects</div>
-      </div>
-      <div class="bento-card">
-        <div class="bento-label">Aggregated Stars</div>
-        <div class="bento-value" id="stat-total-stars">-</div>
-        <div class="bento-sub">Across monitored repositories</div>
-      </div>
-      <div class="bento-card">
-        <div class="bento-label">Velocity Engine</div>
-        <div class="bento-value" style="color: #4ade80;">1D / 7D Deltas</div>
-        <div class="bento-sub">Realtime star acceleration</div>
-      </div>
-      <div class="bento-card">
-        <div class="bento-label">Last Snapshot</div>
-        <div class="bento-value" id="stat-updated-at" style="font-size: 1.35rem; padding-top: 0.35rem;">-</div>
-        <div class="bento-sub">Automated pipeline sync</div>
-      </div>
+  <!-- Navigation Tabs Bar -->
+  <nav class="tabs-bar">
+    <div class="tabs">
+      <button class="tab-btn active" data-tab="repos">Repos</button>
+      <button class="tab-btn" data-tab="devs">Devs</button>
+      <button class="tab-btn" data-tab="categories">Categories</button>
+      <button class="tab-btn" data-tab="countries">Countries</button>
     </div>
-
-    <!-- Controls Panel -->
-    <div class="controls-panel">
-      <div class="search-wrapper">
-        <svg class="search-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-        </svg>
-        <input type="text" id="search-input" class="search-input" placeholder="Search by repository name, keyword, or model (e.g. vllm, comfyui, deepseek)...">
-      </div>
-      <select id="category-filter" class="custom-select">
-        <option value="">All Categories</option>
-      </select>
-      <select id="sort-filter" class="custom-select">
-        <option value="star_1d_desc">Fastest Growing (1-Day Stars)</option>
-        <option value="star_7d_desc">Trending This Week (7-Day Stars)</option>
-        <option value="stars_desc">Total Stars (All Time)</option>
-        <option value="forks_desc">Most Forked</option>
-      </select>
+    <div class="tabs-actions">
+      <span class="update-pulse">● Live Sync</span>
     </div>
+  </nav>
 
-    <!-- Table Container -->
-    <div class="table-container">
-      <table class="table-linear">
-        <thead>
-          <tr>
-            <th style="width: 60px;">#</th>
-            <th>Repository</th>
-            <th style="width: 130px;">Total Stars</th>
-            <th style="width: 120px;">+1D Stars</th>
-            <th style="width: 120px;">+7D Stars</th>
-            <th style="width: 200px;">Deploy & Inference</th>
-          </tr>
-        </thead>
-        <tbody id="repos-tbody">
-          <!-- Populated by app.js -->
-        </tbody>
-      </table>
+  <!-- Main Content Area -->
+  <main class="container">
 
-      <!-- Pagination -->
-      <div class="pagination-row">
-        <span id="page-info">Loading repositories...</span>
-        <div class="pagination-controls">
-          <button id="prev-page-btn" class="btn-page">Previous</button>
-          <button id="next-page-btn" class="btn-page">Next</button>
+    <!-- TAB 1: REPOS TAB -->
+    <section id="tab-repos" class="tab-pane active">
+      <div class="controls-panel">
+        <div class="search-wrapper">
+          <svg class="search-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+          </svg>
+          <input type="text" id="repos-search" class="search-input" placeholder="Search repos, descriptions, models (vllm, agent, comfyui)...">
+        </div>
+        <select id="repos-category-filter" class="custom-select">
+          <option value="">All Categories</option>
+        </select>
+        <select id="repos-subcat-filter" class="custom-select">
+          <option value="">All Subcategories</option>
+        </select>
+        <select id="repos-sort-filter" class="custom-select">
+          <option value="star_1d_desc">Fastest Growing (1-Day Stars)</option>
+          <option value="star_7d_desc">Trending This Week (7-Day Stars)</option>
+          <option value="stars_desc">Total Stars</option>
+          <option value="forks_desc">Forks</option>
+        </select>
+        <div class="page-size-wrapper">
+          <select id="repos-page-size" class="custom-select">
+            <option value="25">25 / page</option>
+            <option value="50" selected>50 / page</option>
+            <option value="100">100 / page</option>
+          </select>
         </div>
       </div>
-    </div>
+
+      <div class="table-container">
+        <table class="table-linear">
+          <thead>
+            <tr>
+              <th style="width: 50px;">#</th>
+              <th>Repository</th>
+              <th style="width: 110px;">Stars</th>
+              <th style="width: 100px;">1d</th>
+              <th style="width: 100px;">7d</th>
+              <th style="width: 90px;">Forks</th>
+              <th style="width: 140px;">Category</th>
+              <th style="width: 170px;">1-Click Deploy</th>
+            </tr>
+          </thead>
+          <tbody id="repos-tbody">
+            <!-- Populated by JS -->
+          </tbody>
+        </table>
+        <div class="pagination-row">
+          <span id="repos-page-info">Loading...</span>
+          <div class="pagination-controls">
+            <button id="repos-prev-btn" class="btn-page">Previous</button>
+            <button id="repos-next-btn" class="btn-page">Next</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 2: DEVS TAB -->
+    <section id="tab-devs" class="tab-pane">
+      <div class="controls-panel">
+        <div class="search-wrapper">
+          <input type="text" id="devs-search" class="search-input" placeholder="Search developer username, name, or repo...">
+        </div>
+        <select id="devs-country-filter" class="custom-select">
+          <option value="">All Countries</option>
+        </select>
+        <select id="devs-sort-filter" class="custom-select">
+          <option value="weighted_desc">Weighted Contributions</option>
+          <option value="contributions_desc">Total Contributions</option>
+          <option value="repos_desc">Repo Count</option>
+        </select>
+      </div>
+
+      <div class="table-container">
+        <table class="table-linear">
+          <thead>
+            <tr>
+              <th style="width: 50px;">#</th>
+              <th style="width: 60px;">Country</th>
+              <th>Developer</th>
+              <th style="width: 100px;">Repos</th>
+              <th style="width: 140px;">Contributions</th>
+              <th style="width: 140px;">Weighted Score</th>
+              <th>Top Repositories</th>
+            </tr>
+          </thead>
+          <tbody id="devs-tbody">
+            <!-- Populated by JS -->
+          </tbody>
+        </table>
+        <div class="pagination-row">
+          <span id="devs-page-info">Loading...</span>
+          <div class="pagination-controls">
+            <button id="devs-prev-btn" class="btn-page">Previous</button>
+            <button id="devs-next-btn" class="btn-page">Next</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 3: CATEGORIES OVER TIME (CHARTS) -->
+    <section id="tab-categories" class="tab-pane">
+      <div class="chart-section">
+        <div class="chart-card">
+          <h2 class="chart-title">Cumulative Repo Count Over Time</h2>
+          <p class="chart-desc">Growth of open source AI repositories by major architectural domain.</p>
+          <div class="canvas-wrapper">
+            <canvas id="chart-repos-time"></canvas>
+          </div>
+        </div>
+
+        <div class="chart-card" style="margin-top: 2rem;">
+          <h2 class="chart-title">Cumulative Star Count Over Time</h2>
+          <p class="chart-desc">Total ecosystem adoption measured by cumulative GitHub stars.</p>
+          <div class="canvas-wrapper">
+            <canvas id="chart-stars-time"></canvas>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 4: COUNTRIES TAB -->
+    <section id="tab-countries" class="tab-pane">
+      <div class="chart-card">
+        <h2 class="chart-title">Global Open Source AI Distribution</h2>
+        <p class="chart-desc">Top developer ecosystems by country, repo output, and contribution volume.</p>
+        <div class="canvas-wrapper">
+          <canvas id="chart-countries-bar"></canvas>
+        </div>
+      </div>
+
+      <div class="table-container" style="margin-top: 2rem;">
+        <table class="table-linear">
+          <thead>
+            <tr>
+              <th>Rank</th>
+              <th>Country</th>
+              <th>Total Repos</th>
+              <th>Total Stars</th>
+              <th>Active Devs</th>
+              <th>Total Contributions</th>
+            </tr>
+          </thead>
+          <tbody id="countries-tbody">
+            <!-- Populated by JS -->
+          </tbody>
+        </table>
+      </div>
+    </section>
 
   </main>
 
@@ -120,14 +227,13 @@
   <footer class="site-footer">
     <div class="container" style="padding-top: 0; padding-bottom: 0;">
       <div class="disclosure-card">
-        <strong>Partner & Affiliate Notice:</strong> Some deploy actions and API integrations contain referral partnerships (RunPod, Railway, OpenRouter). We may earn credit or commission upon signup/usage at zero added expense to you, fueling automated index pipelines.
+        <strong>Affiliate & Cloud Partner Notice:</strong> Deployment buttons feature verified 1-click cloud partners (Railway, RunPod, OpenRouter). When you sign up and launch instances, we may receive cloud server credits at no extra cost to you.
       </div>
-      <div style="display: flex; justify-content: space-between; align-items: center;">
-        <div>&copy; 2026 Linear AI Index. Built with Linear Design System. Hosted on GitHub Pages.</div>
+      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+        <div>&copy; 2026 Good AI List (Pro Max Edition). All metrics synced daily.</div>
         <div style="display: flex; gap: 1.5rem;">
-          <a href="#" style="color: var(--text-tertiary); text-decoration: none;">Privacy</a>
-          <a href="#" style="color: var(--text-tertiary); text-decoration: none;">Terms</a>
-          <a href="https://github.com/nplong90/ai-rank-hub" target="_blank" rel="noopener" style="color: var(--accent-violet);">GitHub Source</a>
+          <a href="https://railway.com?referralCode=Ks00DU" target="_blank" rel="noopener sponsored" style="color: var(--accent-violet);">Deploy on Railway</a>
+          <a href="https://github.com/nplong90/ai-rank-hub" target="_blank" rel="noopener" style="color: var(--text-tertiary);">GitHub Source</a>
         </div>
       </div>
     </div>

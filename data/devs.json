@@ -1,0 +1,4502 @@
+[
+  {
+    "User": "steipete",
+    "Name": "Peter Steinberger",
+    "Repos": 32,
+    "Contributions": 76696,
+    "Weighted contributions": 866101,
+    "Top repos": "openclaw/openclaw, linuxhsj/openclaw-zero-token, steipete/CodexBar, openclaw/Peekaboo, steipete/summarize, amantus-ai/vibetunnel, steipete/oracle, openclaw/clawsweeper, openclaw/mcporter, openclaw/clawhub",
+    "Country": "Austria"
+  },
+  {
+    "User": "alexey-milovidov",
+    "Name": "Alexey Milovidov",
+    "Repos": 4,
+    "Contributions": 52525,
+    "Weighted contributions": 383978,
+    "Top repos": "myscale/MyScaleDB, timeplus-io/proton, shaypal5/awesome-twitter-data, bytebase/bytebase",
+    "Country": "Netherlands"
+  },
+  {
+    "User": "BigTunaHalpert",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 25298,
+    "Weighted contributions": 272284,
+    "Top repos": "SimplifyJobs/Summer2027-Internships",
+    "Country": ""
+  },
+  {
+    "User": "xmatthias",
+    "Name": "Matthias",
+    "Repos": 3,
+    "Contributions": 19657,
+    "Weighted contributions": 213868,
+    "Top repos": "freqtrade/freqtrade, freqtrade/freqtrade-strategies, scikit-optimize/scikit-optimize",
+    "Country": ""
+  },
+  {
+    "User": "AbdulTheActivePiecer",
+    "Name": "Abdul",
+    "Repos": 1,
+    "Contributions": 20951,
+    "Weighted contributions": 211624,
+    "Top repos": "activepieces/activepieces",
+    "Country": "Jordan"
+  },
+  {
+    "User": "zhennann",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 30178,
+    "Weighted contributions": 207574,
+    "Top repos": "cabloy/cabloy",
+    "Country": ""
+  },
+  {
+    "User": "cjdsellers",
+    "Name": "Chris Sellers",
+    "Repos": 1,
+    "Contributions": 18799,
+    "Weighted contributions": 192963,
+    "Top repos": "nautechsystems/nautilus_trader",
+    "Country": "Germany"
+  },
+  {
+    "User": "vincentkoc",
+    "Name": "Vincent Koc",
+    "Repos": 34,
+    "Contributions": 15994,
+    "Weighted contributions": 192657,
+    "Top repos": "openclaw/openclaw, openclaw/clawsweeper, linuxhsj/openclaw-zero-token, openclaw/clawhub, vincentkoc/tokenjuice, comet-ml/opik-openclaw, comet-ml/opik, openclaw/acpx, BasedHardware/omi, openclaw/agent-skills",
+    "Country": "USA"
+  },
+  {
+    "User": "iterativv",
+    "Name": "iterativ",
+    "Repos": 1,
+    "Contributions": 22353,
+    "Weighted contributions": 181810,
+    "Top repos": "iterativv/NostalgiaForInfinity",
+    "Country": ""
+  },
+  {
+    "User": "teknium1",
+    "Name": "Teknium",
+    "Repos": 14,
+    "Contributions": 14750,
+    "Weighted contributions": 181296,
+    "Top repos": "NousResearch/hermes-agent, NousResearch/Open-Reasoning-Tasks, NousResearch/atropos, NousResearch/Hermes-Bot-Mode, teknium1/GPTeacher, NousResearch/hermes-paperclip-adapter, NousResearch/hermes-agent-self-evolution, paperclipai/paperclip, gsd-build/get-shit-done, open-gsd/gsd-core",
+    "Country": ""
+  },
+  {
+    "User": "profvjreddi",
+    "Name": "Vijay Janapa Reddi",
+    "Repos": 2,
+    "Contributions": 17508,
+    "Weighted contributions": 179025,
+    "Top repos": "harvard-edge/cs249r_book, mlcommons/inference",
+    "Country": "USA"
+  },
+  {
+    "User": "ishaan-jaff",
+    "Name": "Ishaan Jaff",
+    "Repos": 17,
+    "Contributions": 15259,
+    "Weighted contributions": 167387,
+    "Top repos": "BerriAI/litellm, filip-michalsky/SalesGPT, EvolvingLMMs-Lab/Otter, dair-ai/Prompt-Engineering-Guide, iuiaoin/wechat-gptbot, taishi-i/awesome-ChatGPT-repositories, OWD-AI/AutoAgents, akshata29/entaoai, zyddnys/manga-image-translator, yihong0618/bilingual_book_maker",
+    "Country": "USA"
+  },
+  {
+    "User": "tobiu",
+    "Name": "Tobias Uhlig",
+    "Repos": 1,
+    "Contributions": 20128,
+    "Weighted contributions": 162893,
+    "Top repos": "neomjs/neo",
+    "Country": "Germany"
+  },
+  {
+    "User": "tianyicui",
+    "Name": "",
+    "Repos": 6,
+    "Contributions": 16478,
+    "Weighted contributions": 160250,
+    "Top repos": "deepseek-ai/deepseek-harness, fufankeji/deepseek-harness-studio, anywhere-labs/dsh-desktop, getpaseo/paseo, ggozad/haiku.rag, kittors/CliRelay",
+    "Country": ""
+  },
+  {
+    "User": "tjbck",
+    "Name": "Tim Baek",
+    "Repos": 6,
+    "Contributions": 13524,
+    "Weighted contributions": 158854,
+    "Top repos": "open-webui/open-webui, open-webui/pipelines, open-webui/open-terminal, open-webui/mcpo, ollama/ollama, datalab-to/marker",
+    "Country": "USA"
+  },
+  {
+    "User": "88250",
+    "Name": "D",
+    "Repos": 1,
+    "Contributions": 14024,
+    "Weighted contributions": 150640,
+    "Top repos": "siyuan-note/siyuan",
+    "Country": "China"
+  },
+  {
+    "User": "airbyteio",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 14787,
+    "Weighted contributions": 147865,
+    "Top repos": "airbytehq/airbyte",
+    "Country": ""
+  },
+  {
+    "User": "code-yeongyu",
+    "Name": "YeonGyu-Kim",
+    "Repos": 10,
+    "Contributions": 13027,
+    "Weighted contributions": 145393,
+    "Top repos": "code-yeongyu/oh-my-openagent, ultraworkers/claw-code, code-yeongyu/lazycodex, CyberStrikeus/CyberStrike, anomalyco/opencode, junhoyeo/tokscale, tickernelz/opencode-mem, supermemoryai/opencode-supermemory, soongenwong/claudecode, awesome-opencode/awesome-opencode",
+    "Country": "South Korea"
+  },
+  {
+    "User": "baldersheim",
+    "Name": "Henning Baldersheim",
+    "Repos": 1,
+    "Contributions": 16055,
+    "Weighted contributions": 142326,
+    "Top repos": "vespa-engine/vespa",
+    "Country": "Norway"
+  },
+  {
+    "User": "paul-gauthier",
+    "Name": "",
+    "Repos": 4,
+    "Contributions": 12671,
+    "Weighted contributions": 136800,
+    "Top repos": "Aider-AI/aider, BerriAI/litellm, reorx/awesome-chatgpt-api, underlines/awesome-ml",
+    "Country": "USA"
+  },
+  {
+    "User": "Vanessa219",
+    "Name": "V",
+    "Repos": 1,
+    "Contributions": 12432,
+    "Weighted contributions": 133540,
+    "Top repos": "siyuan-note/siyuan",
+    "Country": "China"
+  },
+  {
+    "User": "ROBERT-MCDOWELL",
+    "Name": "ROBERT MCDOWELL",
+    "Repos": 1,
+    "Contributions": 13380,
+    "Weighted contributions": 132601,
+    "Top repos": "DrewThomasson/ebook2audiobook",
+    "Country": ""
+  },
+  {
+    "User": "jqnatividad",
+    "Name": "Joel Natividad",
+    "Repos": 2,
+    "Contributions": 15619,
+    "Weighted contributions": 128627,
+    "Top repos": "dathere/qsv, greyblake/whatlang-rs",
+    "Country": "USA"
+  },
+  {
+    "User": "md-mq",
+    "Name": "Mourad",
+    "Repos": 2,
+    "Contributions": 17337,
+    "Weighted contributions": 125785,
+    "Top repos": "polyaxon/polyaxon, polyaxon/traceml",
+    "Country": "Germany"
+  },
+  {
+    "User": "abuaboud",
+    "Name": "Mo AbuAboud",
+    "Repos": 1,
+    "Contributions": 12312,
+    "Weighted contributions": 124362,
+    "Top repos": "activepieces/activepieces",
+    "Country": "Jordan"
+  },
+  {
+    "User": "tchaikov",
+    "Name": "Kefu Chai",
+    "Repos": 2,
+    "Contributions": 12355,
+    "Weighted contributions": 120350,
+    "Top repos": "ceph/ceph, redpanda-data/redpanda",
+    "Country": "China"
+  },
+  {
+    "User": "can1357",
+    "Name": "Can B\u00f6l\u00fck",
+    "Repos": 5,
+    "Contributions": 11554,
+    "Weighted contributions": 119174,
+    "Top repos": "can1357/oh-my-pi, mrexodia/ida-pro-mcp, earendil-works/pi, PrimeIntellect-ai/prime-agent, kittors/CliRelay",
+    "Country": "Netherlands"
+  },
+  {
+    "User": "lastzero",
+    "Name": "Michael Mayer",
+    "Repos": 2,
+    "Contributions": 11119,
+    "Weighted contributions": 117870,
+    "Top repos": "photoprism/photoprism, getumbrel/umbrel",
+    "Country": "Germany"
+  },
+  {
+    "User": "ruvnet",
+    "Name": "rUv",
+    "Repos": 6,
+    "Contributions": 11130,
+    "Weighted contributions": 112825,
+    "Top repos": "ruvnet/ruflo, ruvnet/RuVector, ruvnet/RuView, ruvnet/metaharness, ruvnet/agentic-flow, ruvnet/Bot-Generator-Bot",
+    "Country": "France"
+  },
+  {
+    "User": "davisking",
+    "Name": "Davis E. King",
+    "Repos": 2,
+    "Contributions": 12575,
+    "Weighted contributions": 112519,
+    "Top repos": "davisking/dlib, mit-nlp/MITIE",
+    "Country": "USA"
+  },
+  {
+    "User": "louis030195",
+    "Name": "Louis Beaumont",
+    "Repos": 14,
+    "Contributions": 11668,
+    "Weighted contributions": 108772,
+    "Top repos": "screenpipe/screenpipe, mediar-ai/terminator, different-ai/embedbase, different-ai/obsidian-ava, ollama/ollama, microsoft/Biodiversity, aristoapp/awesome-second-brain, IAAR-Shanghai/Awesome-AI-Memory, ranpox/awesome-computer-use, ikaijua/Awesome-AITools",
+    "Country": "USA"
+  },
+  {
+    "User": "reckart",
+    "Name": "Richard Eckart de Castilho",
+    "Repos": 2,
+    "Contributions": 15964,
+    "Weighted contributions": 104897,
+    "Top repos": "inception-project/inception, ollama4j/ollama4j",
+    "Country": "Germany"
+  },
+  {
+    "User": "phodal",
+    "Name": "Fengda Huang",
+    "Repos": 13,
+    "Contributions": 12820,
+    "Weighted contributions": 102504,
+    "Top repos": "phodal/auto-dev, phodal/routa, prompt-engineering/click-prompt, QoderAI/better-harness, unit-mesh/unit-minions, phodal/understand-prompt, prompt-engineering/chat-flow, phodal/aigc, unit-mesh/build-your-ai-coding-assistant, phodal/prompt-patterns",
+    "Country": "China"
+  },
+  {
+    "User": "sestinj",
+    "Name": "Nate Sesti",
+    "Repos": 2,
+    "Contributions": 9664,
+    "Weighted contributions": 101344,
+    "Top repos": "continuedev/continue, vibrantlabsai/ragas",
+    "Country": "USA"
+  },
+  {
+    "User": "mikasoukhov",
+    "Name": "Mikhail",
+    "Repos": 1,
+    "Contributions": 10918,
+    "Weighted contributions": 101319,
+    "Top repos": "StockSharp/StockSharp",
+    "Country": "Russia"
+  },
+  {
+    "User": "Luis-Fernando-Molina",
+    "Name": "Luis Fernando Molina",
+    "Repos": 2,
+    "Contributions": 11599,
+    "Weighted contributions": 100206,
+    "Top repos": "Superalgos/Superalgos, Haehnchen/crypto-trading-bot",
+    "Country": "Switzerland"
+  },
+  {
+    "User": "ChrisRackauckas",
+    "Name": "Christopher Rackauckas",
+    "Repos": 18,
+    "Contributions": 14092,
+    "Weighted contributions": 97704,
+    "Top repos": "SciML/OrdinaryDiffEq.jl, SciML/ModelingToolkit.jl, SciML/DifferentialEquations.jl, SciML/DiffEqFlux.jl, SciML/NeuralPDE.jl, SciML/SciMLTutorials.jl, SciML/Catalyst.jl, SciML/SciMLBook, FluxML/Zygote.jl, FluxML/model-zoo",
+    "Country": "USA"
+  },
+  {
+    "User": "steveyegge",
+    "Name": "Steve Yegge",
+    "Repos": 4,
+    "Contributions": 9647,
+    "Weighted contributions": 96426,
+    "Top repos": "gastownhall/gastown, gastownhall/beads, sourcegraph/cody-public-snapshot, gastownhall/gascity",
+    "Country": "USA"
+  },
+  {
+    "User": "fegennari",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 13287,
+    "Weighted contributions": 96424,
+    "Top repos": "fegennari/3DWorld",
+    "Country": ""
+  },
+  {
+    "User": "ge0ffrey",
+    "Name": "Geoffrey De Smet",
+    "Repos": 3,
+    "Contributions": 12255,
+    "Weighted contributions": 95669,
+    "Top repos": "TimefoldAI/timefold-solver, apache/incubator-kie-optaplanner, TimefoldAI/timefold-quickstarts",
+    "Country": "Belgium"
+  },
+  {
+    "User": "hawkinsp",
+    "Name": "Peter Hawkins",
+    "Repos": 82,
+    "Contributions": 9760,
+    "Weighted contributions": 94305,
+    "Top repos": "jax-ml/jax, tensorflow/tensorflow, tensorflow/probability, openxla/xla, NVIDIA/tensorflow, DeepRec-AI/DeepRec, google-research/google-research, google-research/scenic, google-deepmind/dm-haiku, google-research/t5x",
+    "Country": "USA"
+  },
+  {
+    "User": "elie222",
+    "Name": "Elie Steinbock",
+    "Repos": 7,
+    "Contributions": 10093,
+    "Weighted contributions": 94252,
+    "Top repos": "elie222/inbox-zero, elie222/rakazo, lucgagan/auto-playwright, cursor/community-plugins, triggerdotdev/trigger.dev, The-Vibe-Company/quivr, antiwork/shortest",
+    "Country": "Israel"
+  },
+  {
+    "User": "lawrencecchen",
+    "Name": "Lawrence Chen",
+    "Repos": 3,
+    "Contributions": 10296,
+    "Weighted contributions": 93766,
+    "Top repos": "manaflow-ai/cmux, manaflow-ai/manaflow, 567-labs/instructor-js",
+    "Country": ""
+  },
+  {
+    "User": "adrians5j",
+    "Name": "Adrian Smijulj",
+    "Repos": 1,
+    "Contributions": 10347,
+    "Weighted contributions": 93034,
+    "Top repos": "webiny/webiny-js",
+    "Country": "Croatia"
+  },
+  {
+    "User": "badlogic",
+    "Name": "Mario Zechner",
+    "Repos": 11,
+    "Contributions": 8982,
+    "Weighted contributions": 92963,
+    "Top repos": "earendil-works/pi, PrimeIntellect-ai/prime-agent, can1357/oh-my-pi, badlogic/lemmy, amantus-ai/vibetunnel, badlogic/sitegeist, badlogic/pi-skills, badlogic/claude-commands, linuxhsj/openclaw-zero-token, libgdx/gdx-ai",
+    "Country": "Austria"
+  },
+  {
+    "User": "glenn-jocher",
+    "Name": "Glenn Jocher",
+    "Repos": 13,
+    "Contributions": 9879,
+    "Weighted contributions": 92612,
+    "Top repos": "ultralytics/yolov3, ultralytics/yolov5, ultralytics/ultralytics, wmcnally/kapao, positive666/yolo_research, THU-MIG/yolov10, ultralytics/yolo-ios-app, ultralytics/JSON2YOLO, DataXujing/YOLO-v5, pytorch/hub",
+    "Country": "USA"
+  },
+  {
+    "User": "alesapin",
+    "Name": "",
+    "Repos": 3,
+    "Contributions": 12681,
+    "Weighted contributions": 92520,
+    "Top repos": "myscale/MyScaleDB, timeplus-io/proton, Dobiasd/frugally-deep",
+    "Country": "Netherlands"
+  },
+  {
+    "User": "alalek",
+    "Name": "Alexander Alekhin",
+    "Repos": 1,
+    "Contributions": 8082,
+    "Weighted contributions": 92264,
+    "Top repos": "opencv/opencv",
+    "Country": "Russia"
+  },
+  {
+    "User": "tinwelint",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 9288,
+    "Weighted contributions": 90589,
+    "Top repos": "neo4j/neo4j",
+    "Country": ""
+  },
+  {
+    "User": "ogabrielluiz",
+    "Name": "Gabriel Luiz Freitas Almeida",
+    "Repos": 3,
+    "Contributions": 7474,
+    "Weighted contributions": 89291,
+    "Top repos": "langflow-ai/langflow, keon/awesome-nlp, koaning/human-learn",
+    "Country": "Brazil"
+  },
+  {
+    "User": "jenetics",
+    "Name": "Franz Wilhelmst\u00f6tter",
+    "Repos": 1,
+    "Contributions": 12926,
+    "Weighted contributions": 88042,
+    "Top repos": "jenetics/jenetics",
+    "Country": "Austria"
+  },
+  {
+    "User": "T8RIN",
+    "Name": "Malik Mukhametzyanov",
+    "Repos": 2,
+    "Contributions": 9111,
+    "Weighted contributions": 87331,
+    "Top repos": "T8RIN/ImageToolbox, Lucchetto/SuperImage",
+    "Country": "Russia"
+  },
+  {
+    "User": "rcourtman",
+    "Name": "rcourtman",
+    "Repos": 2,
+    "Contributions": 9857,
+    "Weighted contributions": 86816,
+    "Top repos": "rcourtman/Pulse, FluidInference/FluidAudio",
+    "Country": ""
+  },
+  {
+    "User": "antirez",
+    "Name": "Salvatore Sanfilippo",
+    "Repos": 5,
+    "Contributions": 7745,
+    "Weighted contributions": 86045,
+    "Top repos": "redis/redis, antirez/ds4, antirez/neural-redis, antirez/ttt-rl, antirez/qwen-asr",
+    "Country": "Italy"
+  },
+  {
+    "User": "bpasero",
+    "Name": "Benjamin Pasero",
+    "Repos": 2,
+    "Contributions": 13077,
+    "Weighted contributions": 85989,
+    "Top repos": "trypear/pearai-app, microsoft/vscode-copilot-chat",
+    "Country": "Switzerland"
+  },
+  {
+    "User": "lukemarsden",
+    "Name": "",
+    "Repos": 2,
+    "Contributions": 12641,
+    "Weighted contributions": 85244,
+    "Top repos": "helixml/helix, pachyderm/pachyderm",
+    "Country": "UK"
+  },
+  {
+    "User": "brimoor",
+    "Name": "Brian Moore",
+    "Repos": 1,
+    "Contributions": 9101,
+    "Weighted contributions": 84744,
+    "Top repos": "voxel51/fiftyone",
+    "Country": "USA"
+  },
+  {
+    "User": "kjk",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 12563,
+    "Weighted contributions": 84441,
+    "Top repos": "dengxibo/sumatrapdf-plus",
+    "Country": ""
+  },
+  {
+    "User": "enarjord",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 10975,
+    "Weighted contributions": 83919,
+    "Top repos": "enarjord/passivbot",
+    "Country": ""
+  },
+  {
+    "User": "hfp",
+    "Name": "Hans Pabst",
+    "Repos": 2,
+    "Contributions": 12052,
+    "Weighted contributions": 83135,
+    "Top repos": "libxsmm/libxsmm, plaidml/plaidml",
+    "Country": "Switzerland"
+  },
+  {
+    "User": "lalalune",
+    "Name": "Shaw",
+    "Repos": 3,
+    "Contributions": 8700,
+    "Weighted contributions": 81077,
+    "Top repos": "elizaOS/eliza, Oneirocom/Magick, deepspeedai/DeepSpeed-MII",
+    "Country": "USA"
+  },
+  {
+    "User": "rcurtin",
+    "Name": "Ryan Curtin",
+    "Repos": 2,
+    "Contributions": 9550,
+    "Weighted contributions": 80528,
+    "Top repos": "mlpack/mlpack, mlpack/ensmallen",
+    "Country": "USA"
+  },
+  {
+    "User": "lucidrains",
+    "Name": "Phil Wang",
+    "Repos": 74,
+    "Contributions": 11205,
+    "Weighted contributions": 80408,
+    "Top repos": "lucidrains/x-transformers, lucidrains/alphafold3-pytorch, lucidrains/DALLE2-pytorch, lucidrains/imagen-pytorch, lucidrains/audiolm-pytorch, lucidrains/vector-quantize-pytorch, lucidrains/vit-pytorch, lucidrains/DALLE-pytorch, lucidrains/alphafold2, lucidrains/denoising-diffusion-pytorch",
+    "Country": "USA"
+  },
+  {
+    "User": "siddseethepalli",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 11021,
+    "Weighted contributions": 78286,
+    "Top repos": "vellum-ai/vellum-assistant",
+    "Country": ""
+  },
+  {
+    "User": "Goldziher",
+    "Name": "Na'aman Hirschfeld",
+    "Repos": 9,
+    "Contributions": 8542,
+    "Weighted contributions": 78029,
+    "Top repos": "xberg-io/xberg, udecode/plate, yfedoseev/pdf_oxide, awesome-opencode/awesome-opencode, Danielskry/Awesome-RAG, google-gemini/deprecated-generative-ai-python, felladrin/awesome-ai-web-search, Piebald-AI/awesome-gemini-cli, Unstructured-IO/unstructured",
+    "Country": ""
+  },
+  {
+    "User": "jrieken",
+    "Name": "Johannes Rieken",
+    "Repos": 2,
+    "Contributions": 11858,
+    "Weighted contributions": 78012,
+    "Top repos": "trypear/pearai-app, microsoft/vscode-copilot-chat",
+    "Country": "Switzerland"
+  },
+  {
+    "User": "ar2rsawseen",
+    "Name": "Arturs Sosins",
+    "Repos": 1,
+    "Contributions": 8939,
+    "Weighted contributions": 77610,
+    "Top repos": "Countly/countly-server",
+    "Country": "Latvia"
+  },
+  {
+    "User": "senamakel",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 7317,
+    "Weighted contributions": 77452,
+    "Top repos": "tinyhumansai/openhuman",
+    "Country": ""
+  },
+  {
+    "User": "Cohee1207",
+    "Name": "Cohee",
+    "Repos": 7,
+    "Contributions": 7561,
+    "Weighted contributions": 77258,
+    "Top repos": "SillyTavern/SillyTavern, SillyTavern/SillyTavern-Extras, SillyTavern/SillyTavern-Launcher, daswer123/xtts-api-server, oobabooga/textgen, TavernAI/TavernAI-v1, ading2210/poe-api",
+    "Country": ""
+  },
+  {
+    "User": "JSv4",
+    "Name": "JSIV",
+    "Repos": 4,
+    "Contributions": 10553,
+    "Weighted contributions": 76977,
+    "Top repos": "Open-Source-Legal/OpenContracts, nlmatics/llmsherpa, run-llama/ParseBench, tstanislawek/awesome-document-understanding",
+    "Country": ""
+  },
+  {
+    "User": "psychedelicious",
+    "Name": "psychedelicious",
+    "Repos": 1,
+    "Contributions": 7467,
+    "Weighted contributions": 76507,
+    "Top repos": "invoke-ai/InvokeAI",
+    "Country": ""
+  },
+  {
+    "User": "Git-on-my-level",
+    "Name": "David Zhang",
+    "Repos": 2,
+    "Contributions": 8614,
+    "Weighted contributions": 76503,
+    "Top repos": "BasedHardware/omi, Git-on-my-level/codex-autorunner",
+    "Country": "USA"
+  },
+  {
+    "User": "edison1105",
+    "Name": "edison",
+    "Repos": 1,
+    "Contributions": 10792,
+    "Weighted contributions": 75877,
+    "Top repos": "awesome-gptX/awesome-gpt",
+    "Country": "China"
+  },
+  {
+    "User": "enricoros",
+    "Name": "Enrico Ros",
+    "Repos": 4,
+    "Contributions": 8433,
+    "Weighted contributions": 74801,
+    "Top repos": "enricoros/big-AGI, lucidrains/big-sleep, mudler/LocalAI, billmei/every-chatgpt-gui",
+    "Country": "USA"
+  },
+  {
+    "User": "AlyaGomaa",
+    "Name": "Alya Gomaa",
+    "Repos": 1,
+    "Contributions": 10962,
+    "Weighted contributions": 74408,
+    "Top repos": "stratosphereips/StratosphereLinuxIPS",
+    "Country": "Egypt"
+  },
+  {
+    "User": "rusty1s",
+    "Name": "Matthias Fey",
+    "Repos": 8,
+    "Contributions": 8035,
+    "Weighted contributions": 74186,
+    "Top repos": "pyg-team/pytorch_geometric, rusty1s/pytorch_scatter, rusty1s/pytorch_sparse, rusty1s/pytorch_cluster, snap-stanford/ogb, pyg-team/pytorch-frame, tkipf/pygcn, meta-pytorch/data",
+    "Country": "Germany"
+  },
+  {
+    "User": "ggerganov",
+    "Name": "Georgi Gerganov",
+    "Repos": 14,
+    "Contributions": 7870,
+    "Weighted contributions": 74159,
+    "Top repos": "spiritbuun/buun-llama-cpp, ggml-org/llama.cpp, ggml-org/whisper.cpp, ggml-org/ggml, ikawrakow/ik_llama.cpp, Tiiny-AI/PowerInfer, RWKV/rwkv.cpp, ggml-org/llama.vim, antimatter15/alpaca.cpp, ggml-org/llama.vscode",
+    "Country": "Bulgaria"
+  },
+  {
+    "User": "ivicac",
+    "Name": "Ivica \u010cardi\u0107",
+    "Repos": 1,
+    "Contributions": 10719,
+    "Weighted contributions": 74044,
+    "Top repos": "bytechefhq/bytechef",
+    "Country": "Croatia"
+  },
+  {
+    "User": "honnibal",
+    "Name": "Matthew Honnibal",
+    "Repos": 9,
+    "Contributions": 8111,
+    "Weighted contributions": 73356,
+    "Top repos": "explosion/spaCy, explosion/thinc, explosion/spacy-transformers, explosion/spacy-models, explosion/sense2vec, explosion/spacy-llm, explosion/prodigy-recipes, explosion/spacy-layout, explosion/spacy-stanza",
+    "Country": "Germany"
+  },
+  {
+    "User": "gsxdsm",
+    "Name": "",
+    "Repos": 6,
+    "Contributions": 10287,
+    "Weighted contributions": 73268,
+    "Top repos": "Runfusion/Fusion, openchamber/openchamber, paperclipai/paperclip, stablyai/orca, BloopAI/vibe-kanban, andyrewlee/awesome-agent-orchestrators",
+    "Country": ""
+  },
+  {
+    "User": "nouiz",
+    "Name": "Fr\u00e9d\u00e9ric Bastien",
+    "Repos": 12,
+    "Contributions": 10584,
+    "Weighted contributions": 72622,
+    "Top repos": "pymc-devs/pytensor, tensorflow/tensorflow, lisa-lab/DeepLearningTutorials, openxla/xla, DeepRec-AI/DeepRec, jax-ml/jax, NVIDIA/TransformerEngine, mila-iqia/fuel, google/flax, mila-iqia/blocks",
+    "Country": "Canada"
+  },
+  {
+    "User": "vladmandic",
+    "Name": "Vladimir Mandic",
+    "Repos": 13,
+    "Contributions": 8304,
+    "Weighted contributions": 72445,
+    "Top repos": "vladmandic/sdnext, vladmandic/human, vladmandic/face-api, AUTOMATIC1111/stable-diffusion-webui, tensorflow/tfjs, huggingface/diffusers, SipherAGI/sd-webui-agent-scheduler, Nerogar/OneTrainer, unclecode/crawl4ai, Mikubill/sd-webui-controlnet",
+    "Country": "USA"
+  },
+  {
+    "User": "danielaskdd",
+    "Name": "Daniel.y",
+    "Repos": 3,
+    "Contributions": 6802,
+    "Weighted contributions": 71993,
+    "Top repos": "HKUDS/LightRAG, HKUDS/RAG-Anything, yusufkaraaslan/Skill_Seekers",
+    "Country": "China"
+  },
+  {
+    "User": "1jehuang",
+    "Name": "Jeremy Huang",
+    "Repos": 1,
+    "Contributions": 7284,
+    "Weighted contributions": 71907,
+    "Top repos": "1jehuang/jcode",
+    "Country": ""
+  },
+  {
+    "User": "koala73",
+    "Name": "Elie Habib",
+    "Repos": 1,
+    "Contributions": 6287,
+    "Weighted contributions": 71426,
+    "Top repos": "koala73/worldmonitor",
+    "Country": ""
+  },
+  {
+    "User": "huan",
+    "Name": "Huan Li",
+    "Repos": 9,
+    "Contributions": 7371,
+    "Weighted contributions": 70871,
+    "Top repos": "wechaty/wechaty, wechaty/getting-started, wechaty/python-wechaty, snowkylin/tensorflow-handbook, wechaty/go-wechaty, tensorflow/tfjs, tensorflow/tfjs-examples, ivanseidel/IAMDinosaur, NVIDIA/nvidia-docker",
+    "Country": "USA"
+  },
+  {
+    "User": "Dicklesworthstone",
+    "Name": "Jeff Emanuel",
+    "Repos": 10,
+    "Contributions": 16739,
+    "Weighted contributions": 70471,
+    "Top repos": "Dicklesworthstone/coding_agent_session_search, Dicklesworthstone/pi_agent_rust, Dicklesworthstone/agentic_coding_flywheel_setup, Dicklesworthstone/destructive_command_guard, Dicklesworthstone/mcp_agent_mail, Dicklesworthstone/beads_viewer, Dicklesworthstone/swiss_army_llama, Dicklesworthstone/llm_aided_ocr, Dicklesworthstone/claude_code_agent_farm, Dicklesworthstone/your-source-to-prompt.html",
+    "Country": "USA"
+  },
+  {
+    "User": "jlblancoc",
+    "Name": "Jose Luis Blanco-Claraco",
+    "Repos": 5,
+    "Contributions": 9151,
+    "Weighted contributions": 70377,
+    "Top repos": "MRPT/mrpt, borglab/gtsam, norlab-ulaval/libpointmatcher, PRBonn/kiss-icp, strasdat/Sophus",
+    "Country": "Spain"
+  },
+  {
+    "User": "matthiasn",
+    "Name": "Matthias Nehlsen",
+    "Repos": 1,
+    "Contributions": 9925,
+    "Weighted contributions": 70126,
+    "Top repos": "matthiasn/lotti",
+    "Country": "Germany"
+  },
+  {
+    "User": "ines",
+    "Name": "Ines Montani",
+    "Repos": 11,
+    "Contributions": 7269,
+    "Weighted contributions": 69494,
+    "Top repos": "explosion/spaCy, explosion/thinc, explosion/spacy-course, explosion/sense2vec, explosion/spacy-models, explosion/spacy-transformers, explosion/spacy-layout, explosion/spacy-stanza, explosion/prodigy-recipes, explosion/spacy-streamlit",
+    "Country": "Germany"
+  },
+  {
+    "User": "PINTO0309",
+    "Name": "Katsuya Hyodo",
+    "Repos": 10,
+    "Contributions": 9263,
+    "Weighted contributions": 68916,
+    "Top repos": "PINTO0309/onnx2tf, PINTO0309/PINTO_model_zoo, PINTO0309/Tensorflow-bin, PINTO0309/OpenVINO-YoloV3, FoundationVision/ByteTrack, ialhashim/DenseDepth, thohemp/6DRepNet, Megvii-BaseDetection/YOLOX, xuebinqin/DIS, terryky/tflite_gles_app",
+    "Country": "Japan"
+  },
+  {
+    "User": "heshengtao",
+    "Name": "ailm32442\u578b\u673a\u5668\u4eba",
+    "Repos": 3,
+    "Contributions": 8737,
+    "Weighted contributions": 68543,
+    "Top repos": "heshengtao/super-agent-party, heshengtao/comfyui_LLM_party, chflame163/ComfyUI_LayerStyle",
+    "Country": "China"
+  },
+  {
+    "User": "Yeachan-Heo",
+    "Name": "Bellman",
+    "Repos": 6,
+    "Contributions": 6427,
+    "Weighted contributions": 68373,
+    "Top repos": "Yeachan-Heo/oh-my-claudecode, Yeachan-Heo/oh-my-codex, ultraworkers/claw-code, soongenwong/claudecode, junhoyeo/tokscale, Q00/ouroboros",
+    "Country": "South Korea"
+  },
+  {
+    "User": "Tyriar",
+    "Name": "",
+    "Repos": 2,
+    "Contributions": 10350,
+    "Weighted contributions": 67995,
+    "Top repos": "trypear/pearai-app, microsoft/vscode-copilot-chat",
+    "Country": ""
+  },
+  {
+    "User": "echelon",
+    "Name": "Brandon Thomas",
+    "Repos": 1,
+    "Contributions": 8875,
+    "Weighted contributions": 67836,
+    "Top repos": "storytold/artcraft",
+    "Country": "USA"
+  },
+  {
+    "User": "KochetovNicolai",
+    "Name": "Nikolai Kochetov",
+    "Repos": 2,
+    "Contributions": 9222,
+    "Weighted contributions": 67353,
+    "Top repos": "myscale/MyScaleDB, timeplus-io/proton",
+    "Country": "Netherlands"
+  },
+  {
+    "User": "fchollet",
+    "Name": "Fran\u00e7ois Chollet",
+    "Repos": 33,
+    "Contributions": 6790,
+    "Weighted contributions": 67135,
+    "Top repos": "keras-team/keras, keras-team/keras-io, keras-team/keras-core, tensorflow/tensorflow, DeepRec-AI/DeepRec, NVIDIA/tensorflow, keras-team/keras-tuner, fchollet/ARC-AGI, keras-team/keras-preprocessing, fchollet/keras-resources",
+    "Country": "USA"
+  },
+  {
+    "User": "naganandy",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 7814,
+    "Weighted contributions": 66702,
+    "Top repos": "naganandy/graph-based-deep-learning-literature",
+    "Country": ""
+  },
+  {
+    "User": "rush86999",
+    "Name": "Rish",
+    "Repos": 1,
+    "Contributions": 9674,
+    "Weighted contributions": 65633,
+    "Top repos": "rush86999/atom",
+    "Country": ""
+  },
+  {
+    "User": "thdxr",
+    "Name": "Dax",
+    "Repos": 7,
+    "Contributions": 6350,
+    "Weighted contributions": 65181,
+    "Top repos": "anomalyco/opencode, Kilo-Org/kilocode, CyberStrikeus/CyberStrike, charmbracelet/crush, opencode-ai/opencode, anomalyco/demo-ai-app, ex-machina-co/opencode-anthropic-auth",
+    "Country": "USA"
+  },
+  {
+    "User": "markokraemer",
+    "Name": "Marko Kraemer",
+    "Repos": 1,
+    "Contributions": 6546,
+    "Weighted contributions": 64888,
+    "Top repos": "kortix-ai/suna",
+    "Country": ""
+  },
+  {
+    "User": "maziyarpanahi",
+    "Name": "Maziyar Panahi",
+    "Repos": 6,
+    "Contributions": 7663,
+    "Weighted contributions": 64603,
+    "Top repos": "maziyarpanahi/openmed, JohnSnowLabs/spark-nlp, JohnSnowLabs/spark-nlp-workshop, JohnSnowLabs/nlu, explosion/spacy-models, huggingface/lighteval",
+    "Country": "France"
+  },
+  {
+    "User": "jbrockmendel",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 5937,
+    "Weighted contributions": 64202,
+    "Top repos": "pandas-dev/pandas",
+    "Country": ""
+  },
+  {
+    "User": "Hmbown",
+    "Name": "Hunter Bown",
+    "Repos": 3,
+    "Contributions": 6035,
+    "Weighted contributions": 64089,
+    "Top repos": "Hmbown/Codewhale, exo-explore/exo, deepseek-ai/awesome-deepseek-agent",
+    "Country": ""
+  },
+  {
+    "User": "Innei",
+    "Name": "Innei",
+    "Repos": 7,
+    "Contributions": 7423,
+    "Weighted contributions": 64051,
+    "Top repos": "mx-space/core, RSSNext/Folo, lobehub/lobehub, lobehub/lobe-ui, LodyAI/Lody, bytebase/bytebase, lobehub/lobe-tts",
+    "Country": ""
+  },
+  {
+    "User": "mfussenegger",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 7614,
+    "Weighted contributions": 63937,
+    "Top repos": "crate/crate",
+    "Country": ""
+  },
+  {
+    "User": "yosefe",
+    "Name": "Yossi Itigin",
+    "Repos": 2,
+    "Contributions": 8570,
+    "Weighted contributions": 63769,
+    "Top repos": "openucx/ucx, ai-dynamo/nixl",
+    "Country": "Israel"
+  },
+  {
+    "User": "dellaert",
+    "Name": "Frank Dellaert",
+    "Repos": 2,
+    "Contributions": 7862,
+    "Weighted contributions": 63648,
+    "Top repos": "borglab/gtsam, gtbook/robotics",
+    "Country": "USA"
+  },
+  {
+    "User": "saoudrizwan",
+    "Name": "Saoud Rizwan",
+    "Repos": 10,
+    "Contributions": 6708,
+    "Weighted contributions": 63366,
+    "Top repos": "cline/cline, Zoo-Code-Org/Zoo-Code, RooCodeInc/Roo-Code, zgsm-ai/costrict, cline/kanban, kodu-ai/claude-coder, cline/mcp-marketplace, korotovsky/slack-mcp-server, docker/mcp-gateway, farouqaldori/vibe-notch",
+    "Country": "USA"
+  },
+  {
+    "User": "lidge-jun",
+    "Name": "YEEE",
+    "Repos": 5,
+    "Contributions": 7206,
+    "Weighted contributions": 63208,
+    "Top repos": "lidge-jun/opencodex, lidge-jun/ima2-gen, manaflow-ai/cmux, GENEXIS-AI/chromex, steipete/oracle",
+    "Country": ""
+  },
+  {
+    "User": "polterguy",
+    "Name": "AINIRO.IO",
+    "Repos": 1,
+    "Contributions": 8918,
+    "Weighted contributions": 63140,
+    "Top repos": "polterguy/magic",
+    "Country": "Cyprus"
+  },
+  {
+    "User": "ezhulenev",
+    "Name": "Eugene Zhulenev",
+    "Repos": 10,
+    "Contributions": 6370,
+    "Weighted contributions": 63102,
+    "Top repos": "tensorflow/tensorflow, openxla/xla, tensorflow/runtime, DeepRec-AI/DeepRec, NVIDIA/tensorflow, jax-ml/jax, iree-org/iree, google-ai-edge/LiteRT, google/vizier, google-deepmind/sonnet",
+    "Country": "USA"
+  },
+  {
+    "User": "mmabrouk",
+    "Name": "Mahmoud Mabrouk",
+    "Repos": 7,
+    "Contributions": 7433,
+    "Weighted contributions": 62912,
+    "Top repos": "Agenta-AI/agenta, llm-workflow-engine/llm-workflow-engine, dair-ai/Prompt-Engineering-Guide, promptslab/Awesome-Prompt-Engineering, ActiveVisionLab/Awesome-LLM-3D, elyase/awesome-gpt3, SylphAI-Inc/LLM-engineer-handbook",
+    "Country": "Germany"
+  },
+  {
+    "User": "goworm",
+    "Name": "goworm",
+    "Repos": 2,
+    "Contributions": 6064,
+    "Weighted contributions": 62591,
+    "Top repos": "iOfficeAI/OfficeCLI, iOfficeAI/AionUi",
+    "Country": ""
+  },
+  {
+    "User": "leeroybrun",
+    "Name": "Leeroy Brun",
+    "Repos": 3,
+    "Contributions": 8418,
+    "Weighted contributions": 62373,
+    "Top repos": "happier-dev/happier, slopus/happy, slopus/happy-cli",
+    "Country": "Switzerland"
+  },
+  {
+    "User": "jfarcand",
+    "Name": "Jeanfrancois Arcand",
+    "Repos": 2,
+    "Contributions": 7549,
+    "Weighted contributions": 62239,
+    "Top repos": "Atmosphere/atmosphere, ClawRunr/JavaClaw",
+    "Country": ""
+  },
+  {
+    "User": "danielhanchen",
+    "Name": "Daniel Han",
+    "Repos": 8,
+    "Contributions": 5730,
+    "Weighted contributions": 61656,
+    "Top repos": "unslothai/unsloth, unslothai/notebooks, unslothai/hyperlearn, NVIDIA/cuml, google/gemma_pytorch, huggingface/OpenEnv, openai/gpt-oss, leejet/stable-diffusion.cpp",
+    "Country": "USA"
+  },
+  {
+    "User": "c9s",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 8301,
+    "Weighted contributions": 61538,
+    "Top repos": "c9s/bbgo",
+    "Country": "Taiwan"
+  },
+  {
+    "User": "kali",
+    "Name": "Mathieu Poumeyrol",
+    "Repos": 1,
+    "Contributions": 7659,
+    "Weighted contributions": 61477,
+    "Top repos": "sonos/tract",
+    "Country": "France"
+  },
+  {
+    "User": "austinywang",
+    "Name": "Austin Wang",
+    "Repos": 2,
+    "Contributions": 6860,
+    "Weighted contributions": 60882,
+    "Top repos": "manaflow-ai/cmux, manaflow-ai/manaflow",
+    "Country": "USA"
+  },
+  {
+    "User": "w4ffl35",
+    "Name": "Joe Curlee",
+    "Repos": 2,
+    "Contributions": 8464,
+    "Weighted contributions": 60781,
+    "Top repos": "Capsize-Games/airunner, kuprel/min-dalle",
+    "Country": "Germany"
+  },
+  {
+    "User": "elasticsearchmachine",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 5391,
+    "Weighted contributions": 60720,
+    "Top repos": "elastic/elasticsearch",
+    "Country": ""
+  },
+  {
+    "User": "raycastbot",
+    "Name": "",
+    "Repos": 2,
+    "Contributions": 6789,
+    "Weighted contributions": 60712,
+    "Top repos": "raycast/extensions, raycast/script-commands",
+    "Country": ""
+  },
+  {
+    "User": "pseudotensor",
+    "Name": "PSEUDOTENSOR / Jonathan McKinney",
+    "Repos": 3,
+    "Contributions": 6463,
+    "Weighted contributions": 60698,
+    "Top repos": "h2oai/h2ogpt, dmlc/xgboost, gradio-app/gradio",
+    "Country": "USA"
+  },
+  {
+    "User": "ed-donner",
+    "Name": "Ed Donner",
+    "Repos": 2,
+    "Contributions": 6807,
+    "Weighted contributions": 60356,
+    "Top repos": "ed-donner/llm_engineering, ed-donner/agents",
+    "Country": "USA"
+  },
+  {
+    "User": "jeremymcs",
+    "Name": "Jeremy McSpadden",
+    "Repos": 4,
+    "Contributions": 7413,
+    "Weighted contributions": 60261,
+    "Top repos": "gsd-build/gsd-2, open-gsd/gsd-pi, open-gsd/gsd-core, gsd-build/get-shit-done",
+    "Country": "USA"
+  },
+  {
+    "User": "benjaminpkane",
+    "Name": "Benjamin Kane",
+    "Repos": 1,
+    "Contributions": 6446,
+    "Weighted contributions": 60022,
+    "Top repos": "voxel51/fiftyone",
+    "Country": ""
+  },
+  {
+    "User": "AUTOMATIC1111",
+    "Name": "",
+    "Repos": 2,
+    "Contributions": 5384,
+    "Weighted contributions": 59219,
+    "Top repos": "AUTOMATIC1111/stable-diffusion-webui, vladmandic/sdnext",
+    "Country": ""
+  },
+  {
+    "User": "antas-marcin",
+    "Name": "Marcin Antas",
+    "Repos": 1,
+    "Contributions": 6061,
+    "Weighted contributions": 58966,
+    "Top repos": "weaviate/weaviate",
+    "Country": "Poland"
+  },
+  {
+    "User": "bjorncs",
+    "Name": "Bj\u00f8rn Christian Seime",
+    "Repos": 1,
+    "Contributions": 6651,
+    "Weighted contributions": 58960,
+    "Top repos": "vespa-engine/vespa",
+    "Country": "Norway"
+  },
+  {
+    "User": "bkdiehl",
+    "Name": "Briant Diehl",
+    "Repos": 1,
+    "Contributions": 6595,
+    "Weighted contributions": 58613,
+    "Top repos": "civitai/civitai",
+    "Country": "USA"
+  },
+  {
+    "User": "adamdotdevin",
+    "Name": "Adam",
+    "Repos": 5,
+    "Contributions": 5702,
+    "Weighted contributions": 58546,
+    "Top repos": "anomalyco/opencode, Kilo-Org/kilocode, CyberStrikeus/CyberStrike, charmbracelet/crush, opencode-ai/opencode",
+    "Country": "USA"
+  },
+  {
+    "User": "mcmonkey4eva",
+    "Name": "Alex \"mcmonkey\" Goodwin",
+    "Repos": 13,
+    "Contributions": 6910,
+    "Weighted contributions": 58436,
+    "Top repos": "mcmonkeyprojects/SwarmUI, Stability-AI/StableSwarmUI, mcmonkeyprojects/sd-dynamic-thresholding, oobabooga/textgen, Comfy-Org/ComfyUI_frontend, Comfy-Org/ComfyUI, AUTOMATIC1111/stable-diffusion-webui, vladmandic/sdnext, rgthree/rgthree-comfy, pythongosssss/ComfyUI-Custom-Scripts",
+    "Country": "USA"
+  },
+  {
+    "User": "tmbo",
+    "Name": "Tom Bocklisch",
+    "Repos": 4,
+    "Contributions": 6399,
+    "Weighted contributions": 57626,
+    "Top repos": "RasaHQ/rasa, RasaHQ/rasa_core, crownpku/Rasa_NLU_Chi, nikolaypavlov/MLPNeuralNet",
+    "Country": "Germany"
+  },
+  {
+    "User": "dotnwat",
+    "Name": "Noah Watkins",
+    "Repos": 2,
+    "Contributions": 6039,
+    "Weighted contributions": 57078,
+    "Top repos": "redpanda-data/redpanda, ceph/ceph",
+    "Country": "USA"
+  },
+  {
+    "User": "blowekamp",
+    "Name": "Bradley Lowekamp",
+    "Repos": 1,
+    "Contributions": 8148,
+    "Weighted contributions": 56949,
+    "Top repos": "SimpleITK/SimpleITK",
+    "Country": ""
+  },
+  {
+    "User": "amhsirak",
+    "Name": "Karishma Shukla",
+    "Repos": 1,
+    "Contributions": 5830,
+    "Weighted contributions": 56924,
+    "Top repos": "getmaxun/maxun",
+    "Country": "India"
+  },
+  {
+    "User": "janober",
+    "Name": "Jan Oberhauser",
+    "Repos": 2,
+    "Contributions": 4667,
+    "Weighted contributions": 56883,
+    "Top repos": "n8n-io/n8n, n8n-io/n8n-docs",
+    "Country": "Germany"
+  },
+  {
+    "User": "joaomoreno",
+    "Name": "Jo\u00e3o Moreno",
+    "Repos": 4,
+    "Contributions": 8654,
+    "Weighted contributions": 56858,
+    "Top repos": "trypear/pearai-app, microsoft/vscode-copilot-chat, eugene1g/agent-safehouse, voideditor/void",
+    "Country": ""
+  },
+  {
+    "User": "arnej27959",
+    "Name": "Arne H Juul",
+    "Repos": 1,
+    "Contributions": 6389,
+    "Weighted contributions": 56638,
+    "Top repos": "vespa-engine/vespa",
+    "Country": "Norway"
+  },
+  {
+    "User": "punkpeye",
+    "Name": "Frank Fiegel",
+    "Repos": 55,
+    "Contributions": 5016,
+    "Weighted contributions": 56607,
+    "Top repos": "punkpeye/awesome-mcp-servers, punkpeye/awesome-mcp-clients, punkpeye/mcp-remote, punkpeye/fastmcp, doobidoo/mcp-memory-service, zereight/gitlab-mcp, wonderwhy-er/DesktopCommanderMCP, yuniko-software/minecraft-mcp-server, negokaz/excel-mcp-server, Pimzino/spec-workflow-mcp",
+    "Country": "USA"
+  },
+  {
+    "User": "robertpiosik",
+    "Name": "Robert Piosik",
+    "Repos": 1,
+    "Contributions": 7783,
+    "Weighted contributions": 56337,
+    "Top repos": "robertpiosik/CodeWebChat",
+    "Country": "Poland"
+  },
+  {
+    "User": "jwnimmer-tri",
+    "Name": "Jeremy Nimmer",
+    "Repos": 1,
+    "Contributions": 6755,
+    "Weighted contributions": 56332,
+    "Top repos": "RobotLocomotion/drake",
+    "Country": "USA"
+  },
+  {
+    "User": "astonzhang",
+    "Name": "Aston Zhang",
+    "Repos": 10,
+    "Contributions": 5248,
+    "Weighted contributions": 56048,
+    "Top repos": "d2l-ai/d2l-en, d2l-ai/d2l-zh, d2l-ai/d2l-vi, dmlc/gluon-nlp, meta-llama/llama3, dmlc/gluon-cv, dmlc/dgl, amazon-science/auto-cot, zackchase/mxnet-the-straight-dope, mli/paper-reading",
+    "Country": ""
+  },
+  {
+    "User": "benedekrozemberczki",
+    "Name": "Benedek Rozemberczki",
+    "Repos": 34,
+    "Contributions": 7979,
+    "Weighted contributions": 55913,
+    "Top repos": "benedekrozemberczki/karateclub, benedekrozemberczki/pytorch_geometric_temporal, benedekrozemberczki/littleballoffur, benedekrozemberczki/awesome-community-detection, benedekrozemberczki/datasets, benedekrozemberczki/awesome-decision-tree-papers, AstraZeneca/chemicalx, benedekrozemberczki/awesome-gradient-boosting-papers, benedekrozemberczki/CapsGNN, benedekrozemberczki/awesome-fraud-detection-papers",
+    "Country": "UK"
+  },
+  {
+    "User": "shakkernerd",
+    "Name": "Shakker",
+    "Repos": 3,
+    "Contributions": 4386,
+    "Weighted contributions": 55910,
+    "Top repos": "openclaw/openclaw, linuxhsj/openclaw-zero-token, openclaw/clawhub",
+    "Country": ""
+  },
+  {
+    "User": "LearningCircuit",
+    "Name": "",
+    "Repos": 3,
+    "Contributions": 6074,
+    "Weighted contributions": 55340,
+    "Top repos": "LearningCircuit/local-deep-research, Danielskry/Awesome-RAG, DavidZWZ/Awesome-Deep-Research",
+    "Country": ""
+  },
+  {
+    "User": "tqchen",
+    "Name": "Tianqi Chen",
+    "Repos": 15,
+    "Contributions": 5963,
+    "Weighted contributions": 54757,
+    "Top repos": "dmlc/xgboost, apache/tvm, apache/mxnet, dmlc/rabit, dmlc/mshadow, dmlc/dmlc-core, mlc-ai/mlc-llm, llSourcell/Doctor-Dignity, tqchen/tinyflow, dmlc/dlpack",
+    "Country": "USA"
+  },
+  {
+    "User": "Snailclimb",
+    "Name": "Guide",
+    "Repos": 2,
+    "Contributions": 4543,
+    "Weighted contributions": 54334,
+    "Top repos": "Snailclimb/JavaGuide, Snailclimb/AIGuide",
+    "Country": "China"
+  },
+  {
+    "User": "kimchy",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 4781,
+    "Weighted contributions": 53849,
+    "Top repos": "elastic/elasticsearch",
+    "Country": ""
+  },
+  {
+    "User": "lperron",
+    "Name": "Laurent Perron",
+    "Repos": 1,
+    "Contributions": 5636,
+    "Weighted contributions": 53813,
+    "Top repos": "google/or-tools",
+    "Country": "France"
+  },
+  {
+    "User": "beastoin",
+    "Name": "Thinh",
+    "Repos": 1,
+    "Contributions": 5639,
+    "Weighted contributions": 53601,
+    "Top repos": "BasedHardware/omi",
+    "Country": ""
+  },
+  {
+    "User": "jpr5",
+    "Name": "Jordan Ritter",
+    "Repos": 6,
+    "Contributions": 5568,
+    "Weighted contributions": 53468,
+    "Top repos": "CopilotKit/CopilotKit, CopilotKit/aimock, ag-ui-protocol/ag-ui, CopilotKit/open-multi-agent-canvas, CopilotKit/generative-ui, CopilotKit/OpenGenerativeUI",
+    "Country": "USA"
+  },
+  {
+    "User": "myhloli",
+    "Name": "Xiaomeng Zhao",
+    "Repos": 3,
+    "Contributions": 4742,
+    "Weighted contributions": 53452,
+    "Top repos": "opendatalab/MinerU, opendatalab/PDF-Extract-Kit, InternLM/lmdeploy",
+    "Country": "China"
+  },
+  {
+    "User": "trek-e",
+    "Name": "Tom Boucher",
+    "Repos": 6,
+    "Contributions": 5555,
+    "Weighted contributions": 53429,
+    "Top repos": "open-gsd/gsd-core, gsd-build/get-shit-done, gsd-build/gsd-2, caliber-ai-org/ai-setup, MemPalace/mempalace, maddada/Ghostex",
+    "Country": "USA"
+  },
+  {
+    "User": "mmaslankaprv",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 5649,
+    "Weighted contributions": 53302,
+    "Top repos": "redpanda-data/redpanda",
+    "Country": ""
+  },
+  {
+    "User": "haifengl",
+    "Name": "Haifeng Li",
+    "Repos": 1,
+    "Contributions": 6065,
+    "Weighted contributions": 53168,
+    "Top repos": "haifengl/smile",
+    "Country": "USA"
+  },
+  {
+    "User": "nkoenig",
+    "Name": "Nate Koenig",
+    "Repos": 3,
+    "Contributions": 7347,
+    "Weighted contributions": 53049,
+    "Top repos": "gazebosim/gazebo-classic, gazebosim/gz-sim, gazebosim/ros_gz",
+    "Country": "USA"
+  },
+  {
+    "User": "yehudasa",
+    "Name": "Yehuda Sadeh",
+    "Repos": 1,
+    "Contributions": 5440,
+    "Weighted contributions": 52997,
+    "Top repos": "ceph/ceph",
+    "Country": ""
+  },
+  {
+    "User": "oobabooga",
+    "Name": "",
+    "Repos": 9,
+    "Contributions": 4899,
+    "Weighted contributions": 52829,
+    "Top repos": "oobabooga/textgen, unslothai/unsloth, qwopqwop200/GPTQ-for-LLaMa, BlinkDL/ChatRWKV, abetlen/llama-cpp-python, turboderp-org/exllamav3, ModelCloud/GPTQModel, turboderp-org/exllamav2, AutoGPTQ/AutoGPTQ",
+    "Country": ""
+  },
+  {
+    "User": "mdmohsin7",
+    "Name": "Mohammed Mohsin",
+    "Repos": 1,
+    "Contributions": 5546,
+    "Weighted contributions": 52717,
+    "Top repos": "BasedHardware/omi",
+    "Country": "India"
+  },
+  {
+    "User": "sandy081",
+    "Name": "",
+    "Repos": 2,
+    "Contributions": 8000,
+    "Weighted contributions": 52567,
+    "Top repos": "trypear/pearai-app, microsoft/vscode-copilot-chat",
+    "Country": ""
+  },
+  {
+    "User": "diegosouzapw",
+    "Name": "Diego Rodrigues de Sa e Souza",
+    "Repos": 7,
+    "Contributions": 4671,
+    "Weighted contributions": 51620,
+    "Top repos": "diegosouzapw/OmniRoute, decolua/9router, stackblitz-labs/bolt.diy, teamchong/pxpipe, eudk/awesome-ai-tools, vinhnx/VTCode, ikaijua/Awesome-AITools",
+    "Country": "Brazil"
+  },
+  {
+    "User": "DavidMansolino",
+    "Name": "David Mansolino",
+    "Repos": 3,
+    "Contributions": 6254,
+    "Weighted contributions": 51572,
+    "Top repos": "cyberbotics/webots, cyberbotics/webots_ros2, Ly0n/awesome-robotic-tooling",
+    "Country": "Switzerland"
+  },
+  {
+    "User": "camsaul",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 4773,
+    "Weighted contributions": 51561,
+    "Top repos": "metabase/metabase",
+    "Country": ""
+  },
+  {
+    "User": "jamesdbloom",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 6051,
+    "Weighted contributions": 51499,
+    "Top repos": "mock-server/mockserver-monorepo",
+    "Country": ""
+  },
+  {
+    "User": "kevinlu1248",
+    "Name": "Kevin Lu",
+    "Repos": 3,
+    "Contributions": 5740,
+    "Weighted contributions": 51394,
+    "Top repos": "sweepai/sweep, explosion/spaCy, AntonOsika/gpt-engineer",
+    "Country": "USA"
+  },
+  {
+    "User": "ezyang",
+    "Name": "Edward Z. Yang",
+    "Repos": 30,
+    "Contributions": 4919,
+    "Weighted contributions": 51358,
+    "Top repos": "pytorch/pytorch, ezyang/codemcp, onnx/onnx, pytorch/xla, pytorch/benchmark, pytorch/torchdynamo, pytorch/audio, pytorch/vision, pytorch/tutorials, pytorch/functorch",
+    "Country": "USA"
+  },
+  {
+    "User": "mrubens",
+    "Name": "Matt Rubens",
+    "Repos": 5,
+    "Contributions": 5893,
+    "Weighted contributions": 51177,
+    "Top repos": "RooCodeInc/Roo-Code, Zoo-Code-Org/Zoo-Code, zgsm-ai/costrict, cline/cline, vercel-labs/skills",
+    "Country": "USA"
+  },
+  {
+    "User": "jreback",
+    "Name": "Jeff Reback",
+    "Repos": 1,
+    "Contributions": 4731,
+    "Weighted contributions": 51161,
+    "Top repos": "pandas-dev/pandas",
+    "Country": ""
+  },
+  {
+    "User": "mattjj",
+    "Name": "Matthew Johnson",
+    "Repos": 16,
+    "Contributions": 5304,
+    "Weighted contributions": 50966,
+    "Top repos": "jax-ml/jax, tensorflow/probability, HIPS/autograd, google-research/dex-lang, google/flax, google-deepmind/dm-haiku, google/neural-tangents, google-deepmind/uncertain_ground_truth, patrick-kidger/jaxtyping, google-research/jax3d",
+    "Country": "USA"
+  },
+  {
+    "User": "as-cii",
+    "Name": "Antonio Scandurra",
+    "Repos": 2,
+    "Contributions": 4445,
+    "Weighted contributions": 50697,
+    "Top repos": "zed-industries/zed, agentclientprotocol/agent-client-protocol",
+    "Country": "Italy"
+  },
+  {
+    "User": "geohot",
+    "Name": "George Hotz",
+    "Repos": 4,
+    "Contributions": 4867,
+    "Weighted contributions": 50624,
+    "Top repos": "tinygrad/tinygrad, commaai/openpilot, tinygrad/teenygrad, facebookresearch/adaptive-span",
+    "Country": "USA"
+  },
+  {
+    "User": "jlowin",
+    "Name": "Jeremiah Lowin",
+    "Repos": 6,
+    "Contributions": 5529,
+    "Weighted contributions": 50579,
+    "Top repos": "PrefectHQ/fastmcp, PrefectHQ/marvin, prefect-archive/ControlFlow, pymc-devs/pytensor, modelcontextprotocol/python-sdk, pydantic/pydantic-ai",
+    "Country": "USA"
+  },
+  {
+    "User": "hanxiao",
+    "Name": "Han Xiao",
+    "Repos": 20,
+    "Contributions": 5446,
+    "Weighted contributions": 50392,
+    "Top repos": "jina-ai/serve, jina-ai/node-DeepResearch, docarray/docarray, jina-ai/finetuner, jina-ai/discoart, jina-ai/clip-as-service, jina-ai/dalle-flow, zalandoresearch/fashion-mnist, jina-ai/MCP, jina-ai/reader",
+    "Country": "USA"
+  },
+  {
+    "User": "stevenbird",
+    "Name": "Steven Bird",
+    "Repos": 1,
+    "Contributions": 5241,
+    "Weighted contributions": 50295,
+    "Top repos": "nltk/nltk",
+    "Country": "Australia"
+  },
+  {
+    "User": "MishaDemianenko",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 5144,
+    "Weighted contributions": 50171,
+    "Top repos": "neo4j/neo4j",
+    "Country": ""
+  },
+  {
+    "User": "scpeters",
+    "Name": "Steve Peters",
+    "Repos": 7,
+    "Contributions": 6941,
+    "Weighted contributions": 50087,
+    "Top repos": "gazebosim/gazebo-classic, gazebosim/gz-sim, dartsim/dart, RobotLocomotion/drake, bulletphysics/bullet3, NVIDIA/nvidia-docker, gazebosim/ros_gz",
+    "Country": "USA"
+  },
+  {
+    "User": "dylburger",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 5347,
+    "Weighted contributions": 50079,
+    "Top repos": "PipedreamHQ/pipedream",
+    "Country": ""
+  },
+  {
+    "User": "alexdima",
+    "Name": "Alexandru Dima",
+    "Repos": 3,
+    "Contributions": 7565,
+    "Weighted contributions": 49773,
+    "Top repos": "trypear/pearai-app, microsoft/vscode-copilot-chat, microsoft/vscode-copilot-release",
+    "Country": "USA"
+  },
+  {
+    "User": "onestardao",
+    "Name": "PSBigBig",
+    "Repos": 18,
+    "Contributions": 6599,
+    "Weighted contributions": 49502,
+    "Top repos": "onestardao/WFGY, Shubhamsaboo/awesome-llm-apps, DataScienceUIBK/Rankify, ageerle/ruoyi-ai, Arindam200/awesome-ai-apps, RUC-NLPIR/DeepAgent, RUC-NLPIR/FlashRAG, wanxingai/LightAgent, OpenBMB/UltraRAG, Danielskry/Awesome-RAG",
+    "Country": ""
+  },
+  {
+    "User": "JustMaier",
+    "Name": "Justin Maier",
+    "Repos": 1,
+    "Contributions": 5569,
+    "Weighted contributions": 49495,
+    "Top repos": "civitai/civitai",
+    "Country": "USA"
+  },
+  {
+    "User": "lattner",
+    "Name": "Chris Lattner",
+    "Repos": 4,
+    "Contributions": 4879,
+    "Weighted contributions": 49484,
+    "Top repos": "modular/modular, tensorflow/mlir, fastai/fastai_dev, tensorflow/swift",
+    "Country": "USA"
+  },
+  {
+    "User": "todpole3",
+    "Name": "Victoria X Lin",
+    "Repos": 8,
+    "Contributions": 7899,
+    "Weighted contributions": 49425,
+    "Top repos": "TellinaTool/nl2bash, jkkummerfeld/text2sql-data, facebookresearch/fairseq, freewym/espresso, salesforce/WikiSQL, facebookresearch/metaseq, salesforce/decaNLP, src-d/awesome-machine-learning-on-source-code",
+    "Country": "USA"
+  },
+  {
+    "User": "abduld",
+    "Name": "abdul dakkak",
+    "Repos": 2,
+    "Contributions": 4787,
+    "Weighted contributions": 49285,
+    "Top repos": "modular/modular, mlcommons/inference",
+    "Country": "USA"
+  },
+  {
+    "User": "Mizux",
+    "Name": "Mizux Seiha",
+    "Repos": 1,
+    "Contributions": 5151,
+    "Weighted contributions": 49182,
+    "Top repos": "google/or-tools",
+    "Country": "France"
+  },
+  {
+    "User": "penguine-ip",
+    "Name": "Jeffrey Ip",
+    "Repos": 3,
+    "Contributions": 4976,
+    "Weighted contributions": 48141,
+    "Top repos": "confident-ai/deepeval, confident-ai/deepteam, SciPhi-AI/R2R",
+    "Country": "USA"
+  },
+  {
+    "User": "kno10",
+    "Name": "Erich Schubert",
+    "Repos": 4,
+    "Contributions": 7128,
+    "Weighted contributions": 47932,
+    "Top repos": "elki-project/elki, haifengl/smile, hiyouga/LlamaFactory, anowell/are-we-learning-yet",
+    "Country": ""
+  },
+  {
+    "User": "vitali87",
+    "Name": "Vitali Avagyan",
+    "Repos": 9,
+    "Contributions": 5585,
+    "Weighted contributions": 47691,
+    "Top repos": "vitali87/code-graph-rag, DEEP-PolyU/Awesome-GraphRAG, Danielskry/Awesome-RAG, nearai/ironclaw, vectorize-io/hindsight, foryourhealth111-pixel/Vibe-Skills, Dimillian/CodexMonitor, InsForge/InsForge, areal-project/AReaL",
+    "Country": "UK"
+  },
+  {
+    "User": "zbeyens",
+    "Name": "Ziad Beyens",
+    "Repos": 3,
+    "Contributions": 5037,
+    "Weighted contributions": 47625,
+    "Top repos": "udecode/plate, udecode/dotai, EveryInc/compound-engineering-plugin",
+    "Country": "Belgium"
+  },
+  {
+    "User": "dgageot",
+    "Name": "David Gageot",
+    "Repos": 8,
+    "Contributions": 5916,
+    "Weighted contributions": 47536,
+    "Top repos": "docker/docker-agent, docker/mcp-gateway, docker/compose-for-agents, docker/mcp-registry, stripe/ai, mark3labs/mcp-go, redis/mcp-redis, makenotion/notion-mcp-server",
+    "Country": "France"
+  },
+  {
+    "User": "jdoliner",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 5420,
+    "Weighted contributions": 47424,
+    "Top repos": "pachyderm/pachyderm",
+    "Country": ""
+  },
+  {
+    "User": "lrojas94",
+    "Name": "Luis E. Rojas Cabrera",
+    "Repos": 1,
+    "Contributions": 5330,
+    "Weighted contributions": 47370,
+    "Top repos": "civitai/civitai",
+    "Country": "Dominican Republic"
+  },
+  {
+    "User": "zachmu",
+    "Name": "Zach Musgrave",
+    "Repos": 1,
+    "Contributions": 4661,
+    "Weighted contributions": 47088,
+    "Top repos": "dolthub/dolt",
+    "Country": "USA"
+  },
+  {
+    "User": "SivanCola",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 4492,
+    "Weighted contributions": 47059,
+    "Top repos": "esengine/DeepSeek-Reasonix",
+    "Country": ""
+  },
+  {
+    "User": "aymericzip",
+    "Name": "Aymeric PINEAU",
+    "Repos": 3,
+    "Contributions": 6998,
+    "Weighted contributions": 46972,
+    "Top repos": "aymericzip/intlayer, appcypher/awesome-mcp-servers, wong2/awesome-mcp-servers",
+    "Country": "France"
+  },
+  {
+    "User": "huangxinyue8616",
+    "Name": "Xinyue Huang",
+    "Repos": 1,
+    "Contributions": 6733,
+    "Weighted contributions": 46909,
+    "Top repos": "YuzeHao2023/Awesome-MCP-Servers",
+    "Country": "USA"
+  },
+  {
+    "User": "jonmv",
+    "Name": "Jon Marius Venstad",
+    "Repos": 1,
+    "Contributions": 5229,
+    "Weighted contributions": 46354,
+    "Top repos": "vespa-engine/vespa",
+    "Country": "Norway"
+  },
+  {
+    "User": "pelikhan",
+    "Name": "Peli de Halleux",
+    "Repos": 8,
+    "Contributions": 5750,
+    "Weighted contributions": 46228,
+    "Top repos": "microsoft/genaiscript, github/gh-aw, githubnext/agentics, transitive-bullshit/agentic, algorithmicsuperintelligence/optillm, microsoft/generative-ai-with-javascript, run-llama/LlamaIndexTS, ai-boost/awesome-prompts",
+    "Country": "USA"
+  },
+  {
+    "User": "MilesCranmer",
+    "Name": "Miles Cranmer",
+    "Repos": 13,
+    "Contributions": 6313,
+    "Weighted contributions": 46152,
+    "Top repos": "astroautomata/SymbolicRegression.jl, astroautomata/PySR, arogozhnikov/einops, MilesCranmer/lagrangian_nns, MilesCranmer/symbolic_deep_learning, Future-House/paper-qa, EnzymeAD/Enzyme.jl, bayesiains/nflows, patrick-kidger/torchtyping, sbi-dev/sbi",
+    "Country": "UK"
+  },
+  {
+    "User": "grokjc",
+    "Name": "John Cartwright",
+    "Repos": 1,
+    "Contributions": 5601,
+    "Weighted contributions": 46113,
+    "Top repos": "gadievron/raptor",
+    "Country": "UK"
+  },
+  {
+    "User": "baozhoutao",
+    "Name": "\u5305\u5468\u6d9b",
+    "Repos": 1,
+    "Contributions": 6257,
+    "Weighted contributions": 46068,
+    "Top repos": "steedos/steedos-platform",
+    "Country": "China"
+  },
+  {
+    "User": "rasbt",
+    "Name": "Sebastian Raschka",
+    "Repos": 39,
+    "Contributions": 5540,
+    "Weighted contributions": 46046,
+    "Top repos": "rasbt/mlxtend, rasbt/LLMs-from-scratch, rasbt/pattern_classification, rasbt/python-machine-learning-book, Lightning-AI/litgpt, rasbt/reasoning-from-scratch, rasbt/deep-learning-book, rasbt/machine-learning-book, rasbt/python-machine-learning-book-2nd-edition, rasbt/deeplearning-models",
+    "Country": "USA"
+  },
+  {
+    "User": "cbodley",
+    "Name": "Casey Bodley",
+    "Repos": 1,
+    "Contributions": 4717,
+    "Weighted contributions": 45953,
+    "Top repos": "ceph/ceph",
+    "Country": "USA"
+  },
+  {
+    "User": "MagMueller",
+    "Name": "Magnus M\u00fcller",
+    "Repos": 15,
+    "Contributions": 3973,
+    "Weighted contributions": 45817,
+    "Top repos": "browser-use/browser-use, browser-use/browser-harness, browser-use/macOS-use, browser-use/web-ui, Shubhamsaboo/awesome-llm-apps, kayba-ai/agentic-context-engine, browser-use/vibetest-use, allenai/molmoweb, oomol-lab/open-connector, agentic-in/elephant-agent",
+    "Country": "USA"
+  },
+  {
+    "User": "farion1231",
+    "Name": "Jason Young",
+    "Repos": 8,
+    "Contributions": 5129,
+    "Weighted contributions": 45743,
+    "Top repos": "farion1231/cc-switch, fy-agent/fyagent, SaladDay/cc-switch-cli, Laliet/cc-switch-web, YFGaia/dify-plus, farion1231/Way-to-ChatGPT-Plus, CherryHQ/cherry-studio, langgenius/dify",
+    "Country": ""
+  },
+  {
+    "User": "ltdrdata",
+    "Name": "Dr.Lt.Data",
+    "Repos": 10,
+    "Contributions": 5018,
+    "Weighted contributions": 45721,
+    "Top repos": "Comfy-Org/ComfyUI-Manager, ltdrdata/ComfyUI-Impact-Pack, ltdrdata/ComfyUI-Inspire-Pack, ltdrdata/ComfyUI-extension-tutorials, Comfy-Org/comfy-cli, Comfy-Org/ComfyUI, Comfy-Org/ComfyUI_frontend, LucianoCirino/efficiency-nodes-comfyui, pythongosssss/ComfyUI-Custom-Scripts, ZHO-ZHO-ZHO/ComfyUI-YoloWorld-EfficientSAM",
+    "Country": ""
+  },
+  {
+    "User": "boudra",
+    "Name": "Mohamed Boudra",
+    "Repos": 1,
+    "Contributions": 4695,
+    "Weighted contributions": 45631,
+    "Top repos": "getpaseo/paseo",
+    "Country": "Spain"
+  },
+  {
+    "User": "wesm",
+    "Name": "Wes McKinney",
+    "Repos": 4,
+    "Contributions": 4614,
+    "Weighted contributions": 45620,
+    "Top repos": "pandas-dev/pandas, kenn-io/roborev, kenn-io/agentsview, kenn-io/msgvault",
+    "Country": "USA"
+  },
+  {
+    "User": "Josh-XT",
+    "Name": "Josh XT",
+    "Repos": 5,
+    "Contributions": 5644,
+    "Weighted contributions": 45603,
+    "Top repos": "Josh-XT/AGiXT, erew123/alltalk_tts, microsoft/markitdown, AmberSahdev/Open-Interface, chroma-core/chroma",
+    "Country": "USA"
+  },
+  {
+    "User": "LegGasai",
+    "Name": "",
+    "Repos": 3,
+    "Contributions": 4669,
+    "Weighted contributions": 45598,
+    "Top repos": "deepseek-ai/deepseek-harness, fufankeji/deepseek-harness-studio, anywhere-labs/dsh-desktop",
+    "Country": ""
+  },
+  {
+    "User": "Kerollmops",
+    "Name": "Cl\u00e9ment Renault",
+    "Repos": 4,
+    "Contributions": 4126,
+    "Weighted contributions": 45329,
+    "Top repos": "meilisearch/meilisearch, CSML-by-Clevy/csml-engine, dathere/qsv, superlinked/VectorHub",
+    "Country": "France"
+  },
+  {
+    "User": "seven332",
+    "Name": "",
+    "Repos": 2,
+    "Contributions": 6428,
+    "Weighted contributions": 45314,
+    "Top repos": "vm0-ai/vm0, gpuweb/gpuweb",
+    "Country": ""
+  },
+  {
+    "User": "pontusmelke",
+    "Name": "",
+    "Repos": 2,
+    "Contributions": 4642,
+    "Weighted contributions": 45275,
+    "Top repos": "neo4j/neo4j, sjwhitworth/golearn",
+    "Country": ""
+  },
+  {
+    "User": "vinhnx",
+    "Name": "Vinh Nguyen",
+    "Repos": 7,
+    "Contributions": 6719,
+    "Weighted contributions": 45237,
+    "Top repos": "vinhnx/VTCode, ollama/ollama, 0xPlaygrounds/rig, agentskills/agentskills, billmei/every-chatgpt-gui, agentclientprotocol/agent-client-protocol, kyrolabs/awesome-langchain",
+    "Country": "Vietnam"
+  },
+  {
+    "User": "huangruiteng",
+    "Name": "huangruiteng",
+    "Repos": 2,
+    "Contributions": 5209,
+    "Weighted contributions": 45169,
+    "Top repos": "huangruiteng/loopx, volcengine/OpenViking",
+    "Country": ""
+  },
+  {
+    "User": "adeebshihadeh",
+    "Name": "Adeeb Shihadeh",
+    "Repos": 1,
+    "Contributions": 4075,
+    "Weighted contributions": 45072,
+    "Top repos": "commaai/openpilot",
+    "Country": "USA"
+  },
+  {
+    "User": "robertDouglass",
+    "Name": "Robert Douglass",
+    "Repos": 3,
+    "Contributions": 6091,
+    "Weighted contributions": 45004,
+    "Top repos": "spec-kitty/spec-kitty, miurla/morphic, appcypher/awesome-mcp-servers",
+    "Country": "Germany"
+  },
+  {
+    "User": "miguelgfierro",
+    "Name": "Miguel Fierro",
+    "Repos": 8,
+    "Contributions": 4716,
+    "Weighted contributions": 44895,
+    "Top repos": "recommenders-team/recommenders, miguelgfierro/ai_projects, microsoft/nlp-recipes, ilkarman/DeepLearningFrameworks, microsoft/computervision-recipes, NVIDIA/DeepRecommender, microsoft/SynapseML, ChristosChristofidis/awesome-deep-learning",
+    "Country": ""
+  },
+  {
+    "User": "tlrobinson",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 4145,
+    "Weighted contributions": 44777,
+    "Top repos": "metabase/metabase",
+    "Country": ""
+  },
+  {
+    "User": "albarrentine",
+    "Name": "Al B",
+    "Repos": 1,
+    "Contributions": 5257,
+    "Weighted contributions": 44653,
+    "Top repos": "openvenues/libpostal",
+    "Country": "USA"
+  },
+  {
+    "User": "batrick",
+    "Name": "Patrick Donnelly",
+    "Repos": 1,
+    "Contributions": 4578,
+    "Weighted contributions": 44599,
+    "Top repos": "ceph/ceph",
+    "Country": "USA"
+  },
+  {
+    "User": "dusty-nv",
+    "Name": "Dustin Franklin",
+    "Repos": 4,
+    "Contributions": 5209,
+    "Weighted contributions": 44514,
+    "Top repos": "dusty-nv/jetson-containers, dusty-nv/jetson-inference, dusty-nv/jetson-reinforcement, dusty-nv/ros_deep_learning",
+    "Country": "USA"
+  },
+  {
+    "User": "nwparker",
+    "Name": "Neil",
+    "Repos": 2,
+    "Contributions": 4087,
+    "Weighted contributions": 44514,
+    "Top repos": "stablyai/orca, stablyai/agent-slack",
+    "Country": "USA"
+  },
+  {
+    "User": "insidegalaxyeye",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 6327,
+    "Weighted contributions": 44467,
+    "Top repos": "platonai/Browser4",
+    "Country": ""
+  },
+  {
+    "User": "arvinxx",
+    "Name": "Arvin Xu",
+    "Repos": 6,
+    "Contributions": 4021,
+    "Weighted contributions": 44453,
+    "Top repos": "lobehub/lobehub, lobehub/lobe-ui, ant-design/pro-chat, lobehub/lobe-chat-agents, lobehub/lobe-tts, lobehub/lobe-vidol",
+    "Country": ""
+  },
+  {
+    "User": "deep1401",
+    "Name": "Deep Gandhi",
+    "Repos": 1,
+    "Contributions": 5186,
+    "Weighted contributions": 44361,
+    "Top repos": "transformerlab/transformerlab-app",
+    "Country": ""
+  },
+  {
+    "User": "shamoon",
+    "Name": "",
+    "Repos": 2,
+    "Contributions": 4191,
+    "Weighted contributions": 44239,
+    "Top repos": "paperless-ngx/paperless-ngx, jonaswinkler/paperless-ng",
+    "Country": ""
+  },
+  {
+    "User": "arnocandel",
+    "Name": "Arno Candel",
+    "Repos": 5,
+    "Contributions": 4892,
+    "Weighted contributions": 43857,
+    "Top repos": "h2oai/h2o-3, h2oai/h2ogpt, h2oai/h2o-tutorials, h2oai/sparkling-water, h2oai/h2o-llmstudio",
+    "Country": "USA"
+  },
+  {
+    "User": "yvgude",
+    "Name": "Yves Gugger",
+    "Repos": 3,
+    "Contributions": 5309,
+    "Weighted contributions": 43684,
+    "Top repos": "yvgude/lean-ctx, ComposioHQ/awesome-claude-skills, tensorchord/Awesome-LLMOps",
+    "Country": "Switzerland"
+  },
+  {
+    "User": "caisq",
+    "Name": "Shanqing Cai",
+    "Repos": 19,
+    "Contributions": 4964,
+    "Weighted contributions": 43570,
+    "Top repos": "tensorflow/tensorflow, DeepRec-AI/DeepRec, NVIDIA/tensorflow, tensorflow/tfjs, hughperkins/tf-coriander, tensorflow/tensorboard, tensorflow/tfjs-examples, tensorflow/docs-l10n, tensorflow/docs, tensorflow/tfjs-core",
+    "Country": "USA"
+  },
+  {
+    "User": "cgokmen",
+    "Name": "Cem G\u00f6kmen",
+    "Repos": 2,
+    "Contributions": 5900,
+    "Weighted contributions": 43534,
+    "Top repos": "StanfordVL/BEHAVIOR-1K, StanfordVL/iGibson",
+    "Country": "Turkey"
+  },
+  {
+    "User": "erupts",
+    "Name": "YuePeng",
+    "Repos": 2,
+    "Contributions": 5461,
+    "Weighted contributions": 43291,
+    "Top repos": "erupts/erupt, wzc520pyfm/ant-design-x-vue",
+    "Country": ""
+  },
+  {
+    "User": "chapulina",
+    "Name": "Louise Poubel",
+    "Repos": 5,
+    "Contributions": 5981,
+    "Weighted contributions": 43257,
+    "Top repos": "gazebosim/gazebo-classic, gazebosim/gz-sim, gazebosim/ros_gz, ros2/ros2, dartsim/dart",
+    "Country": ""
+  },
+  {
+    "User": "etiennedi",
+    "Name": "Etienne Dilocker",
+    "Repos": 3,
+    "Contributions": 4444,
+    "Weighted contributions": 43227,
+    "Top repos": "weaviate/weaviate, erikbern/ann-benchmarks, docarray/docarray",
+    "Country": "Germany"
+  },
+  {
+    "User": "zexi",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 5403,
+    "Weighted contributions": 43151,
+    "Top repos": "yunionio/cloudpods",
+    "Country": ""
+  },
+  {
+    "User": "MervinPraison",
+    "Name": "Mervin Praison",
+    "Repos": 12,
+    "Contributions": 4728,
+    "Weighted contributions": 43049,
+    "Top repos": "MervinPraison/PraisonAI, punkpeye/awesome-mcp-clients, lizhe2004/Awesome-LLM-RAG-Application, steven2358/awesome-generative-ai, topoteretes/awesome-ai-memory, rohitg00/awesome-devops-mcp-servers, EmbraceAGI/Awesome-AGI, DavidZWZ/Awesome-Deep-Research, crewAIInc/crewAI-tools, wsxiaoys/awesome-ai-coding",
+    "Country": ""
+  },
+  {
+    "User": "StpMax",
+    "Name": "Max Stepanov",
+    "Repos": 3,
+    "Contributions": 4041,
+    "Weighted contributions": 42369,
+    "Top repos": "mindsdb/mindshub, mindsdb/anton, mindsdb/lightwood",
+    "Country": "Russia"
+  },
+  {
+    "User": "mudler",
+    "Name": "Ettore Di Giacinto",
+    "Repos": 12,
+    "Contributions": 4204,
+    "Weighted contributions": 42365,
+    "Top repos": "mudler/LocalAI, mudler/LocalAGI, go-skynet/go-llama.cpp, mudler/LocalRecall, nomic-ai/gpt4all, k8sgpt-ai/k8sgpt, premAI-io/state-of-open-source-ai, kelvins/awesome-mlops, mudler/locate-anything.cpp, rhasspy/piper",
+    "Country": "Italy"
+  },
+  {
+    "User": "dirkkul",
+    "Name": "Dirk Kulawiak",
+    "Repos": 2,
+    "Contributions": 4352,
+    "Weighted contributions": 42338,
+    "Top repos": "weaviate/weaviate, docarray/docarray",
+    "Country": "Germany"
+  },
+  {
+    "User": "benjaminshafii",
+    "Name": "ben",
+    "Repos": 5,
+    "Contributions": 4832,
+    "Weighted contributions": 42300,
+    "Top repos": "different-ai/openwork, Nexus-JPF/note-companion, different-ai/obsidian-ava, different-ai/embedbase, different-ai/opencode-browser",
+    "Country": ""
+  },
+  {
+    "User": "tphakala",
+    "Name": "Tomi P. Hakala",
+    "Repos": 3,
+    "Contributions": 5592,
+    "Weighted contributions": 42293,
+    "Top repos": "tphakala/birdnet-go, birdnet-team/BirdNET-Analyzer, oraios/serena",
+    "Country": "Finland"
+  },
+  {
+    "User": "waleedlatif1",
+    "Name": "Waleed",
+    "Repos": 2,
+    "Contributions": 4105,
+    "Weighted contributions": 42256,
+    "Top repos": "simstudioai/sim, zaidmukaddam/scira",
+    "Country": ""
+  },
+  {
+    "User": "ppwwyyxx",
+    "Name": "Yuxin Wu",
+    "Repos": 45,
+    "Contributions": 5028,
+    "Weighted contributions": 42225,
+    "Top repos": "tensorpack/tensorpack, facebookresearch/detectron2, xingyizhou/CenterNet2, xingyizhou/UniDet, facebookresearch/fvcore, facebookresearch/House3D, facebookresearch/ELF, facebookresearch/ImageNet-Adversarial-Training, facebookresearch/d2go, pytorch/vision",
+    "Country": "USA"
+  },
+  {
+    "User": "RomneyDa",
+    "Name": "Dallin Romney",
+    "Repos": 6,
+    "Contributions": 3865,
+    "Weighted contributions": 42207,
+    "Top repos": "continuedev/continue, openclaw/openclaw, openclaw/clawsweeper, openclaw/openclaw-windows-node, openclaw/clawhub, trycua/cua",
+    "Country": "USA"
+  },
+  {
+    "User": "OutThisLife",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 3385,
+    "Weighted contributions": 41986,
+    "Top repos": "NousResearch/hermes-agent",
+    "Country": ""
+  },
+  {
+    "User": "lgrammel",
+    "Name": "Lars Grammel",
+    "Repos": 6,
+    "Contributions": 5022,
+    "Weighted contributions": 41928,
+    "Top repos": "vercel/modelfusion, vercel/ai, lgrammel/rubberduck-vscode, ActiveVisionLab/Awesome-LLM-3D, Helicone/helicone, vercel-labs/gemini-chatbot",
+    "Country": "Germany"
+  },
+  {
+    "User": "tisfeng",
+    "Name": "tisfeng",
+    "Repos": 5,
+    "Contributions": 4693,
+    "Weighted contributions": 41799,
+    "Top repos": "tisfeng/Easydict, tisfeng/Raycast-Easydict, raycast/extensions, iFurySt/open-codex-computer-use, aurora-develop/Duck2api",
+    "Country": "China"
+  },
+  {
+    "User": "ardaerzin",
+    "Name": "Arda Erzin",
+    "Repos": 1,
+    "Contributions": 4917,
+    "Weighted contributions": 41610,
+    "Top repos": "Agenta-AI/agenta",
+    "Country": "Germany"
+  },
+  {
+    "User": "mpolden",
+    "Name": "Martin Polden",
+    "Repos": 1,
+    "Contributions": 4670,
+    "Weighted contributions": 41399,
+    "Top repos": "vespa-engine/vespa",
+    "Country": "Norway"
+  },
+  {
+    "User": "maxbrunsfeld",
+    "Name": "Max Brunsfeld",
+    "Repos": 3,
+    "Contributions": 3618,
+    "Weighted contributions": 41167,
+    "Top repos": "zed-industries/zed, zed-industries/extensions, agentclientprotocol/agent-client-protocol",
+    "Country": "USA"
+  },
+  {
+    "User": "rohitg00",
+    "Name": "Rohit Ghumare",
+    "Repos": 23,
+    "Contributions": 4793,
+    "Weighted contributions": 41138,
+    "Top repos": "rohitg00/ai-engineering-from-scratch, fancyboi999/ai-engineering-from-scratch-zh, rohitg00/agentmemory, rohitg00/awesome-claude-code-toolkit, rohitg00/skillkit, iii-hq/iii, rohitg00/awesome-openclaw, rohitg00/kubectl-mcp-server, rohitg00/awesome-devops-mcp-servers, rohitg00/pro-workflow",
+    "Country": "UK"
+  },
+  {
+    "User": "malfet",
+    "Name": "Nikita Shulga",
+    "Repos": 26,
+    "Contributions": 3630,
+    "Weighted contributions": 41066,
+    "Top repos": "pytorch/pytorch, pytorch/tutorials, pytorch/vision, pytorch/torchchat, pytorch/audio, meta-pytorch/gpt-fast, pytorch/xla, triton-lang/triton, pytorch/text, pytorch/benchmark",
+    "Country": "USA"
+  },
+  {
+    "User": "rekram1-node",
+    "Name": "Aiden Cline",
+    "Repos": 7,
+    "Contributions": 3964,
+    "Weighted contributions": 40842,
+    "Top repos": "anomalyco/opencode, Kilo-Org/kilocode, CyberStrikeus/CyberStrike, zed-industries/extensions, ex-machina-co/opencode-anthropic-auth, charmbracelet/crush, opencode-ai/opencode",
+    "Country": "USA"
+  },
+  {
+    "User": "guillaumekln",
+    "Name": "Guillaume Klein",
+    "Repos": 10,
+    "Contributions": 5143,
+    "Weighted contributions": 40824,
+    "Top repos": "OpenNMT/CTranslate2, OpenNMT/OpenNMT-tf, OpenNMT/OpenNMT, SYSTRAN/faster-whisper, OpenNMT/OpenNMT-py, tensorflow/addons, google/sentencepiece, openai/whisper, facebookresearch/metaseq, argosopentech/argos-translate",
+    "Country": "France"
+  },
+  {
+    "User": "alex-aizman",
+    "Name": "Alex Aizman",
+    "Repos": 1,
+    "Contributions": 5392,
+    "Weighted contributions": 40792,
+    "Top repos": "NVIDIA/aistore",
+    "Country": "USA"
+  },
+  {
+    "User": "markbackman",
+    "Name": "Mark Backman",
+    "Repos": 2,
+    "Contributions": 4405,
+    "Weighted contributions": 40638,
+    "Top repos": "pipecat-ai/pipecat, pipecat-ai/pipecat-flows",
+    "Country": "USA"
+  },
+  {
+    "User": "imccyu",
+    "Name": "",
+    "Repos": 3,
+    "Contributions": 4110,
+    "Weighted contributions": 40601,
+    "Top repos": "deepseek-ai/deepseek-harness, fufankeji/deepseek-harness-studio, anywhere-labs/dsh-desktop",
+    "Country": ""
+  },
+  {
+    "User": "ValentaTomas",
+    "Name": "Tomas Valenta",
+    "Repos": 10,
+    "Contributions": 5005,
+    "Weighted contributions": 40572,
+    "Top repos": "e2b-dev/infra, e2b-dev/E2B, e2b-dev/code-interpreter, agi-inc/agent-protocol, e2b-dev/desktop, e2b-dev/e2b-cookbook, e2b-dev/fragments, e2b-dev/awesome-ai-sdks, e2b-dev/surf, e2b-dev/awesome-ai-agents",
+    "Country": "USA"
+  },
+  {
+    "User": "robinshine",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 4209,
+    "Weighted contributions": 40537,
+    "Top repos": "theonedev/onedev",
+    "Country": ""
+  },
+  {
+    "User": "bratseth",
+    "Name": "Jon Bratseth",
+    "Repos": 1,
+    "Contributions": 4572,
+    "Weighted contributions": 40530,
+    "Top repos": "vespa-engine/vespa",
+    "Country": "Norway"
+  },
+  {
+    "User": "jjallaire",
+    "Name": "",
+    "Repos": 5,
+    "Contributions": 5436,
+    "Weighted contributions": 40437,
+    "Top repos": "UKGovernmentBEIS/inspect_ai, rstudio/keras3, rstudio/tensorflow, UKGovernmentBEIS/inspect_evals, meridianlabs-ai/inspect_petri",
+    "Country": ""
+  },
+  {
+    "User": "karlseguin",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 3860,
+    "Weighted contributions": 40410,
+    "Top repos": "lightpanda-io/browser",
+    "Country": ""
+  },
+  {
+    "User": "mikeldking",
+    "Name": "Mikyo King",
+    "Repos": 5,
+    "Contributions": 4446,
+    "Weighted contributions": 40409,
+    "Top repos": "Arize-ai/phoenix, Arize-ai/openinference, kelvins/awesome-mlops, openai/openai-python, visenger/awesome-mlops",
+    "Country": "USA"
+  },
+  {
+    "User": "danny-avila",
+    "Name": "Danny Avila",
+    "Repos": 7,
+    "Contributions": 3893,
+    "Weighted contributions": 40349,
+    "Top repos": "danny-avila/LibreChat, LibreChat-AI/librechat.ai, danny-avila/rag_api, waylaidwanderer/node-chatgpt-api, appcypher/awesome-mcp-servers, EwingYangs/awesome-open-gpt, wong2/awesome-mcp-servers",
+    "Country": "USA"
+  },
+  {
+    "User": "nawroth",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 4105,
+    "Weighted contributions": 40038,
+    "Top repos": "neo4j/neo4j",
+    "Country": ""
+  },
+  {
+    "User": "tianzhou",
+    "Name": "Tianzhou",
+    "Repos": 6,
+    "Contributions": 4277,
+    "Weighted contributions": 40017,
+    "Top repos": "bytebase/bytebase, bytebase/dbhub, sqlchat/sqlchat, code-kern-ai/refinery, pingcap/ossinsight, deepseek-ai/awesome-deepseek-integration",
+    "Country": "USA"
+  },
+  {
+    "User": "madhavajay",
+    "Name": "Madhava Jay",
+    "Repos": 6,
+    "Contributions": 4343,
+    "Weighted contributions": 40017,
+    "Top repos": "OpenMined/PySyft, HumanSignal/labelImg, router-for-me/CLIProxyAPI, google-parfait/tensorflow-federated, meta-pytorch/opacus, XiaoMi/mace",
+    "Country": "Australia"
+  },
+  {
+    "User": "larsoner",
+    "Name": "Eric Larson",
+    "Repos": 4,
+    "Contributions": 4887,
+    "Weighted contributions": 39810,
+    "Top repos": "mne-tools/mne-python, dipy/dipy, nilearn/nilearn, braindecode/braindecode",
+    "Country": "USA"
+  },
+  {
+    "User": "yongtang",
+    "Name": "Yong Tang",
+    "Repos": 6,
+    "Contributions": 4622,
+    "Weighted contributions": 39665,
+    "Top repos": "tensorflow/tensorflow, NVIDIA/tensorflow, DeepRec-AI/DeepRec, tensorflow/io, tensorflow/docs, tensorflow/docs-l10n",
+    "Country": "USA"
+  },
+  {
+    "User": "sgugger",
+    "Name": "Sylvain Gugger",
+    "Repos": 21,
+    "Contributions": 4491,
+    "Weighted contributions": 39633,
+    "Top repos": "fastai/fastai_dev, huggingface/transformers, fastai/fastai, jxhe/unify-parameter-efficient-tuning, huggingface/accelerate, fastai/fastbook, fastai/course-v3, huggingface/notebooks, sgugger/Deep-Learning, microsoft/fastformers",
+    "Country": ""
+  },
+  {
+    "User": "MarkDaoust",
+    "Name": "Mark Daoust",
+    "Repos": 45,
+    "Contributions": 4598,
+    "Weighted contributions": 39600,
+    "Top repos": "tensorflow/docs, tensorflow/docs-l10n, tensorflow/tensorflow, NVIDIA/tensorflow, DeepRec-AI/DeepRec, tensorflow/models, google-gemini/deprecated-generative-ai-python, googleapis/python-genai, tensorflow/examples, googleapis/js-genai",
+    "Country": ""
+  },
+  {
+    "User": "cbamls",
+    "Name": "cbamls",
+    "Repos": 1,
+    "Contributions": 14331,
+    "Weighted contributions": 39239,
+    "Top repos": "cbamls/AI_Tutorial",
+    "Country": "China"
+  },
+  {
+    "User": "ermig1979",
+    "Name": "Ihar Yermalayeu",
+    "Repos": 1,
+    "Contributions": 5068,
+    "Weighted contributions": 39159,
+    "Top repos": "ermig1979/Simd",
+    "Country": "Belarus"
+  },
+  {
+    "User": "kan-bayashi",
+    "Name": "Tomoki Hayashi",
+    "Repos": 2,
+    "Contributions": 4470,
+    "Weighted contributions": 39092,
+    "Top repos": "espnet/espnet, kan-bayashi/ParallelWaveGAN",
+    "Country": "Japan"
+  },
+  {
+    "User": "nik9000",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 3463,
+    "Weighted contributions": 39004,
+    "Top repos": "elastic/elasticsearch",
+    "Country": ""
+  },
+  {
+    "User": "freva",
+    "Name": "Valerij Fredriksen",
+    "Repos": 1,
+    "Contributions": 4381,
+    "Weighted contributions": 38837,
+    "Top repos": "vespa-engine/vespa",
+    "Country": ""
+  },
+  {
+    "User": "martijnvg",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 3445,
+    "Weighted contributions": 38802,
+    "Top repos": "elastic/elasticsearch",
+    "Country": ""
+  },
+  {
+    "User": "kainagel",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 5997,
+    "Weighted contributions": 38777,
+    "Top repos": "matsim-org/matsim-libs",
+    "Country": ""
+  },
+  {
+    "User": "davidfirst",
+    "Name": "David First",
+    "Repos": 1,
+    "Contributions": 3939,
+    "Weighted contributions": 38697,
+    "Top repos": "teambit/bit",
+    "Country": "USA"
+  },
+  {
+    "User": "kssenii",
+    "Name": "Kseniia Sumarokova",
+    "Repos": 2,
+    "Contributions": 5341,
+    "Weighted contributions": 38559,
+    "Top repos": "myscale/MyScaleDB, timeplus-io/proton",
+    "Country": "Netherlands"
+  },
+  {
+    "User": "akuegel",
+    "Name": "Adrian Kuegel",
+    "Repos": 9,
+    "Contributions": 3774,
+    "Weighted contributions": 38538,
+    "Top repos": "tensorflow/tensorflow, openxla/xla, DeepRec-AI/DeepRec, NVIDIA/tensorflow, tensorflow/runtime, iree-org/iree, google-ai-edge/LiteRT, tensorflow/benchmarks, google-deepmind/sonnet",
+    "Country": "Germany"
+  },
+  {
+    "User": "arcuri82",
+    "Name": "Andrea Arcuri",
+    "Repos": 1,
+    "Contributions": 5785,
+    "Weighted contributions": 38517,
+    "Top repos": "WebFuzzing/EvoMaster",
+    "Country": "Norway"
+  },
+  {
+    "User": "jslee02",
+    "Name": "Jeongseok (JS) Lee",
+    "Repos": 6,
+    "Contributions": 5373,
+    "Weighted contributions": 38508,
+    "Top repos": "dartsim/dart, gazebosim/gazebo-classic, jslee02/awesome-robotics-libraries, bulletphysics/bullet3, esa/pagmo2, kiloreux/awesome-robotics",
+    "Country": ""
+  },
+  {
+    "User": "harehare",
+    "Name": "Takahiro Sato",
+    "Repos": 1,
+    "Contributions": 5541,
+    "Weighted contributions": 38429,
+    "Top repos": "harehare/mq",
+    "Country": ""
+  },
+  {
+    "User": "thomwolf",
+    "Name": "Thomas Wolf",
+    "Repos": 26,
+    "Contributions": 4647,
+    "Weighted contributions": 38358,
+    "Top repos": "jxhe/unify-parameter-efficient-tuning, huggingface/transformers, microsoft/fastformers, huggingface/datasets, huggingface/neuralcoref, huggingface/naacl_transfer_learning_tutorial, huggingface/nanotron, huggingface/pytorch-openai-transformer-lm, huggingface/evaluate, huggingface/transfer-learning-conv-ai",
+    "Country": "Netherlands"
+  },
+  {
+    "User": "johnyeocx",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 4836,
+    "Weighted contributions": 38152,
+    "Top repos": "useautumn/autumn",
+    "Country": ""
+  },
+  {
+    "User": "Pavel910",
+    "Name": "Pavel Denisjuk",
+    "Repos": 1,
+    "Contributions": 4243,
+    "Weighted contributions": 38151,
+    "Top repos": "webiny/webiny-js",
+    "Country": "Croatia"
+  },
+  {
+    "User": "mateo-berri",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 3463,
+    "Weighted contributions": 38005,
+    "Top repos": "BerriAI/litellm",
+    "Country": ""
+  },
+  {
+    "User": "Soulter",
+    "Name": "Soulter ",
+    "Repos": 5,
+    "Contributions": 3667,
+    "Weighted contributions": 37978,
+    "Top repos": "AstrBotDevs/AstrBot, Soulter/hugging-chat-api, microsoft/markitdown, Mai-with-u/MaiBot, deepseek-ai/awesome-deepseek-agent",
+    "Country": "China"
+  },
+  {
+    "User": "samuelstroschein",
+    "Name": "Samuel Stroschein",
+    "Repos": 3,
+    "Contributions": 5720,
+    "Weighted contributions": 37854,
+    "Top repos": "opral/lix, generalaction/emdash, generaltranslation/gt",
+    "Country": "USA"
+  },
+  {
+    "User": "ayizhi",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 4460,
+    "Weighted contributions": 37530,
+    "Top repos": "kungfu-systems/kungfu",
+    "Country": ""
+  },
+  {
+    "User": "pedramamini",
+    "Name": "Pedram Amini",
+    "Repos": 6,
+    "Contributions": 4628,
+    "Weighted contributions": 37522,
+    "Top repos": "RunMaestro/Maestro, corca-ai/awesome-llm-security, steven2358/awesome-generative-ai, Jenqyang/Awesome-AI-Agents, kyrolabs/awesome-agents, 0din-ai/ai-scanner",
+    "Country": "USA"
+  },
+  {
+    "User": "emilk",
+    "Name": "Emil Ernerfeldt",
+    "Repos": 3,
+    "Contributions": 4672,
+    "Weighted contributions": 37426,
+    "Top repos": "rerun-io/rerun, Flaminis/Dalaran, raskr/rust-autograd",
+    "Country": "Sweden"
+  },
+  {
+    "User": "datadrivenconstruction",
+    "Name": "DataDrivenConstruction",
+    "Repos": 1,
+    "Contributions": 5606,
+    "Weighted contributions": 37396,
+    "Top repos": "datadrivenconstruction/OpenConstructionERP",
+    "Country": ""
+  },
+  {
+    "User": "estib-vega",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 3746,
+    "Weighted contributions": 37393,
+    "Top repos": "gitbutlerapp/gitbutler",
+    "Country": ""
+  },
+  {
+    "User": "azat",
+    "Name": "Azat Khuzhin",
+    "Repos": 2,
+    "Contributions": 5127,
+    "Weighted contributions": 37256,
+    "Top repos": "myscale/MyScaleDB, timeplus-io/proton",
+    "Country": ""
+  },
+  {
+    "User": "alafanechere",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 3710,
+    "Weighted contributions": 37099,
+    "Top repos": "airbytehq/airbyte",
+    "Country": ""
+  },
+  {
+    "User": "777genius",
+    "Name": "\u0418\u043b\u0438\u044f",
+    "Repos": 9,
+    "Contributions": 4897,
+    "Weighted contributions": 36995,
+    "Top repos": "777genius/agent-teams-ai, 777genius/claude-notifications-go, 777genius/claude-code-source-code, ChromeDevTools/chrome-devtools-mcp, andyrewlee/awesome-agent-orchestrators, alvinreal/awesome-opensource-ai, github/github-mcp-server, kyrolabs/awesome-agents, FlorianBruniaux/claude-code-ultimate-guide",
+    "Country": ""
+  },
+  {
+    "User": "ionite34",
+    "Name": "Ionite",
+    "Repos": 2,
+    "Contributions": 4062,
+    "Weighted contributions": 36869,
+    "Top repos": "LykosAI/StabilityMatrix, DanRuta/xVA-Synth",
+    "Country": "USA"
+  },
+  {
+    "User": "George3d6",
+    "Name": "George",
+    "Repos": 4,
+    "Contributions": 4499,
+    "Weighted contributions": 36834,
+    "Top repos": "mindsdb/lightwood, mindsdb/mindshub, lmcinnes/umap, yunxiaoshi/Neural-IMage-Assessment",
+    "Country": ""
+  },
+  {
+    "User": "debanjum",
+    "Name": "Debanjum",
+    "Repos": 4,
+    "Contributions": 3500,
+    "Weighted contributions": 36829,
+    "Top repos": "khoj-ai/khoj, copilot-emacs/copilot.el, reworkd/tarsier, RapidAI/RapidOCR",
+    "Country": "USA"
+  },
+  {
+    "User": "apc999",
+    "Name": "Bin Fan",
+    "Repos": 3,
+    "Contributions": 4120,
+    "Weighted contributions": 36611,
+    "Top repos": "Alluxio/alluxio, fluid-cloudnative/fluid, kubeflow/arena",
+    "Country": "USA"
+  },
+  {
+    "User": "NathanFlurry",
+    "Name": "Nathan Flurry",
+    "Repos": 6,
+    "Contributions": 4241,
+    "Weighted contributions": 36349,
+    "Top repos": "rivet-dev/actors, rivet-dev/agentos, rivet-dev/sandbox-agent, rivet-dev/dynamic-apps, durable-streams/durable-streams, e2b-dev/e2b-cookbook",
+    "Country": "USA"
+  },
+  {
+    "User": "yamadashy",
+    "Name": "Kazuki Yamada",
+    "Repos": 2,
+    "Contributions": 3542,
+    "Weighted contributions": 36299,
+    "Top repos": "yamadashy/repomix, SylphxAI/pdf-reader-mcp",
+    "Country": "Japan"
+  },
+  {
+    "User": "hvy",
+    "Name": "Hiroyuki Vincent Yamazaki",
+    "Repos": 3,
+    "Contributions": 4083,
+    "Weighted contributions": 36280,
+    "Top repos": "chainer/chainer, optuna/optuna, optuna/optuna-examples",
+    "Country": "Japan"
+  },
+  {
+    "User": "rasswanth-s",
+    "Name": "S Rasswanth",
+    "Repos": 1,
+    "Contributions": 3935,
+    "Weighted contributions": 36254,
+    "Top repos": "OpenMined/PySyft",
+    "Country": ""
+  },
+  {
+    "User": "purocean",
+    "Name": "\u6d0b\u5b50",
+    "Repos": 1,
+    "Contributions": 4112,
+    "Weighted contributions": 36254,
+    "Top repos": "purocean/yn",
+    "Country": "China"
+  },
+  {
+    "User": "ztxz16",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 4247,
+    "Weighted contributions": 36166,
+    "Top repos": "ztxz16/fastllm",
+    "Country": ""
+  },
+  {
+    "User": "jif-oai",
+    "Name": "",
+    "Repos": 3,
+    "Contributions": 3162,
+    "Weighted contributions": 36135,
+    "Top repos": "openai/codex, openinterpreter/openinterpreter, modelcontextprotocol/rust-sdk",
+    "Country": ""
+  },
+  {
+    "User": "roboomp",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 3493,
+    "Weighted contributions": 36043,
+    "Top repos": "can1357/oh-my-pi",
+    "Country": ""
+  },
+  {
+    "User": "rvion",
+    "Name": "",
+    "Repos": 2,
+    "Contributions": 5378,
+    "Weighted contributions": 36012,
+    "Top repos": "rvion/CushyStudio, Comfy-Org/ComfyUI-Manager",
+    "Country": "France"
+  },
+  {
+    "User": "yashk2810",
+    "Name": "Yash Katariya",
+    "Repos": 41,
+    "Contributions": 3551,
+    "Weighted contributions": 35953,
+    "Top repos": "jax-ml/jax, tensorflow/docs, tensorflow/tensorflow, openxla/xla, tensorflow/examples, tensorflow/docs-l10n, google-research/t5x, google/flax, google/paxml, tensorflow/tfx",
+    "Country": ""
+  },
+  {
+    "User": "kijai",
+    "Name": "Jukka Sepp\u00e4nen",
+    "Repos": 28,
+    "Contributions": 4508,
+    "Weighted contributions": 35847,
+    "Top repos": "kijai/ComfyUI-WanVideoWrapper, kijai/ComfyUI-KJNodes, kijai/ComfyUI-CogVideoXWrapper, kijai/ComfyUI-HunyuanVideoWrapper, kijai/ComfyUI-FluxTrainer, kijai/ComfyUI-SUPIR, kijai/ComfyUI-Hunyuan3DWrapper, Comfy-Org/ComfyUI, kijai/ComfyUI-MochiWrapper, kijai/ComfyUI-DynamiCrafterWrapper",
+    "Country": "Finland"
+  },
+  {
+    "User": "s1monw",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 3182,
+    "Weighted contributions": 35839,
+    "Top repos": "elastic/elasticsearch",
+    "Country": ""
+  },
+  {
+    "User": "acoliver",
+    "Name": "Andrew C. Oliver",
+    "Repos": 3,
+    "Contributions": 5456,
+    "Weighted contributions": 35750,
+    "Top repos": "vybestack/llxprt-code, mpfaffenberger/code_puppy, Piebald-AI/awesome-gemini-cli",
+    "Country": "Argentina"
+  },
+  {
+    "User": "varonix0",
+    "Name": "",
+    "Repos": 2,
+    "Contributions": 3470,
+    "Weighted contributions": 35666,
+    "Top repos": "Infisical/infisical, Infisical/agent-vault",
+    "Country": ""
+  },
+  {
+    "User": "wkentaro",
+    "Name": "Kentaro Wada",
+    "Repos": 8,
+    "Contributions": 3798,
+    "Weighted contributions": 35635,
+    "Top repos": "wkentaro/labelme, wkentaro/pytorch-fcn, chainer/chainer, wkentaro/pytorch-for-numpy-users, stepjam/PyRep, aleju/imgaug, bulletphysics/bullet3, moveit/moveit",
+    "Country": "Japan"
+  },
+  {
+    "User": "lutzroeder",
+    "Name": "Lutz Roeder",
+    "Repos": 8,
+    "Contributions": 10236,
+    "Weighted contributions": 35631,
+    "Top repos": "lutzroeder/netron, onnx/onnx, ChristosChristofidis/awesome-deep-learning, Azure-Samples/aoai-realtime-audio-sdk, microsoft/azure-devops-mcp, onnx/onnxmltools, karpathy/nanoGPT, openai/swarm",
+    "Country": "USA"
+  },
+  {
+    "User": "jakevdp",
+    "Name": "Jake Vanderplas",
+    "Repos": 12,
+    "Contributions": 3492,
+    "Weighted contributions": 35630,
+    "Top repos": "jax-ml/jax, scikit-learn/scikit-learn, tensorflow/probability, astroML/astroML, google/flax, google-deepmind/optax, pyro-ppl/numpyro, google-deepmind/distrax, patrick-kidger/equinox, uber/causalml",
+    "Country": "USA"
+  },
+  {
+    "User": "Borda",
+    "Name": "Jirka Borovec",
+    "Repos": 55,
+    "Contributions": 3927,
+    "Weighted contributions": 35541,
+    "Top repos": "Lightning-AI/pytorch-lightning, Lightning-AI/torchmetrics, roboflow/rf-detr, roboflow/supervision, Lightning-Universe/lightning-bolts, Lightning-Universe/lightning-flash, Lightning-AI/lightning-thunder, Lightning-AI/litgpt, pytorch-tabular/pytorch_tabular, Lightning-Universe/lightning-transformers",
+    "Country": "Czech Republic"
+  },
+  {
+    "User": "wochinge",
+    "Name": "Tobias Wochinger",
+    "Repos": 5,
+    "Contributions": 3632,
+    "Weighted contributions": 35469,
+    "Top repos": "RasaHQ/rasa, RasaHQ/rasa_core, langfuse/langfuse, RasaHQ/rasa-demo, deepset-ai/haystack",
+    "Country": "Germany"
+  },
+  {
+    "User": "ctubio",
+    "Name": "Carles Tubio",
+    "Repos": 1,
+    "Contributions": 4308,
+    "Weighted contributions": 35405,
+    "Top repos": "ctubio/Krypto-trading-bot",
+    "Country": "Spain"
+  },
+  {
+    "User": "leestott",
+    "Name": "Lee Stott",
+    "Repos": 10,
+    "Contributions": 3562,
+    "Weighted contributions": 35361,
+    "Top repos": "microsoft/mcp-for-beginners, microsoft/ai-agents-for-beginners, microsoft/edgeai-for-beginners, microsoft/PhiCookBook, microsoft/AI-For-Beginners, microsoft/generative-ai-for-beginners, microsoft/ML-For-Beginners, Azure/co-op-translator, microsoft/workshop-library, microsoft/Mastering-GitHub-Copilot-for-Paired-Programming",
+    "Country": ""
+  },
+  {
+    "User": "chenyuxyz",
+    "Name": "chenyu",
+    "Repos": 1,
+    "Contributions": 3393,
+    "Weighted contributions": 35361,
+    "Top repos": "tinygrad/tinygrad",
+    "Country": ""
+  },
+  {
+    "User": "roblourens",
+    "Name": "Rob Lourens",
+    "Repos": 2,
+    "Contributions": 5241,
+    "Weighted contributions": 35360,
+    "Top repos": "trypear/pearai-app, microsoft/vscode-copilot-chat",
+    "Country": "USA"
+  },
+  {
+    "User": "akuzm",
+    "Name": "Alexander Kuzmenkov",
+    "Repos": 3,
+    "Contributions": 4606,
+    "Weighted contributions": 35279,
+    "Top repos": "timeplus-io/proton, myscale/MyScaleDB, timescale/timescaledb",
+    "Country": ""
+  },
+  {
+    "User": "AngledLuffa",
+    "Name": "John Bauer",
+    "Repos": 1,
+    "Contributions": 3929,
+    "Weighted contributions": 35248,
+    "Top repos": "stanfordnlp/stanza",
+    "Country": ""
+  },
+  {
+    "User": "szczyglis-dev",
+    "Name": "Marcin Szczygli\u0144ski",
+    "Repos": 1,
+    "Contributions": 4664,
+    "Weighted contributions": 35224,
+    "Top repos": "szczyglis-dev/py-gpt",
+    "Country": "Poland"
+  },
+  {
+    "User": "maxdeviant",
+    "Name": "Marshall Bowers",
+    "Repos": 2,
+    "Contributions": 3185,
+    "Weighted contributions": 35212,
+    "Top repos": "zed-industries/zed, zed-industries/extensions",
+    "Country": ""
+  },
+  {
+    "User": "shigma",
+    "Name": "Shigma",
+    "Repos": 5,
+    "Contributions": 4042,
+    "Weighted contributions": 35148,
+    "Top repos": "koishijs/koishi, koishijs/novelai-bot, deepseek-ai/deepseek-harness, anywhere-labs/dsh-desktop, fufankeji/deepseek-harness-studio",
+    "Country": "China"
+  },
+  {
+    "User": "tavplubix",
+    "Name": "Alexander Tokmakov",
+    "Repos": 2,
+    "Contributions": 4868,
+    "Weighted contributions": 35135,
+    "Top repos": "myscale/MyScaleDB, timeplus-io/proton",
+    "Country": "Netherlands"
+  },
+  {
+    "User": "aconchillo",
+    "Name": "Aleix Conchillo Flaqu\u00e9",
+    "Repos": 2,
+    "Contributions": 3643,
+    "Weighted contributions": 35111,
+    "Top repos": "pipecat-ai/pipecat, pipecat-ai/pipecat-flows",
+    "Country": ""
+  },
+  {
+    "User": "falkoschindler",
+    "Name": "Falko Schindler",
+    "Repos": 1,
+    "Contributions": 3616,
+    "Weighted contributions": 35046,
+    "Top repos": "zauberzeug/nicegui",
+    "Country": "Germany"
+  },
+  {
+    "User": "max-sixty",
+    "Name": "Maximilian Roos",
+    "Repos": 1,
+    "Contributions": 3964,
+    "Weighted contributions": 35037,
+    "Top repos": "max-sixty/worktrunk",
+    "Country": "USA"
+  },
+  {
+    "User": "toregge",
+    "Name": "Tor Egge",
+    "Repos": 2,
+    "Contributions": 3939,
+    "Weighted contributions": 34917,
+    "Top repos": "vespa-engine/vespa, erikbern/ann-benchmarks",
+    "Country": "Norway"
+  },
+  {
+    "User": "emgucv",
+    "Name": "Emgu",
+    "Repos": 1,
+    "Contributions": 4505,
+    "Weighted contributions": 34864,
+    "Top repos": "emgucv/emgucv",
+    "Country": "Canada"
+  },
+  {
+    "User": "remorses",
+    "Name": "Tommy D. Rossi",
+    "Repos": 11,
+    "Contributions": 5201,
+    "Weighted contributions": 34832,
+    "Top repos": "remorses/kimaki, remorses/holocron, remorses/playwriter, Kilo-Org/kilocode, anomalyco/opencode, raycast/extensions, CyberStrikeus/CyberStrike, vercel/ai, ex-machina-co/opencode-anthropic-auth, agentclientprotocol/claude-agent-acp",
+    "Country": "Italy"
+  },
+  {
+    "User": "rjernst",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 3086,
+    "Weighted contributions": 34758,
+    "Top repos": "elastic/elasticsearch",
+    "Country": ""
+  },
+  {
+    "User": "ogrisel",
+    "Name": "Olivier Grisel",
+    "Repos": 16,
+    "Contributions": 3412,
+    "Weighted contributions": 34752,
+    "Top repos": "scikit-learn/scikit-learn, m2dsupsdlclass/lectures-labs, ogrisel/parallel_ml_tutorial, INRIA/scikit-learn-mooc, soda-inria/tabicl, uxlfoundation/scikit-learn-intelex, mila-iqia/blocks, lyst/lightfm, polyaxon/traceml, Cadene/vqa.pytorch",
+    "Country": "France"
+  },
+  {
+    "User": "noanflaherty",
+    "Name": "Noa Flaherty",
+    "Repos": 2,
+    "Contributions": 4871,
+    "Weighted contributions": 34603,
+    "Top repos": "vellum-ai/vellum-assistant, tensorchord/Awesome-LLMOps",
+    "Country": "USA"
+  },
+  {
+    "User": "kitaisreal",
+    "Name": "Maksim Kita",
+    "Repos": 2,
+    "Contributions": 4771,
+    "Weighted contributions": 34602,
+    "Top repos": "myscale/MyScaleDB, timeplus-io/proton",
+    "Country": ""
+  },
+  {
+    "User": "d-bytebase",
+    "Name": "",
+    "Repos": 3,
+    "Contributions": 3612,
+    "Weighted contributions": 34593,
+    "Top repos": "bytebase/bytebase, sqlchat/sqlchat, bytebase/dbhub",
+    "Country": ""
+  },
+  {
+    "User": "sashankaryal",
+    "Name": "Sashank Aryal",
+    "Repos": 1,
+    "Contributions": 3703,
+    "Weighted contributions": 34480,
+    "Top repos": "voxel51/fiftyone",
+    "Country": "USA"
+  },
+  {
+    "User": "erwincoumans",
+    "Name": "",
+    "Repos": 9,
+    "Contributions": 3706,
+    "Weighted contributions": 34446,
+    "Top repos": "bulletphysics/bullet3, erwincoumans/tiny-differentiable-simulator, erwincoumans/pybullet_robots, erwincoumans/motion_imitation, ikostrikov/jaxrl, NVIDIA/warp, vimalabs/VIMA, Denys88/rl_games, jslee02/awesome-robotics-libraries",
+    "Country": "USA"
+  },
+  {
+    "User": "marius-kilocode",
+    "Name": "Marius",
+    "Repos": 1,
+    "Contributions": 3356,
+    "Weighted contributions": 34272,
+    "Top repos": "Kilo-Org/kilocode",
+    "Country": ""
+  },
+  {
+    "User": "t8y2",
+    "Name": "skyler",
+    "Repos": 2,
+    "Contributions": 3485,
+    "Weighted contributions": 34266,
+    "Top repos": "t8y2/dbx, Thysrael/Horizon",
+    "Country": ""
+  },
+  {
+    "User": "cfregly",
+    "Name": "Chris Fregly",
+    "Repos": 4,
+    "Contributions": 5359,
+    "Weighted contributions": 34250,
+    "Top repos": "cfregly/ai-performance-engineering, data-science-on-aws/data-science-on-aws, aws-samples/amazon-bedrock-samples, mirage-project/mirage",
+    "Country": "USA"
+  },
+  {
+    "User": "iamtrask",
+    "Name": "Andrew Trask",
+    "Repos": 3,
+    "Contributions": 3718,
+    "Weighted contributions": 34247,
+    "Top repos": "OpenMined/PySyft, iamtrask/Grokking-Deep-Learning, huggingface/OpenEnv",
+    "Country": "UK"
+  },
+  {
+    "User": "gregsfortytwo",
+    "Name": "Gregory Farnum",
+    "Repos": 1,
+    "Contributions": 3512,
+    "Weighted contributions": 34214,
+    "Top repos": "ceph/ceph",
+    "Country": ""
+  },
+  {
+    "User": "zgqgit",
+    "Name": "GuoQing Zhang",
+    "Repos": 1,
+    "Contributions": 3643,
+    "Weighted contributions": 34200,
+    "Top repos": "dataelement/bisheng",
+    "Country": ""
+  },
+  {
+    "User": "baptisteArno",
+    "Name": "Baptiste Arnaud",
+    "Repos": 5,
+    "Contributions": 3699,
+    "Weighted contributions": 34174,
+    "Top repos": "baptisteArno/typebot.io, udecode/plate, dohooo/helmor, Dimillian/CodexMonitor, grinev/opencode-telegram-bot",
+    "Country": "France"
+  },
+  {
+    "User": "tmuskal",
+    "Name": "Tal Muskal",
+    "Repos": 2,
+    "Contributions": 4551,
+    "Weighted contributions": 34155,
+    "Top repos": "a5c-ai/babysitter, MemPalace/mempalace",
+    "Country": ""
+  },
+  {
+    "User": "derneuere",
+    "Name": "Niaz Faridani-Rad",
+    "Repos": 1,
+    "Contributions": 3792,
+    "Weighted contributions": 34110,
+    "Top repos": "LibrePhotos/librephotos",
+    "Country": "Germany"
+  },
+  {
+    "User": "asmorkalov",
+    "Name": "Alexander Smorkalov",
+    "Repos": 4,
+    "Contributions": 2981,
+    "Weighted contributions": 33996,
+    "Top repos": "opencv/opencv, spmallick/learnopencv, openvinotoolkit/open_model_zoo, opencv/opencv_zoo",
+    "Country": ""
+  },
+  {
+    "User": "iche033",
+    "Name": "Ian Chen",
+    "Repos": 3,
+    "Contributions": 4700,
+    "Weighted contributions": 33953,
+    "Top repos": "gazebosim/gazebo-classic, gazebosim/gz-sim, gazebosim/ros_gz",
+    "Country": ""
+  },
+  {
+    "User": "RussTedrake",
+    "Name": "Russ Tedrake",
+    "Repos": 2,
+    "Contributions": 4062,
+    "Weighted contributions": 33873,
+    "Top repos": "RobotLocomotion/drake, Farama-Foundation/Gymnasium-Robotics",
+    "Country": "USA"
+  },
+  {
+    "User": "Wei-Shaw",
+    "Name": "Wesley Liddick",
+    "Repos": 2,
+    "Contributions": 3282,
+    "Weighted contributions": 33848,
+    "Top repos": "Wei-Shaw/sub2api, Wei-Shaw/claude-relay-service",
+    "Country": ""
+  },
+  {
+    "User": "harupy",
+    "Name": "Harutaka Kawamura",
+    "Repos": 10,
+    "Contributions": 3310,
+    "Weighted contributions": 33646,
+    "Top repos": "mlflow/mlflow, optuna/optuna, optuna/optuna-examples, langchain-ai/langchain, openai/openai-python, shap/shap, github/copilot-sdk, hydra-ecosystem/hydra, combust/mleap, anthropics/claude-agent-sdk-python",
+    "Country": "Japan"
+  },
+  {
+    "User": "agramfort",
+    "Name": "Alexandre Gramfort",
+    "Repos": 10,
+    "Contributions": 3756,
+    "Weighted contributions": 33615,
+    "Top repos": "mne-tools/mne-python, scikit-learn/scikit-learn, braindecode/braindecode, PythonOT/POT, pyRiemann/pyRiemann, nilearn/nilearn, jmschrei/apricot, scikit-learn-contrib/skope-rules, sbi-dev/sbi, vlawhern/arl-eegmodels",
+    "Country": "France"
+  },
+  {
+    "User": "jasmcaus",
+    "Name": "Jason",
+    "Repos": 4,
+    "Contributions": 5020,
+    "Weighted contributions": 33605,
+    "Top repos": "jasmcaus/caer, jasmcaus/ai-math-roadmap, xuebinqin/U-2-Net, lukasmasuch/best-of-ml-python",
+    "Country": "USA"
+  },
+  {
+    "User": "DaveCTurner",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 2980,
+    "Weighted contributions": 33564,
+    "Top repos": "elastic/elasticsearch",
+    "Country": ""
+  },
+  {
+    "User": "rwightman",
+    "Name": "Ross Wightman",
+    "Repos": 11,
+    "Contributions": 3330,
+    "Weighted contributions": 33547,
+    "Top repos": "huggingface/pytorch-image-models, mlfoundations/open_clip, rwightman/efficientdet-pytorch, rwightman/gen-efficientnet-pytorch, rwightman/posenet-python, google-deepmind/optax, huggingface/huggingface.js, ikostrikov/pytorch-a2c-ppo-acktr-gail, rom1504/img2dataset, cleverhans-lab/cleverhans",
+    "Country": "Canada"
+  },
+  {
+    "User": "erogol",
+    "Name": "Eren G\u00f6lge",
+    "Repos": 7,
+    "Contributions": 3240,
+    "Weighted contributions": 33540,
+    "Top repos": "coqui-ai/TTS, mozilla/TTS, coqui-ai/TTS-papers, TensorSpeech/TensorFlowTTS, coqui-ai/STT, deeppavlov/DeepPavlov, lucidrains/audiolm-pytorch",
+    "Country": "Germany"
+  },
+  {
+    "User": "maidul98",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 3262,
+    "Weighted contributions": 33538,
+    "Top repos": "Infisical/infisical",
+    "Country": ""
+  },
+  {
+    "User": "julianknutsen",
+    "Name": "Julian Knutsen",
+    "Repos": 4,
+    "Contributions": 4413,
+    "Weighted contributions": 33473,
+    "Top repos": "gastownhall/gascity, gastownhall/gastown, gastownhall/beads, steipete/oracle",
+    "Country": ""
+  },
+  {
+    "User": "efiop",
+    "Name": "Ruslan Kuprieiev",
+    "Repos": 2,
+    "Contributions": 3458,
+    "Weighted contributions": 33443,
+    "Top repos": "treeverse/dvc, fal-ai/dbt-fal",
+    "Country": "Ukraine"
+  },
+  {
+    "User": "shelhamer",
+    "Name": "Evan Shelhamer",
+    "Repos": 8,
+    "Contributions": 4235,
+    "Weighted contributions": 33427,
+    "Top repos": "BVLC/caffe, gnina/gnina, msracver/Deep-Image-Analogy, intel/caffe, shogun-toolbox/shogun, openai/gym, Farama-Foundation/Gymnasium, Farama-Foundation/Arcade-Learning-Environment",
+    "Country": "USA"
+  },
+  {
+    "User": "RobinL",
+    "Name": "Robin Linacre",
+    "Repos": 1,
+    "Contributions": 4290,
+    "Weighted contributions": 33372,
+    "Top repos": "moj-analytical-services/splink",
+    "Country": "UK"
+  },
+  {
+    "User": "Calcium-Ion",
+    "Name": "",
+    "Repos": 5,
+    "Contributions": 3195,
+    "Weighted contributions": 33263,
+    "Top repos": "QuantumNous/new-api, ai365vip/chat-api, songquanpeng/one-api, iOfficeAI/AionUi, MartialBE/one-hub",
+    "Country": ""
+  },
+  {
+    "User": "GiladShoham",
+    "Name": "Gilad Shoham",
+    "Repos": 2,
+    "Contributions": 3385,
+    "Weighted contributions": 33253,
+    "Top repos": "teambit/bit, modelcontextprotocol/ext-apps",
+    "Country": "Israel"
+  },
+  {
+    "User": "lukasmasuch",
+    "Name": "Lukas Masuch",
+    "Repos": 8,
+    "Contributions": 3498,
+    "Weighted contributions": 33205,
+    "Top repos": "streamlit/streamlit, ml-tooling/ml-workspace, lukasmasuch/best-of-ml-python, ml-tooling/best-of-jupyter, ml-tooling/opyrator, jtoy/awesome-tensorflow, langchain-ai/streamlit-agent, bharathgs/Awesome-pytorch-list",
+    "Country": "Germany"
+  },
+  {
+    "User": "jahooma",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 3538,
+    "Weighted contributions": 33193,
+    "Top repos": "CodebuffAI/freebuff",
+    "Country": ""
+  },
+  {
+    "User": "weibaohui",
+    "Name": "weibaohui",
+    "Repos": 3,
+    "Contributions": 4878,
+    "Weighted contributions": 33100,
+    "Top repos": "weibaohui/k8m, 0xsline/awesome-deepseek-harness, awesome-dsh-plugin/awesome-dsh-plugin",
+    "Country": "China"
+  },
+  {
+    "User": "johnmarktaylor91",
+    "Name": "JohnMark Taylor",
+    "Repos": 2,
+    "Contributions": 5095,
+    "Weighted contributions": 33066,
+    "Top repos": "johnmarktaylor91/torchlens, browser-use/browser-harness",
+    "Country": "USA"
+  },
+  {
+    "User": "petebankhead",
+    "Name": "Pete",
+    "Repos": 2,
+    "Contributions": 4543,
+    "Weighted contributions": 33033,
+    "Top repos": "qupath/qupath, deepjavalibrary/djl",
+    "Country": "UK"
+  },
+  {
+    "User": "Bekacru",
+    "Name": "Bereket Engida",
+    "Repos": 3,
+    "Contributions": 3241,
+    "Weighted contributions": 32994,
+    "Top repos": "better-auth/better-auth, better-auth/better-hub, better-auth/better-icons",
+    "Country": "Ethiopia"
+  },
+  {
+    "User": "williamFalcon",
+    "Name": "William Falcon",
+    "Repos": 14,
+    "Contributions": 3526,
+    "Weighted contributions": 32913,
+    "Top repos": "Lightning-AI/pytorch-lightning, williamFalcon/test-tube, Lightning-AI/LitServe, Lightning-Universe/lightning-bolts, Lightning-AI/deep-learning-project-template, Lightning-AI/litgpt, Lightning-Universe/lightning-flash, Lightning-AI/torchmetrics, Lightning-AI/lit-llama, josephmisiti/awesome-machine-learning",
+    "Country": "USA"
+  },
+  {
+    "User": "hsluoyz",
+    "Name": "Yang Luo",
+    "Repos": 6,
+    "Contributions": 3696,
+    "Weighted contributions": 32912,
+    "Top repos": "casdoor/casdoor, the-open-agent/openagent, apache/casbin-gateway, Tencent/AI-Infra-Guard, lanpa/tensorboardX, JShollaj/awesome-llm-web-ui",
+    "Country": ""
+  },
+  {
+    "User": "kodjima33",
+    "Name": "Nik Shevchenko",
+    "Repos": 4,
+    "Contributions": 3460,
+    "Weighted contributions": 32868,
+    "Top repos": "BasedHardware/omi, BasedHardware/OpenGlass, OwlAIProject/Owl, adamcohenhillel/ADeus",
+    "Country": ""
+  },
+  {
+    "User": "shahednasser",
+    "Name": "",
+    "Repos": 2,
+    "Contributions": 3131,
+    "Weighted contributions": 32867,
+    "Top repos": "medusajs/medusa, PatrickJS/awesome-cursorrules",
+    "Country": ""
+  },
+  {
+    "User": "emeeks",
+    "Name": "Elijah Meeks",
+    "Repos": 3,
+    "Contributions": 4144,
+    "Weighted contributions": 32773,
+    "Top repos": "nteract/semiotic, punkpeye/awesome-mcp-servers, PatrickJS/awesome-cursorrules",
+    "Country": "USA"
+  },
+  {
+    "User": "ghinkle",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 4406,
+    "Weighted contributions": 32727,
+    "Top repos": "nimbalyst/nimbalyst",
+    "Country": ""
+  },
+  {
+    "User": "jacoblee93",
+    "Name": "Jacob Lee",
+    "Repos": 21,
+    "Contributions": 3650,
+    "Weighted contributions": 32695,
+    "Top repos": "langchain-ai/langchainjs, langchain-ai/langsmith-sdk, langchain-ai/langgraphjs, langchain-ai/openevals, langchain-ai/langchain, langchain-ai/langchain-nextjs-template, langchain-ai/agentevals, jacoblee93/fully-local-pdf-chatbot, langchain-ai/langgraph, langchain-ai/chat-langchain",
+    "Country": "USA"
+  },
+  {
+    "User": "mrcfps",
+    "Name": "Marc Chan",
+    "Repos": 5,
+    "Contributions": 3645,
+    "Weighted contributions": 32677,
+    "Top repos": "refly-ai/refly, nexu-io/nexu, nexu-io/open-design, nexu-io/html-video, nexu-io/html-anything",
+    "Country": "China"
+  },
+  {
+    "User": "alichherawalla",
+    "Name": "Mohammed Ali Chherawalla",
+    "Repos": 4,
+    "Contributions": 4063,
+    "Weighted contributions": 32627,
+    "Top repos": "off-grid-ai/OGAM, alvinreal/awesome-opensource-ai, hades217/awesome-ai, xlite-dev/Awesome-LLM-Inference",
+    "Country": "India"
+  },
+  {
+    "User": "datlechin",
+    "Name": "Ng\u00f4 Qu\u1ed1c \u0110\u1ea1t",
+    "Repos": 1,
+    "Contributions": 3760,
+    "Weighted contributions": 32592,
+    "Top repos": "TableProApp/TablePro",
+    "Country": "Vietnam"
+  },
+  {
+    "User": "aarondr77",
+    "Name": "Aaron Diamond-Reivich",
+    "Repos": 1,
+    "Contributions": 4133,
+    "Weighted contributions": 32571,
+    "Top repos": "mito-ds/mito",
+    "Country": ""
+  },
+  {
+    "User": "jjang-ai",
+    "Name": "dealign.ai - Osaurus.ai - MLX Studio - JANG_Quant",
+    "Repos": 3,
+    "Contributions": 4876,
+    "Weighted contributions": 32528,
+    "Top repos": "jjang-ai/vmlx, osaurus-ai/osaurus, jjang-ai/mlxstudio",
+    "Country": ""
+  },
+  {
+    "User": "mdrxy",
+    "Name": "Mason Daugherty",
+    "Repos": 26,
+    "Contributions": 3030,
+    "Weighted contributions": 32495,
+    "Top repos": "langchain-ai/deepagents, langchain-ai/langchain, langchain-ai/langgraph, langchain-ai/open-swe, langchain-ai/langchainjs, langchain-ai/langchain-mcp-adapters, langchain-ai/langgraphjs, langchain-ai/langchain-skills, langchain-ai/langgraph-supervisor-py, langchain-ai/langmem",
+    "Country": "USA"
+  },
+  {
+    "User": "brunobuddy",
+    "Name": "Bruno P\u00e9rez",
+    "Repos": 3,
+    "Contributions": 3641,
+    "Weighted contributions": 32491,
+    "Top repos": "mnfst/llm-gateway, mnfst/awesome-free-llm-apis, alpic-ai/skybridge",
+    "Country": "USA"
+  },
+  {
+    "User": "ParisNeo",
+    "Name": "Saifeddine ALOUI",
+    "Repos": 11,
+    "Contributions": 3838,
+    "Weighted contributions": 32466,
+    "Top repos": "ParisNeo/lollms-webui, ParisNeo/lollms_hub, HKUDS/LightRAG, nomic-ai/pygpt4all, invoke-ai/InvokeAI, turboderp-org/exllamav2, HKUDS/MiniRAG, ollama/ollama, LAION-AI/Open-Assistant, nomic-ai/gpt4all",
+    "Country": "France"
+  },
+  {
+    "User": "bracesproul",
+    "Name": "Brace Sproul",
+    "Repos": 22,
+    "Contributions": 3763,
+    "Weighted contributions": 32409,
+    "Top repos": "langchain-ai/langchainjs, langchain-ai/open-canvas, langchain-ai/social-media-agent, langchain-ai/open-agent-platform, langchain-ai/open-swe, langchain-ai/langgraphjs, langchain-ai/agent-chat-ui, langchain-ai/agent-inbox, langchain-ai/openwiki, langchain-ai/langgraph",
+    "Country": "USA"
+  },
+  {
+    "User": "calvinjia",
+    "Name": "Calvin Jia",
+    "Repos": 1,
+    "Contributions": 3645,
+    "Weighted contributions": 32394,
+    "Top repos": "Alluxio/alluxio",
+    "Country": ""
+  },
+  {
+    "User": "NubsCarson",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 3280,
+    "Weighted contributions": 32368,
+    "Top repos": "elizaOS/eliza",
+    "Country": ""
+  },
+  {
+    "User": "manuelurenah",
+    "Name": "Manuel Emilio Urena",
+    "Repos": 1,
+    "Contributions": 3638,
+    "Weighted contributions": 32333,
+    "Top repos": "civitai/civitai",
+    "Country": "Dominican Republic"
+  },
+  {
+    "User": "fedml-alex",
+    "Name": "Alex",
+    "Repos": 1,
+    "Contributions": 3884,
+    "Weighted contributions": 32276,
+    "Top repos": "FedML-AI/FedML",
+    "Country": ""
+  },
+  {
+    "User": "jasontedor",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 2858,
+    "Weighted contributions": 32190,
+    "Top repos": "elastic/elasticsearch",
+    "Country": ""
+  },
+  {
+    "User": "dongkeren",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 3822,
+    "Weighted contributions": 32161,
+    "Top repos": "kungfu-systems/kungfu",
+    "Country": ""
+  },
+  {
+    "User": "rebornix",
+    "Name": "Peng Lyu",
+    "Repos": 7,
+    "Contributions": 4865,
+    "Weighted contributions": 32119,
+    "Top repos": "trypear/pearai-app, rebornix/Agmente, microsoft/vscode-copilot-chat, getsentry/XcodeBuildMCP, microsoft/vscode-copilot-release, agentclientprotocol/agent-client-protocol, Dimillian/CodexSkillManager",
+    "Country": "USA"
+  },
+  {
+    "User": "aaudiber",
+    "Name": "Andrew Audibert",
+    "Repos": 8,
+    "Contributions": 3434,
+    "Weighted contributions": 32085,
+    "Top repos": "Alluxio/alluxio, tensorflow/tensorflow, google/grain, google/paxml, tensorflow/ecosystem, tensorflow/text, tensorflow/neural-structured-learning, google-parfait/tensorflow-federated",
+    "Country": "USA"
+  },
+  {
+    "User": "penso",
+    "Name": "Fabien Penso",
+    "Repos": 2,
+    "Contributions": 4104,
+    "Weighted contributions": 32011,
+    "Top repos": "moltis-org/moltis, penso/arbor",
+    "Country": ""
+  },
+  {
+    "User": "mikel-brostrom",
+    "Name": "Mike",
+    "Repos": 4,
+    "Contributions": 3542,
+    "Weighted contributions": 31953,
+    "Top repos": "mikel-brostrom/boxmot, deepcam-cn/yolov5-face, KaiyangZhou/deep-person-reid, PINTO0309/onnx2tf",
+    "Country": ""
+  },
+  {
+    "User": "gunan",
+    "Name": "Gunhan Gulsoy",
+    "Repos": 11,
+    "Contributions": 3532,
+    "Weighted contributions": 31933,
+    "Top repos": "tensorflow/tensorflow, DeepRec-AI/DeepRec, NVIDIA/tensorflow, hughperkins/tf-coriander, tensorflow/tensorboard, tensorflow/docs, tensorflow/docs-l10n, tensorflow/java, tensorflow/serving, tensorflow/workshops",
+    "Country": "USA"
+  },
+  {
+    "User": "janezd",
+    "Name": "Janez Dem\u0161ar",
+    "Repos": 1,
+    "Contributions": 3692,
+    "Weighted contributions": 31922,
+    "Top repos": "biolab/orange3",
+    "Country": "Slovenia"
+  },
+  {
+    "User": "yinlianghui",
+    "Name": "\u6bb7\u4eae\u8f89",
+    "Repos": 1,
+    "Contributions": 4303,
+    "Weighted contributions": 31681,
+    "Top repos": "steedos/steedos-platform",
+    "Country": "China"
+  },
+  {
+    "User": "AlexWan",
+    "Name": "Alex ",
+    "Repos": 1,
+    "Contributions": 4569,
+    "Weighted contributions": 31670,
+    "Top repos": "AlexWan/OsEngine",
+    "Country": "Russia"
+  },
+  {
+    "User": "Kitenite",
+    "Name": "Kiet",
+    "Repos": 3,
+    "Contributions": 3246,
+    "Weighted contributions": 31647,
+    "Top repos": "superset-sh/superset, onlook-dev/onlook, e2b-dev/infra",
+    "Country": "USA"
+  },
+  {
+    "User": "LauraGPT",
+    "Name": "zhifu gao",
+    "Repos": 31,
+    "Contributions": 3244,
+    "Weighted contributions": 31601,
+    "Top repos": "modelscope/FunASR, QwenAudio/SenseVoice, modelscope/FunClip, QwenAudio/Fun-ASR, X-LANCE/SLAM-LLM, modelscope/modelscope, RVC-Boss/GPT-SoVITS, DmitryRyumin/INTERSPEECH-2023-24-Papers, 0xShug0/audio.cpp, buxuku/SmartSub",
+    "Country": ""
+  },
+  {
+    "User": "obviyus",
+    "Name": "Ayaan Zaidi",
+    "Repos": 5,
+    "Contributions": 2586,
+    "Weighted contributions": 31597,
+    "Top repos": "openclaw/openclaw, linuxhsj/openclaw-zero-token, openclaw/clawsweeper, openclaw/agent-skills, openclaw/clawhub",
+    "Country": "India"
+  },
+  {
+    "User": "jph00",
+    "Name": "Jeremy Howard",
+    "Repos": 14,
+    "Contributions": 3703,
+    "Weighted contributions": 31465,
+    "Top repos": "AnswerDotAI/fasthtml, fastai/fastai, fastai/fastai_dev, fastai/course-v3, fastai/fastbook, fastai/course20, AnswerDotAI/llms-txt, fastai/course22, fastai/course-nlp, AnswerDotAI/gpu.cpp",
+    "Country": "Australia"
+  },
+  {
+    "User": "jp-agenta",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 3714,
+    "Weighted contributions": 31430,
+    "Top repos": "Agenta-AI/agenta",
+    "Country": ""
+  },
+  {
+    "User": "hiyouga",
+    "Name": "Yaowei Zheng",
+    "Repos": 16,
+    "Contributions": 3029,
+    "Weighted contributions": 31300,
+    "Top repos": "hiyouga/LlamaFactory, Prism-Shadow/penguin-harness, hiyouga/ChatGLM-Efficient-Tuning, hiyouga/EasyR1, hiyouga/FastEdit, verl-project/verl, langfengQ/verl-agent, QwenLM/Qwen3-VL, zai-org/ChatGLM2-6B, zai-org/ChatGLM-6B",
+    "Country": "China"
+  },
+  {
+    "User": "agilliland",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 2886,
+    "Weighted contributions": 31177,
+    "Top repos": "metabase/metabase",
+    "Country": ""
+  },
+  {
+    "User": "PawelPeczek-Roboflow",
+    "Name": "Pawe\u0142 P\u0119czek",
+    "Repos": 5,
+    "Contributions": 3994,
+    "Weighted contributions": 31171,
+    "Top repos": "roboflow/inference, roboflow/maestro, roboflow/roboflow-python, roboflow/supervision, roboflow/notebooks",
+    "Country": "Poland"
+  },
+  {
+    "User": "intitni",
+    "Name": "Shx Guo",
+    "Repos": 2,
+    "Contributions": 3448,
+    "Weighted contributions": 31080,
+    "Top repos": "intitni/CopilotForXcode, unum-cloud/USearch",
+    "Country": "China"
+  },
+  {
+    "User": "lioensky",
+    "Name": "",
+    "Repos": 2,
+    "Contributions": 4289,
+    "Weighted contributions": 31080,
+    "Top repos": "lioensky/VCPToolBox, lioensky/VCPChat",
+    "Country": "China"
+  },
+  {
+    "User": "Patrick-Erichsen",
+    "Name": "Patrick Erichsen",
+    "Repos": 8,
+    "Contributions": 3004,
+    "Weighted contributions": 31000,
+    "Top repos": "continuedev/continue, openclaw/clawhub, openclaw/openclaw, openclaw/clawsweeper, openclaw/agent-skills, vercel-labs/skills, Martian-Engineering/lossless-claw, agentskills/agentskills",
+    "Country": "USA"
+  },
+  {
+    "User": "glittercowboy",
+    "Name": "T\u00c2CHES",
+    "Repos": 4,
+    "Contributions": 3242,
+    "Weighted contributions": 30806,
+    "Top repos": "gsd-build/gsd-2, open-gsd/gsd-core, gsd-build/get-shit-done, glittercowboy/taches-cc-resources",
+    "Country": "Costa Rica"
+  },
+  {
+    "User": "geirst",
+    "Name": "Geir Storli",
+    "Repos": 1,
+    "Contributions": 3472,
+    "Weighted contributions": 30779,
+    "Top repos": "vespa-engine/vespa",
+    "Country": ""
+  },
+  {
+    "User": "syllog1sm",
+    "Name": "Matthew Honnibal",
+    "Repos": 3,
+    "Contributions": 3146,
+    "Weighted contributions": 30719,
+    "Top repos": "explosion/spaCy, explosion/thinc, explosion/sense2vec",
+    "Country": "Germany"
+  },
+  {
+    "User": "gjoranv",
+    "Name": "Gj\u00f8ran Voldengen",
+    "Repos": 1,
+    "Contributions": 3464,
+    "Weighted contributions": 30708,
+    "Top repos": "vespa-engine/vespa",
+    "Country": "Norway"
+  },
+  {
+    "User": "nbonamy",
+    "Name": "Nicolas Bonamy",
+    "Repos": 3,
+    "Contributions": 4024,
+    "Weighted contributions": 30640,
+    "Top repos": "Kochava-Studios/witsy, arcadeai-labs/smithery-cli, punkpeye/awesome-mcp-clients",
+    "Country": "USA"
+  },
+  {
+    "User": "hirofumi0810",
+    "Name": "Hirofumi Inaguma",
+    "Repos": 2,
+    "Contributions": 4299,
+    "Weighted contributions": 30574,
+    "Top repos": "hirofumi0810/neural_sp, espnet/espnet",
+    "Country": "USA"
+  },
+  {
+    "User": "zakirullin",
+    "Name": "Artem Zakirullin",
+    "Repos": 2,
+    "Contributions": 3954,
+    "Weighted contributions": 30516,
+    "Top repos": "zakirullin/files.md, zakirullin/gpt-go",
+    "Country": "Cyprus"
+  },
+  {
+    "User": "skytin1004",
+    "Name": "Minseok Song",
+    "Repos": 10,
+    "Contributions": 3018,
+    "Weighted contributions": 30469,
+    "Top repos": "microsoft/mcp-for-beginners, microsoft/ai-agents-for-beginners, microsoft/generative-ai-for-beginners, microsoft/ML-For-Beginners, Azure/co-op-translator, microsoft/AI-For-Beginners, microsoft/PhiCookBook, microsoft/edgeai-for-beginners, microsoft/Mastering-GitHub-Copilot-for-Paired-Programming, microsoft/Generative-AI-for-beginners-dotnet",
+    "Country": ""
+  },
+  {
+    "User": "aeschli",
+    "Name": "",
+    "Repos": 2,
+    "Contributions": 4623,
+    "Weighted contributions": 30454,
+    "Top repos": "trypear/pearai-app, microsoft/vscode-copilot-chat",
+    "Country": ""
+  },
+  {
+    "User": "amaiya",
+    "Name": "Arun S. Maiya",
+    "Repos": 3,
+    "Contributions": 4322,
+    "Weighted contributions": 30357,
+    "Top repos": "amaiya/ktrain, amaiya/onprem, causaltext/causal-text-papers",
+    "Country": "USA"
+  },
+  {
+    "User": "patrickvonplaten",
+    "Name": "Patrick von Platen",
+    "Repos": 38,
+    "Contributions": 3184,
+    "Weighted contributions": 30318,
+    "Top repos": "huggingface/diffusers, huggingface/transformers, jxhe/unify-parameter-efficient-tuning, microsoft/fastformers, mistralai/mistral-common, huggingface/datasets, huggingface/blog, mistralai/mistral-inference, huggingface/notebooks, vllm-project/vllm",
+    "Country": ""
+  },
+  {
+    "User": "sshane",
+    "Name": "Shane Smiskol",
+    "Repos": 1,
+    "Contributions": 2741,
+    "Weighted contributions": 30317,
+    "Top repos": "commaai/openpilot",
+    "Country": "USA"
+  },
+  {
+    "User": "chenos",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 3003,
+    "Weighted contributions": 30302,
+    "Top repos": "nocobase/nocobase",
+    "Country": ""
+  },
+  {
+    "User": "cryppadotta",
+    "Name": "Dotta",
+    "Repos": 2,
+    "Contributions": 2681,
+    "Weighted contributions": 30275,
+    "Top repos": "paperclipai/paperclip, kyrolabs/awesome-agents",
+    "Country": ""
+  },
+  {
+    "User": "Vasilije1990",
+    "Name": "Vasilije ",
+    "Repos": 6,
+    "Contributions": 2939,
+    "Weighted contributions": 30215,
+    "Top repos": "topoteretes/cognee, topoteretes/awesome-ai-memory, confident-ai/deepeval, e2b-dev/awesome-ai-agents, lancedb/vectordb-recipes, Andrew-Jang/RAGHub",
+    "Country": "Germany"
+  },
+  {
+    "User": "erha19",
+    "Name": "Dan",
+    "Repos": 2,
+    "Contributions": 3756,
+    "Weighted contributions": 30213,
+    "Top repos": "opensumi/core, erha19/ping-island",
+    "Country": ""
+  },
+  {
+    "User": "scosman",
+    "Name": "Steve Cosman",
+    "Repos": 3,
+    "Contributions": 3534,
+    "Weighted contributions": 30137,
+    "Top repos": "Kiln-AI/Kiln, mattzcarey/shippie, mahseema/awesome-ai-tools",
+    "Country": "Canada"
+  },
+  {
+    "User": "benoitsteiner",
+    "Name": "Benoit Steiner",
+    "Repos": 12,
+    "Contributions": 3485,
+    "Weighted contributions": 30008,
+    "Top repos": "DeepRec-AI/DeepRec, tensorflow/tensorflow, NVIDIA/tensorflow, hughperkins/tf-coriander, tensorflow/docs, tensorflow/docs-l10n, tensorflow/tensorboard, tensorflow/java, tensorflow/examples, libxsmm/libxsmm",
+    "Country": "USA"
+  },
+  {
+    "User": "zeniko",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 4447,
+    "Weighted contributions": 29890,
+    "Top repos": "dengxibo/sumatrapdf-plus",
+    "Country": ""
+  },
+  {
+    "User": "zolotukhin",
+    "Name": "Stepan Zolotukhin",
+    "Repos": 1,
+    "Contributions": 4786,
+    "Weighted contributions": 29875,
+    "Top repos": "zolotukhin/zinc",
+    "Country": ""
+  },
+  {
+    "User": "varunagrawal",
+    "Name": "Varun Agrawal",
+    "Repos": 8,
+    "Contributions": 3638,
+    "Weighted contributions": 29865,
+    "Top repos": "borglab/gtsam, Cloud-CV/EvalAI, kornia/kornia, cornellius-gp/gpytorch, libfann/fann, pytorch/examples, ramprs/grad-cam, gtbook/robotics",
+    "Country": "USA"
+  },
+  {
+    "User": "lancy",
+    "Name": "Lancy",
+    "Repos": 1,
+    "Contributions": 4234,
+    "Weighted contributions": 29847,
+    "Top repos": "vm0-ai/vm0",
+    "Country": "China"
+  },
+  {
+    "User": "Hironsan",
+    "Name": "Hiroki Nakayama",
+    "Repos": 5,
+    "Contributions": 3321,
+    "Weighted contributions": 29818,
+    "Top repos": "doccano/doccano, Hironsan/anago, chakki-works/seqeval, Hironsan/awesome-embedding-models, Hironsan/bertsearch",
+    "Country": "Japan"
+  },
+  {
+    "User": "marevol",
+    "Name": "",
+    "Repos": 2,
+    "Contributions": 4229,
+    "Weighted contributions": 29789,
+    "Top repos": "codelibs/fess, apache/predictionio",
+    "Country": ""
+  },
+  {
+    "User": "EricLBuehler",
+    "Name": "Eric Buehler",
+    "Repos": 5,
+    "Contributions": 3392,
+    "Weighted contributions": 29769,
+    "Top repos": "EricLBuehler/mistral.rs, EricLBuehler/candle-vllm, huggingface/candle, dora-rs/dora, huggingface/peft",
+    "Country": ""
+  },
+  {
+    "User": "nihui",
+    "Name": "",
+    "Repos": 21,
+    "Contributions": 3035,
+    "Weighted contributions": 29656,
+    "Top repos": "Tencent/ncnn, nihui/waifu2x-ncnn-vulkan, pnnx/pnnx, nihui/realcugan-ncnn-vulkan, OAID/Tengine, Tencent/TNN, dog-qiuqiu/FastestDet, RangiLyu/nanodet, alibaba/MNN, THU-MIG/yolov10",
+    "Country": "China"
+  },
+  {
+    "User": "mrry",
+    "Name": "Derek Murray",
+    "Repos": 19,
+    "Contributions": 3297,
+    "Weighted contributions": 29622,
+    "Top repos": "tensorflow/tensorflow, DeepRec-AI/DeepRec, NVIDIA/tensorflow, hughperkins/tf-coriander, tensorflow/docs, tensorflow/docs-l10n, tensorflow/tpu, tensorflow/tensorboard, tensorflow/serving, tensorflow/mesh",
+    "Country": "USA"
+  },
+  {
+    "User": "bsorrentino",
+    "Name": "bsorrentino",
+    "Repos": 2,
+    "Contributions": 3894,
+    "Weighted contributions": 29570,
+    "Top repos": "langgraph4j/langgraph4j, The-Pocket/PocketFlow-Tutorial-Codebase-Knowledge",
+    "Country": "Italy"
+  },
+  {
+    "User": "typpo",
+    "Name": "Ian Webster",
+    "Repos": 5,
+    "Contributions": 2918,
+    "Weighted contributions": 29537,
+    "Top repos": "promptfoo/promptfoo, enricoros/big-AGI, ActiveVisionLab/Awesome-LLM-3D, a16z-infra/llm-app-stack, Portkey-AI/gateway",
+    "Country": ""
+  },
+  {
+    "User": "isaacmg",
+    "Name": "Isaac Godfried",
+    "Repos": 5,
+    "Contributions": 3814,
+    "Weighted contributions": 29522,
+    "Top repos": "AIStream-Peelout/flow-forecast, bstriner/keras-adversarial, facebookresearch/ParlAI, MaxBenChrist/awesome_time_series_in_python, ritchieng/the-incredible-pytorch",
+    "Country": ""
+  },
+  {
+    "User": "opentabs-dev",
+    "Name": "",
+    "Repos": 2,
+    "Contributions": 4314,
+    "Weighted contributions": 29510,
+    "Top repos": "opentabs-dev/opentabs, TensorBlock/awesome-mcp-servers",
+    "Country": ""
+  },
+  {
+    "User": "RockChinQ",
+    "Name": "Junyan Qin (Chin)",
+    "Repos": 12,
+    "Contributions": 3086,
+    "Weighted contributions": 29456,
+    "Top repos": "langbot-app/LangBot, RockChinQ/free-one-api, Soulter/hugging-chat-api, YFGaia/dify-plus, langgenius/dify, deepseek-ai/awesome-deepseek-integration, AstrBotDevs/AstrBot, xming521/WeClone, songquanpeng/one-api, ai365vip/chat-api",
+    "Country": "China"
+  },
+  {
+    "User": "OliverJAsh",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 2945,
+    "Weighted contributions": 29398,
+    "Top repos": "gitbutlerapp/gitbutler",
+    "Country": ""
+  },
+  {
+    "User": "kyakuno",
+    "Name": "Kazuki Kyakuno",
+    "Repos": 2,
+    "Contributions": 3764,
+    "Weighted contributions": 29276,
+    "Top repos": "ailia-ai/ailia-models, anasfik/openai",
+    "Country": "Japan"
+  },
+  {
+    "User": "zzet",
+    "Name": "Andrew Kumanyaev",
+    "Repos": 2,
+    "Contributions": 3978,
+    "Weighted contributions": 29259,
+    "Top repos": "zzet/gortex, alvinreal/awesome-opensource-ai",
+    "Country": ""
+  },
+  {
+    "User": "BenedictKing",
+    "Name": "Benedict King",
+    "Repos": 2,
+    "Contributions": 3514,
+    "Weighted contributions": 29112,
+    "Top repos": "BenedictKing/ccx, yym68686/uni-api",
+    "Country": ""
+  },
+  {
+    "User": "chrisvest",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 2983,
+    "Weighted contributions": 29094,
+    "Top repos": "neo4j/neo4j",
+    "Country": ""
+  },
+  {
+    "User": "Ino-Bagaric",
+    "Name": "Ivan Bagari\u0107",
+    "Repos": 1,
+    "Contributions": 2932,
+    "Weighted contributions": 29064,
+    "Top repos": "kortix-ai/suna",
+    "Country": "Croatia"
+  },
+  {
+    "User": "mldangelo",
+    "Name": "Michael",
+    "Repos": 10,
+    "Contributions": 2872,
+    "Weighted contributions": 29061,
+    "Top repos": "promptfoo/promptfoo, kyrolabs/awesome-langchain, cckuailong/awesome-gpt-security, CryptoAILab/Awesome-LM-SSP, yueliu1999/Awesome-Jailbreak-on-LLMs, promptslab/Awesome-Prompt-Engineering, jiep/offensive-ai-compilation, requie/AI-Red-Teaming-Guide, tensorflow/playground, mlfoundations/open_clip",
+    "Country": "USA"
+  },
+  {
+    "User": "JinHai-CN",
+    "Name": "Jin Hai",
+    "Repos": 7,
+    "Contributions": 2945,
+    "Weighted contributions": 29051,
+    "Top repos": "infiniflow/infinity, milvus-io/milvus, infiniflow/ragflow, matrixorigin/matrixone, deepseek-ai/awesome-deepseek-integration, facebookresearch/faiss, zai-org/ChatGLM3",
+    "Country": "China"
+  },
+  {
+    "User": "coffeegoddd",
+    "Name": "Dustin Brown",
+    "Repos": 3,
+    "Contributions": 2865,
+    "Weighted contributions": 29004,
+    "Top repos": "dolthub/dolt, gastownhall/beads, wong2/awesome-mcp-servers",
+    "Country": "USA"
+  },
+  {
+    "User": "AnishSarkar22",
+    "Name": "Anish Sarkar",
+    "Repos": 1,
+    "Contributions": 2992,
+    "Weighted contributions": 28984,
+    "Top repos": "MODSetter/SurfSense",
+    "Country": "India"
+  },
+  {
+    "User": "stas00",
+    "Name": "Stas Bekman",
+    "Repos": 30,
+    "Contributions": 3311,
+    "Weighted contributions": 28974,
+    "Top repos": "stas00/ml-engineering, bigscience-workshop/bigscience, huggingface/transformers, jxhe/unify-parameter-efficient-tuning, deepspeedai/DeepSpeed, fastai/fastai_dev, stas00/the-art-of-debugging, bigscience-workshop/Megatron-DeepSpeed, fastai/course-v3, huggingface/llm_training_handbook",
+    "Country": "Canada"
+  },
+  {
+    "User": "luispater",
+    "Name": "Luis Pater",
+    "Repos": 6,
+    "Contributions": 3031,
+    "Weighted contributions": 28918,
+    "Top repos": "router-for-me/CLIProxyAPI, kittors/CliRelay, router-for-me/EasyCLIProxyAPI, CJackHwang/AIstudioProxyAPI, seakee/CPA-Manager-Plus, yushangxiao/claude2api",
+    "Country": "China"
+  },
+  {
+    "User": "elezar",
+    "Name": "Evan Lezar",
+    "Repos": 8,
+    "Contributions": 3498,
+    "Weighted contributions": 28893,
+    "Top repos": "NVIDIA/nvidia-container-toolkit, NVIDIA/k8s-device-plugin, kubernetes-sigs/dra-driver-nvidia-gpu, NVIDIA/nvidia-container-runtime, NVIDIA/OpenShell, NVIDIA/gpu-operator, NVIDIA/nvidia-docker, NVIDIA/dcgm-exporter",
+    "Country": "Germany"
+  },
+  {
+    "User": "boojack",
+    "Name": "",
+    "Repos": 3,
+    "Contributions": 3030,
+    "Weighted contributions": 28841,
+    "Top repos": "bytebase/bytebase, sqlchat/sqlchat, bytebase/dbhub",
+    "Country": ""
+  },
+  {
+    "User": "mtsgrd",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 2888,
+    "Weighted contributions": 28829,
+    "Top repos": "gitbutlerapp/gitbutler",
+    "Country": ""
+  },
+  {
+    "User": "maartenbreddels",
+    "Name": "Maarten Breddels",
+    "Repos": 1,
+    "Contributions": 3185,
+    "Weighted contributions": 28821,
+    "Top repos": "vaexio/vaex",
+    "Country": "Netherlands"
+  },
+  {
+    "User": "pchalasani",
+    "Name": "Prasad Chalasani",
+    "Repos": 8,
+    "Contributions": 3563,
+    "Weighted contributions": 28811,
+    "Top repos": "langroid/langroid, pchalasani/claude-code-tools, Hannibal046/Awesome-LLM, ActiveVisionLab/Awesome-LLM-3D, DLR-RM/rl-baselines3-zoo, e2b-dev/awesome-ai-sdks, e2b-dev/awesome-ai-agents, ccusage/ccusage",
+    "Country": "USA"
+  },
+  {
+    "User": "ashpreetbedi",
+    "Name": "Ashpreet",
+    "Repos": 4,
+    "Contributions": 2841,
+    "Weighted contributions": 28793,
+    "Top repos": "agno-agi/agno, agno-agi/scout, agno-agi/dash, dair-ai/Prompt-Engineering-Guide",
+    "Country": ""
+  },
+  {
+    "User": "esokullu",
+    "Name": "",
+    "Repos": 2,
+    "Contributions": 4135,
+    "Weighted contributions": 28608,
+    "Top repos": "webbrain-one/webbrain, davepoon/buildwithclaude",
+    "Country": ""
+  },
+  {
+    "User": "javanna",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 2540,
+    "Weighted contributions": 28608,
+    "Top repos": "elastic/elasticsearch",
+    "Country": ""
+  },
+  {
+    "User": "stweil",
+    "Name": "Stefan Weil",
+    "Repos": 5,
+    "Contributions": 2558,
+    "Weighted contributions": 28536,
+    "Top repos": "tesseract-ocr/tesseract, mittagessen/kraken, codelibs/fess, inception-project/inception, Belval/TextRecognitionDataGenerator",
+    "Country": "Germany"
+  },
+  {
+    "User": "SkalskiP",
+    "Name": "Piotr Skalski",
+    "Repos": 29,
+    "Contributions": 3115,
+    "Weighted contributions": 28381,
+    "Top repos": "roboflow/supervision, SkalskiP/make-sense, roboflow/notebooks, roboflow/maestro, SkalskiP/ILearnDeepLearning.py, roboflow/rf-detr, SkalskiP/courses, SkalskiP/top-cvpr-2024-papers, roboflow/inference, roboflow/sports",
+    "Country": ""
+  },
+  {
+    "User": "aleju",
+    "Name": "Alexander Jung",
+    "Repos": 4,
+    "Contributions": 3013,
+    "Weighted contributions": 28356,
+    "Top repos": "aleju/imgaug, aleju/papers, aleju/mario-ai, jmschrei/pomegranate",
+    "Country": "Germany"
+  },
+  {
+    "User": "blinkov",
+    "Name": "Ivan Blinkov",
+    "Repos": 3,
+    "Contributions": 3862,
+    "Weighted contributions": 28346,
+    "Top repos": "myscale/MyScaleDB, timeplus-io/proton, punkpeye/awesome-mcp-servers",
+    "Country": "Thailand"
+  },
+  {
+    "User": "dfalbel",
+    "Name": "Daniel Falbel",
+    "Repos": 4,
+    "Contributions": 4410,
+    "Weighted contributions": 28341,
+    "Top repos": "mlverse/torch, rstudio/keras3, rstudio/tensorflow, rusty1s/pytorch_sparse",
+    "Country": "Brazil"
+  },
+  {
+    "User": "asim",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 2805,
+    "Weighted contributions": 28179,
+    "Top repos": "micro/go-micro",
+    "Country": ""
+  },
+  {
+    "User": "noah-duncan",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 4280,
+    "Weighted contributions": 28165,
+    "Top repos": "attendee-labs/attendee",
+    "Country": ""
+  },
+  {
+    "User": "andrey-khropov",
+    "Name": "Andrei (Andrey) Khropov",
+    "Repos": 1,
+    "Contributions": 3087,
+    "Weighted contributions": 28140,
+    "Top repos": "catboost/catboost",
+    "Country": "Serbia"
+  },
+  {
+    "User": "kaitranntt",
+    "Name": "Kai (Tam Nhu) Tran",
+    "Repos": 4,
+    "Contributions": 3529,
+    "Weighted contributions": 28081,
+    "Top repos": "kaitranntt/ccs, nextlevelbuilder/goclaw, router-for-me/CLIProxyAPI, kittors/CliRelay",
+    "Country": "Canada"
+  },
+  {
+    "User": "chaoyanghe",
+    "Name": "Chaoyang He",
+    "Repos": 1,
+    "Contributions": 3377,
+    "Weighted contributions": 28063,
+    "Top repos": "FedML-AI/FedML",
+    "Country": "USA"
+  },
+  {
+    "User": "chernistry",
+    "Name": "",
+    "Repos": 21,
+    "Contributions": 3983,
+    "Weighted contributions": 28045,
+    "Top repos": "sipyourdrink-ltd/bernstein, Jenqyang/Awesome-AI-Agents, rohitg00/awesome-claude-code-toolkit, numtide/llm-agents.nix, jamesmurdza/awesome-ai-devtools, taishi-i/awesome-ChatGPT-repositories, kyrolabs/awesome-agents, andyrewlee/awesome-agent-orchestrators, nibzard/awesome-agentic-patterns, Meirtz/Awesome-Context-Engineering",
+    "Country": ""
+  },
+  {
+    "User": "michalmac",
+    "Name": "Michal Maciejewski",
+    "Repos": 1,
+    "Contributions": 4334,
+    "Weighted contributions": 28024,
+    "Top repos": "matsim-org/matsim-libs",
+    "Country": ""
+  },
+  {
+    "User": "nesquena-hermes",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 2849,
+    "Weighted contributions": 27947,
+    "Top repos": "nesquena/hermes-webui",
+    "Country": ""
+  },
+  {
+    "User": "ZoranPandovski",
+    "Name": "Zoran Pandovski",
+    "Repos": 10,
+    "Contributions": 2745,
+    "Weighted contributions": 27887,
+    "Top repos": "mindsdb/mindshub, mindsdb/anton, mindsdb/lightwood, josephmisiti/awesome-machine-learning, EthicalML/awesome-production-machine-learning, academic/awesome-datascience, walkinglabs/learn-harness-engineering, src-d/awesome-machine-learning-on-source-code, guan-yuan/Awesome-AutoML-and-Lightweight-Models, jphall663/awesome-machine-learning-interpretability",
+    "Country": "Macedonia"
+  },
+  {
+    "User": "omichel",
+    "Name": "Olivier Michel",
+    "Repos": 5,
+    "Contributions": 3329,
+    "Weighted contributions": 27879,
+    "Top repos": "cyberbotics/webots, cyberbotics/webots_ros2, fkromer/awesome-ros2, opendr-eu/opendr, vmayoral/ros-robotics-companies",
+    "Country": "Switzerland"
+  },
+  {
+    "User": "mayneyao",
+    "Name": "Mayne",
+    "Repos": 2,
+    "Contributions": 3456,
+    "Weighted contributions": 27877,
+    "Top repos": "mayneyao/eidos, nashsu/AutoCLI",
+    "Country": "China"
+  },
+  {
+    "User": "mrieser",
+    "Name": "Marcel",
+    "Repos": 1,
+    "Contributions": 4309,
+    "Weighted contributions": 27863,
+    "Top repos": "matsim-org/matsim-libs",
+    "Country": "Switzerland"
+  },
+  {
+    "User": "gfursin",
+    "Name": "Grigori Fursin",
+    "Repos": 1,
+    "Contributions": 4299,
+    "Weighted contributions": 27851,
+    "Top repos": "mlcommons/ck",
+    "Country": "France"
+  },
+  {
+    "User": "ryanrhymes",
+    "Name": "Liang Wang",
+    "Repos": 1,
+    "Contributions": 3862,
+    "Weighted contributions": 27837,
+    "Top repos": "owlbarn/owl",
+    "Country": "UK"
+  },
+  {
+    "User": "frankseide",
+    "Name": "Frank Seide",
+    "Repos": 1,
+    "Contributions": 2843,
+    "Weighted contributions": 27791,
+    "Top repos": "microsoft/CNTK",
+    "Country": "USA"
+  },
+  {
+    "User": "kerbelp",
+    "Name": "Pavel Kerbel",
+    "Repos": 1,
+    "Contributions": 3045,
+    "Weighted contributions": 27773,
+    "Top repos": "ai-collection/ai-collection",
+    "Country": "Israel"
+  },
+  {
+    "User": "Ravenwater",
+    "Name": "",
+    "Repos": 1,
+    "Contributions": 4467,
+    "Weighted contributions": 27761,
+    "Top repos": "stillwater-sc/universal",
+    "Country": ""
+  },
+  {
+    "User": "jsimsa",
+    "Name": "Jiri Simsa",
+    "Repos": 10,
+    "Contributions": 3007,
+    "Weighted contributions": 27714,
+    "Top repos": "Alluxio/alluxio, tensorflow/tensorflow, NVIDIA/tensorflow, DeepRec-AI/DeepRec, tensorflow/docs, tensorflow/io, google-research/federated, tensorflow/benchmarks, google-parfait/tensorflow-federated, google-deepmind/deepmind-research",
+    "Country": "USA"
+  },
+  {
+    "User": "0xeb",
+    "Name": "Elias Bachaalany",
+    "Repos": 3,
+    "Contributions": 3108,
+    "Weighted contributions": 27517,
+    "Top repos": "0xeb/TheBigPromptLibrary, LouisShark/chatgpt_system_prompt, fr0gger/Awesome-GPT-Agents",
+    "Country": ""
+  },
+  {
+    "User": "CREDO23",
+    "Name": "Thierry CH.",
+    "Repos": 1,
+    "Contributions": 2837,
+    "Weighted contributions": 27482,
+    "Top repos": "MODSetter/SurfSense",
+    "Country": ""
+  },
+  {
+    "User": "e7h4n",
+    "Name": "Ethan Zhang",
+    "Repos": 1,
+    "Contributions": 3898,
+    "Weighted contributions": 27478,
+    "Top repos": "vm0-ai/vm0",
+    "Country": ""
+  },
+  {
+    "User": "codefollower",
+    "Name": "codefollower",
+    "Repos": 1,
+    "Contributions": 3496,
+    "Weighted contributions": 27468,
+    "Top repos": "lealone/Lealone",
+    "Country": "China"
+  },
+  {
+    "User": "andy-wm-arthur",
+    "Name": "AndyA",
+    "Repos": 1,
+    "Contributions": 2717,
+    "Weighted contributions": 27448,
+    "Top repos": "dolthub/dolt",
+    "Country": "USA"
+  },
+  {
+    "User": "kshitijk4poor",
+    "Name": "kshitij",
+    "Repos": 1,
+    "Contributions": 2209,
+    "Weighted contributions": 27399,
+    "Top repos": "NousResearch/hermes-agent",
+    "Country": "India"
+  },
+  {
+    "User": "manu354",
+    "Name": "Manu Masson",
+    "Repos": 2,
+    "Contributions": 4014,
+    "Weighted contributions": 27392,
+    "Top repos": "voicetreelab/voicetree, stablyai/agent-slack",
+    "Country": "Australia"
+  }
+]

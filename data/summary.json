@@ -1,15 +1,6 @@
 {
-  "total_repos": 250,
-  "total_stars": 11842824,
-  "categories_count": 7,
-  "categories": {
-    "AI Engineering": 105,
-    "Applications": 83,
-    "Lists": 14,
-    "Tutorials": 13,
-    "Infrastructure": 27,
-    "Model Development": 3,
-    "Models": 5
-  },
-  "updated_at": "2026-09-10T07:43:58.870083+00:00"
+  "total_repos": 19617,
+  "total_devs": 207867,
+  "total_stars": 72664483,
+  "updated_at": "2026-09-10T08:12:05.932943"
 }
