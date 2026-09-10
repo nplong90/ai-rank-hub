@@ -1,4 +1,4 @@
-ai-rank-hub — Open Source AI Velocity & 1-Click Deploy
+ZenAIList — Open Source AI Velocity & 1-Click Deploy
 Updated: 2026-09-10
 
 RANK | REPOSITORY                     | STARS   | +1D STARS | DEPLOY TARGET
