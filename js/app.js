@@ -1,4 +1,4 @@
-// js/app.js - Comprehensive GoodAIList Clone with Multi-Tab Navigation & Chart.js
+// js/app.js - Enhanced GoodAIList Pro Engine with Velocity Spotlight & Hardware Specs
 
 let reposData = [];
 let devsData = [];
@@ -7,7 +7,6 @@ let categoryStats = null;
 let locationStats = null;
 let affiliates = {};
 
-// Filter & pagination states
 let reposFiltered = [];
 let reposPage = 1;
 let reposPageSize = 50;
@@ -39,6 +38,7 @@ async function init() {
     affiliates = await affRes.json();
 
     renderHeaderStats();
+    renderVelocitySpotlight();
     initTabs();
     initReposTab();
     initDevsTab();
@@ -59,7 +59,48 @@ function formatCompact(num) {
 function renderHeaderStats() {
   document.getElementById('header-repos-count').textContent = formatCompact(summaryData.total_repos || reposData.length);
   document.getElementById('header-devs-count').textContent = formatCompact(summaryData.total_devs || devsData.length);
-  document.getElementById('header-stars-count').textContent = formatCompact(summaryData.total_stars || 72000000);
+  document.getElementById('header-stars-count').textContent = formatCompact(summaryData.total_stars || 72664000);
+}
+
+// Render Top 3 Breakout Repos (Velocity Radar)
+function renderVelocitySpotlight() {
+  const radarGrid = document.getElementById('radar-grid');
+  if (!radarGrid) return;
+  radarGrid.innerHTML = '';
+
+  const top3 = [...reposData].sort((a, b) => (b.star_1d || 0) - (a.star_1d || 0)).slice(0, 3);
+  const railwayRef = affiliates.cloud_deploy?.railway?.url_template || "https://railway.com?referralCode=Ks00DU";
+
+  const badges = [
+    { text: 'BREAKOUT #1', cls: 'radar-badge-breakout' },
+    { text: 'VIRAL +2.5K/D', cls: 'radar-badge-trending' },
+    { text: 'GPU ACCELERATED', cls: 'radar-badge-gpu' }
+  ];
+
+  top3.forEach((r, idx) => {
+    const card = document.createElement('div');
+    card.className = 'radar-card';
+    card.innerHTML = `
+      <div>
+        <div class="radar-badge-row">
+          <span class="radar-badge ${badges[idx].cls}">${badges[idx].text}</span>
+          <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-quaternary);">Velocity Rank #${idx+1}</span>
+        </div>
+        <a href="https://github.com/${r.repo}" target="_blank" rel="noopener" class="radar-repo-name">${r.repo}</a>
+        <p class="radar-desc">${r.description || 'No description provided.'}</p>
+      </div>
+      <div class="radar-footer">
+        <div style="display: flex; flex-direction: column;">
+          <span class="radar-growth">+${(r.star_1d || 0).toLocaleString()} stars today</span>
+          <span style="font-size: 0.75rem; color: var(--text-quaternary); font-family: var(--font-mono);">${(r.stars || 0).toLocaleString()} total stars</span>
+        </div>
+        <a href="${railwayRef}" target="_blank" rel="noopener sponsored" class="btn-deploy-action btn-deploy-railway">
+          <span>Deploy 1-Click</span>
+        </a>
+      </div>
+    `;
+    radarGrid.appendChild(card);
+  });
 }
 
 function initTabs() {
@@ -88,6 +129,15 @@ function initTabs() {
 // -------------------------------------------------------------
 // REPOS TAB
 // -------------------------------------------------------------
+function getHardwareSpec(r) {
+  const text = ((r.repo || '') + ' ' + (r.description || '')).toLowerCase();
+  if (text.includes('vllm') || text.includes('70b') || text.includes('deepseek')) return '8x H100 / 80GB';
+  if (text.includes('diffusion') || text.includes('comfyui') || text.includes('flux')) return '1x RTX 4090 / 24GB';
+  if (text.includes('ollama') || text.includes('inference') || text.includes('audio') || text.includes('voice')) return '1x A10G / 16GB';
+  if (text.includes('bot') || text.includes('agent') || text.includes('browser') || text.includes('rag') || text.includes('crawler')) return '1 vCPU / 2GB RAM';
+  return 'Cloud Serverless';
+}
+
 function initReposTab() {
   const catFilter = document.getElementById('repos-category-filter');
   const subcatFilter = document.getElementById('repos-subcat-filter');
@@ -201,28 +251,32 @@ function renderReposTable() {
     const isGpu = r.deploy_type === 'gpu';
     const deployUrl = isGpu ? runpodRef : railwayRef;
     const deployLabel = isGpu ? 'Deploy GPU' : 'Deploy';
+    const hwSpec = getHardwareSpec(r);
 
     tr.innerHTML = `
       <td class="rank-text">${rank}</td>
       <td>
         <div class="repo-block">
-          <div style="display: flex; align-items: center; gap: 0.5rem;">
+          <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
             <a href="https://github.com/${r.repo}" target="_blank" rel="noopener" class="repo-name-link">${r.repo}</a>
             <span class="badge-tag">${r.language || 'Code'}</span>
+            <span class="badge-tag" style="color: var(--accent-violet); border-color: rgba(113, 112, 255, 0.2);">${r.category || 'AI'}</span>
           </div>
           <span class="repo-desc">${r.description || 'No description provided.'}</span>
         </div>
       </td>
+      <td>
+        <span class="hw-spec-pill">
+          <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/><line x1="9" y1="20" x2="9" y2="23"/><line x1="15" y1="20" x2="15" y2="23"/><line x1="20" y1="9" x2="23" y2="9"/><line x1="20" y1="15" x2="23" y2="15"/><line x1="1" y1="9" x2="4" y2="9"/><line x1="1" y1="15" x2="4" y2="15"/></svg>
+          <span>${hwSpec}</span>
+        </span>
+      </td>
       <td style="font-family: var(--font-mono); font-weight: 500; color: var(--text-primary);">${(r.stars || 0).toLocaleString()}</td>
       <td><span class="pill-growth-green">+${(r.star_1d || 0).toLocaleString()}</span></td>
       <td><span class="pill-growth-sky">+${(r.star_7d || 0).toLocaleString()}</span></td>
-      <td style="font-family: var(--font-mono); color: var(--text-tertiary); font-size: 0.8rem;">${(r.forks || 0).toLocaleString()}</td>
-      <td>
-        <span class="badge-tag">${r.category || 'AI'}</span>
-      </td>
       <td>
         <div class="deploy-actions">
-          <a href="${deployUrl}" target="_blank" rel="noopener sponsored" class="btn-deploy-action" title="Deploy on Cloud">
+          <a href="${deployUrl}" target="_blank" rel="noopener sponsored" class="btn-deploy-action ${!isGpu ? 'btn-deploy-railway' : ''}" title="Deploy on Cloud">
             <span>${deployLabel}</span>
           </a>
         </div>
@@ -330,7 +384,7 @@ function renderDevsTable() {
       <td style="font-family: var(--font-mono);">${d.Repos || 0}</td>
       <td style="font-family: var(--font-mono); color: var(--text-primary);">${(d.Contributions || 0).toLocaleString()}</td>
       <td style="font-family: var(--font-mono); color: var(--accent-violet); font-weight: 600;">${(d['Weighted contributions'] || 0).toLocaleString()}</td>
-      <td style="font-size: 0.8rem; color: var(--text-tertiary); max-width: 400px; white-space: normal;">
+      <td style="font-size: 0.8rem; color: var(--text-tertiary); max-width: 420px; white-space: normal;">
         ${d['Top repos'] || '—'}
       </td>
     `;
@@ -344,30 +398,20 @@ function renderDevsTable() {
 function renderCategoryCharts() {
   if (!categoryStats || !categoryStats.months) return;
 
-  const months = categoryStats.months.slice(-60); // Last 5 years
+  const months = categoryStats.months.slice(-60);
   const categories = categoryStats.categories || [];
 
-  const colors = [
-    '#7170ff',
-    '#38bdf8',
-    '#10b981',
-    '#f59e0b',
-    '#ec4899'
-  ];
+  const colors = ['#7170ff', '#38bdf8', '#10b981', '#f59e0b', '#ec4899'];
 
-  // Chart 1: Cumulative Repos
-  const repoDatasets = categories.map((cat, i) => {
-    const fullData = categoryStats.cumulative_repos[cat] || [];
-    return {
-      label: cat,
-      data: fullData.slice(-60),
-      borderColor: colors[i % colors.length],
-      backgroundColor: 'transparent',
-      borderWidth: 2,
-      tension: 0.3,
-      pointRadius: 0
-    };
-  });
+  const repoDatasets = categories.map((cat, i) => ({
+    label: cat,
+    data: (categoryStats.cumulative_repos[cat] || []).slice(-60),
+    borderColor: colors[i % colors.length],
+    backgroundColor: 'transparent',
+    borderWidth: 2,
+    tension: 0.3,
+    pointRadius: 0
+  }));
 
   const ctxRepos = document.getElementById('chart-repos-time').getContext('2d');
   new Chart(ctxRepos, {
@@ -387,19 +431,15 @@ function renderCategoryCharts() {
     }
   });
 
-  // Chart 2: Cumulative Stars
-  const starDatasets = categories.map((cat, i) => {
-    const fullData = categoryStats.cumulative_stars[cat] || [];
-    return {
-      label: cat,
-      data: fullData.slice(-60),
-      borderColor: colors[i % colors.length],
-      backgroundColor: 'transparent',
-      borderWidth: 2,
-      tension: 0.3,
-      pointRadius: 0
-    };
-  });
+  const starDatasets = categories.map((cat, i) => ({
+    label: cat,
+    data: (categoryStats.cumulative_stars[cat] || []).slice(-60),
+    borderColor: colors[i % colors.length],
+    backgroundColor: 'transparent',
+    borderWidth: 2,
+    tension: 0.3,
+    pointRadius: 0
+  }));
 
   const ctxStars = document.getElementById('chart-stars-time').getContext('2d');
   new Chart(ctxStars, {
@@ -429,15 +469,13 @@ function initCountriesTab() {
   const tbody = document.getElementById('countries-tbody');
   tbody.innerHTML = '';
 
-  const countryEntries = Object.entries(locationStats.countries).map(([name, data]) => {
-    return {
-      name,
-      repos: data.total_repos || 0,
-      stars: data.total_stars || 0,
-      devs: data.total_devs || 0,
-      contributions: data.total_contributions || 0
-    };
-  });
+  const countryEntries = Object.entries(locationStats.countries).map(([name, data]) => ({
+    name,
+    repos: data.total_repos || 0,
+    stars: data.total_stars || 0,
+    devs: data.total_devs || 0,
+    contributions: data.total_contributions || 0
+  }));
 
   countryEntries.sort((a, b) => b.stars - a.stars);
 
@@ -480,9 +518,7 @@ function renderCountriesChart() {
     options: {
       responsive: true,
       maintainAspectRatio: false,
-      plugins: {
-        legend: { display: false }
-      },
+      plugins: { legend: { display: false } },
       scales: {
         x: { grid: { display: false }, ticks: { color: '#8a8f98' } },
         y: { grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#8a8f98' } }

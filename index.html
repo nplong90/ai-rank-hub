@@ -3,81 +3,92 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Good AI List — AI Open Source Projects, Developers & Rankings</title>
-  <meta name="description" content="Daily tracked rankings of AI open source projects, developers, countries, and categories with 1-click cloud deployment.">
+  <title>Good AI List Pro — Open Source AI Rankings & 1-Click Deployment</title>
+  <meta name="description" content="AI open source repository intelligence, real-time star velocity, hardware specifications, and 1-click cloud deployment.">
   <link rel="stylesheet" href="css/style.css">
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
 
-  <!-- Background Glow -->
   <div class="ambient-glow"></div>
 
-  <!-- Shared Header -->
+  <!-- Header -->
   <header class="site-header">
     <div class="header-left">
       <div class="logo-group">
         <a href="/" class="logo-link">
           <div class="logo-icon">▲</div>
           <div class="logo-texts">
-            <span class="logo-title">Good AI List</span>
-            <span class="logo-tagline">AI open source projects & developers</span>
+            <span class="logo-title">
+              Good AI List
+              <span class="badge-pro">PRO MAX</span>
+            </span>
+            <span class="logo-tagline">AI open source projects & developer intelligence</span>
           </div>
         </a>
       </div>
     </div>
     <div class="header-right">
       <div class="header-chip">
-        <span class="chip-emoji">⚙️</span>
         <span class="chip-text">
           <span id="header-repos-count">—</span>
           <span class="chip-label">repos</span>
         </span>
       </div>
       <div class="header-chip">
-        <span class="chip-emoji">👤</span>
         <span class="chip-text">
           <span id="header-devs-count">—</span>
           <span class="chip-label">devs</span>
         </span>
       </div>
       <div class="header-chip">
-        <span class="chip-emoji">⭐</span>
         <span class="chip-text">
           <span id="header-stars-count">—</span>
           <span class="chip-label">stars</span>
         </span>
       </div>
       <a href="https://railway.com?referralCode=Ks00DU" target="_blank" rel="noopener sponsored" class="btn-primary-deploy">
-        <span>Deploy Cloud</span>
+        <span>Deploy Cloud ($5 Free)</span>
       </a>
     </div>
   </header>
 
-  <!-- Navigation Tabs Bar -->
+  <!-- Tabs Navigation -->
   <nav class="tabs-bar">
     <div class="tabs">
-      <button class="tab-btn active" data-tab="repos">Repos</button>
-      <button class="tab-btn" data-tab="devs">Devs</button>
-      <button class="tab-btn" data-tab="categories">Categories</button>
-      <button class="tab-btn" data-tab="countries">Countries</button>
+      <button class="tab-btn active" data-tab="repos">Repos Velocity</button>
+      <button class="tab-btn" data-tab="devs">Top Developers</button>
+      <button class="tab-btn" data-tab="categories">Category Growth</button>
+      <button class="tab-btn" data-tab="countries">Country Ecosystems</button>
     </div>
-    <div class="tabs-actions">
-      <span class="update-pulse">● Live Sync</span>
+    <div class="tabs-actions" style="display: flex; align-items: center; gap: 0.75rem;">
+      <a href="cli.txt" target="_blank" class="cli-badge-btn" title="Open Terminal Raw Feed">
+        <span>curl -sL cli.txt</span>
+      </a>
+      <a href="data/repos.json" target="_blank" class="cli-badge-btn" title="Direct JSON API">
+        <span>JSON API</span>
+      </a>
     </div>
   </nav>
 
   <!-- Main Content Area -->
   <main class="container">
 
-    <!-- TAB 1: REPOS TAB -->
+    <!-- TAB 1: REPOS VELOCITY -->
     <section id="tab-repos" class="tab-pane active">
+
+      <!-- Velocity Radar (Spotlight Top 3 Breakout Repos) -->
+      <div class="velocity-radar-grid" id="radar-grid">
+        <!-- Injected by JS -->
+      </div>
+
+      <!-- Controls Filter Bar -->
       <div class="controls-panel">
         <div class="search-wrapper">
           <svg class="search-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
           </svg>
-          <input type="text" id="repos-search" class="search-input" placeholder="Search repos, descriptions, models (vllm, agent, comfyui)...">
+          <input type="text" id="repos-search" class="search-input" placeholder="Search repos, models (vllm, deepseek, ollama, agent, comfyui)...">
         </div>
         <select id="repos-category-filter" class="custom-select">
           <option value="">All Categories</option>
@@ -86,32 +97,30 @@
           <option value="">All Subcategories</option>
         </select>
         <select id="repos-sort-filter" class="custom-select">
-          <option value="star_1d_desc">Fastest Growing (1-Day Stars)</option>
-          <option value="star_7d_desc">Trending This Week (7-Day Stars)</option>
-          <option value="stars_desc">Total Stars</option>
-          <option value="forks_desc">Forks</option>
+          <option value="star_1d_desc">Fastest Velocity (+1D Stars)</option>
+          <option value="star_7d_desc">Weekly Momentum (+7D Stars)</option>
+          <option value="stars_desc">Total All-Time Stars</option>
+          <option value="forks_desc">Fork Volume</option>
         </select>
-        <div class="page-size-wrapper">
-          <select id="repos-page-size" class="custom-select">
-            <option value="25">25 / page</option>
-            <option value="50" selected>50 / page</option>
-            <option value="100">100 / page</option>
-          </select>
-        </div>
+        <select id="repos-page-size" class="custom-select">
+          <option value="25">25 / page</option>
+          <option value="50" selected>50 / page</option>
+          <option value="100">100 / page</option>
+        </select>
       </div>
 
+      <!-- Repos Table with Specs & Deploy Buttons -->
       <div class="table-container">
         <table class="table-linear">
           <thead>
             <tr>
               <th style="width: 50px;">#</th>
-              <th>Repository</th>
+              <th>Repository & Architecture</th>
+              <th style="width: 150px;">Hardware Spec</th>
               <th style="width: 110px;">Stars</th>
-              <th style="width: 100px;">1d</th>
-              <th style="width: 100px;">7d</th>
-              <th style="width: 90px;">Forks</th>
-              <th style="width: 140px;">Category</th>
-              <th style="width: 170px;">1-Click Deploy</th>
+              <th style="width: 100px;">+1D Growth</th>
+              <th style="width: 100px;">+7D Trend</th>
+              <th style="width: 160px;">1-Click Deploy</th>
             </tr>
           </thead>
           <tbody id="repos-tbody">
@@ -149,7 +158,7 @@
           <thead>
             <tr>
               <th style="width: 50px;">#</th>
-              <th style="width: 60px;">Country</th>
+              <th style="width: 80px;">Country</th>
               <th>Developer</th>
               <th style="width: 100px;">Repos</th>
               <th style="width: 140px;">Contributions</th>
@@ -176,7 +185,7 @@
       <div class="chart-section">
         <div class="chart-card">
           <h2 class="chart-title">Cumulative Repo Count Over Time</h2>
-          <p class="chart-desc">Growth of open source AI repositories by major architectural domain.</p>
+          <p class="chart-desc">Growth of open source AI repositories by architectural domain.</p>
           <div class="canvas-wrapper">
             <canvas id="chart-repos-time"></canvas>
           </div>
@@ -227,12 +236,12 @@
   <footer class="site-footer">
     <div class="container" style="padding-top: 0; padding-bottom: 0;">
       <div class="disclosure-card">
-        <strong>Affiliate & Cloud Partner Notice:</strong> Deployment buttons feature verified 1-click cloud partners (Railway, RunPod, OpenRouter). When you sign up and launch instances, we may receive cloud server credits at no extra cost to you.
+        <strong>Partner & Affiliate Notice:</strong> Cloud deployment actions contain referral partnerships (Railway, RunPod, OpenRouter). We may earn credit or commission upon signup at zero extra cost to you, fueling free daily metric pipelines.
       </div>
       <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
-        <div>&copy; 2026 Good AI List (Pro Max Edition). All metrics synced daily.</div>
+        <div>&copy; 2026 Good AI List Pro. Open Source Intelligence Engine.</div>
         <div style="display: flex; gap: 1.5rem;">
-          <a href="https://railway.com?referralCode=Ks00DU" target="_blank" rel="noopener sponsored" style="color: var(--accent-violet);">Deploy on Railway</a>
+          <a href="https://railway.com?referralCode=Ks00DU" target="_blank" rel="noopener sponsored" style="color: var(--accent-violet);">Deploy Railway ($5 Credit)</a>
           <a href="https://github.com/nplong90/ai-rank-hub" target="_blank" rel="noopener" style="color: var(--text-tertiary);">GitHub Source</a>
         </div>
       </div>

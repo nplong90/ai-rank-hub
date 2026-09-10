@@ -1,0 +1,18 @@
+ai-rank-hub — Open Source AI Velocity & 1-Click Deploy
+Updated: 2026-09-10
+
+RANK | REPOSITORY                     | STARS   | +1D STARS | DEPLOY TARGET
+-----+--------------------------------+---------+-----------+----------------------------------------------
+#01  | ayghri/i-have-adhd             |  32,900 |    +4,217 | Railway: https://railway.com?referralCode=Ks00DU
+#02  | cathrynlavery/diagram-design   |  36,183 |    +2,585 | Railway: https://railway.com?referralCode=Ks00DU
+#03  | deepseek-ai/DeepSeek-V3        |  78,410 |    +2,140 | GPU (RunPod): 8x H100
+#04  | vllm-project/vllm              |  41,890 |    +1,890 | GPU (RunPod): 1x RTX 4090 / A10G
+#05  | standard-ai/openclaw           |  52,340 |    +1,650 | Railway: https://railway.com?referralCode=Ks00DU
+#06  | comfyui/ComfyUI                |  64,210 |    +1,420 | GPU (RunPod): 1x RTX 3090/4090
+#07  | ollama/ollama                  | 118,500 |    +1,380 | Local / Cloud Droplet
+#08  | browser-use/browser-use        |  34,700 |    +1,290 | Railway: https://railway.com?referralCode=Ks00DU
+#09  | Dify-AI/dify                   |  62,800 |    +1,150 | Railway: https://railway.com?referralCode=Ks00DU
+#10  | open-webui/open-webui          |  68,900 |    +1,080 | Railway: https://railway.com?referralCode=Ks00DU
+
+API: https://nplong90.github.io/ai-rank-hub/data/repos.json
+Web: https://nplong90.github.io/ai-rank-hub/
