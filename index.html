@@ -3,61 +3,82 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AIRankHub - Open Source AI Rankings & One-Click Deploy</title>
-  <meta name="description" content="Discover top trending AI open source repositories, star growth velocities, and 1-click cloud deployment.">
+  <title>Linear AI Index — Open Source AI Velocity & Rankings</title>
+  <meta name="description" content="Discover fast-growing AI repositories, real-time star velocity, and 1-click cloud deployment pipelines.">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-  <!-- Site Header -->
+  <!-- Linear Ambient Glow Background -->
+  <div class="ambient-glow"></div>
+
+  <!-- Header -->
   <header class="site-header">
     <div class="logo-group">
-      <span class="logo-badge">PRO MAX</span>
-      <span class="logo-text">AI Rank Hub</span>
+      <div class="logo-icon">▲</div>
+      <div class="logo-title">Linear AI Index</div>
     </div>
     <div class="header-links">
-      <a href="#repos" class="header-link">Top Repos</a>
-      <a href="config/affiliates.json" class="header-link" target="_blank">Partner Deals</a>
-      <a href="https://github.com" target="_blank" rel="noopener" class="btn-affiliate-top">Get GPU Credits ($25)</a>
+      <a href="#repos" class="nav-link">Directory</a>
+      <a href="config/affiliates.json" class="nav-link" target="_blank">Cloud Deals</a>
+      <a href="https://runpod.io" target="_blank" rel="noopener sponsored" class="btn-primary-glow">
+        <span>Deploy GPU</span>
+        <span style="opacity: 0.7; font-size: 0.75rem;">$25 Credit</span>
+      </a>
     </div>
   </header>
 
-  <!-- Main App -->
+  <!-- Main Container -->
   <main class="container" id="repos">
     
-    <!-- Top Summary Banner -->
-    <div class="stats-banner">
-      <div class="stat-card">
-        <div class="stat-label">Tracked Repos</div>
-        <div class="stat-value" id="stat-total-repos">-</div>
-        <div class="stat-sub">Top Trending AI Models & Tools</div>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-pill">
+        <span class="hero-pill-dot"></span>
+        <span>Tracking 250+ top velocity repositories daily</span>
       </div>
-      <div class="stat-card">
-        <div class="stat-label">Total Stars Monitored</div>
-        <div class="stat-value" id="stat-total-stars">-</div>
-        <div class="stat-sub">Open Source Ecosystem</div>
+      <h1 class="hero-title">The pulse of open source AI.</h1>
+      <p class="hero-subtitle">
+        Curated velocity tracking across modern AI frameworks, LLMs, and autonomous agents. Optimized with 1-click cloud deployment.
+      </p>
+    </section>
+
+    <!-- Bento Stats -->
+    <div class="bento-grid">
+      <div class="bento-card">
+        <div class="bento-label">Tracked Repos</div>
+        <div class="bento-value" id="stat-total-repos">-</div>
+        <div class="bento-sub">Active open source projects</div>
       </div>
-      <div class="stat-card">
-        <div class="stat-label">Growth Velocity</div>
-        <div class="stat-value" style="color: var(--color-accent);">1D / 7D Deltas</div>
-        <div class="stat-sub">Auto-updated every 6 hours</div>
+      <div class="bento-card">
+        <div class="bento-label">Aggregated Stars</div>
+        <div class="bento-value" id="stat-total-stars">-</div>
+        <div class="bento-sub">Across monitored repositories</div>
       </div>
-      <div class="stat-card">
-        <div class="stat-label">Last Synchronized</div>
-        <div class="stat-value" id="stat-updated-at" style="font-size: 1.25rem;">-</div>
-        <div class="stat-sub">GitHub Actions Pipeline</div>
+      <div class="bento-card">
+        <div class="bento-label">Velocity Engine</div>
+        <div class="bento-value" style="color: #4ade80;">1D / 7D Deltas</div>
+        <div class="bento-sub">Realtime star acceleration</div>
+      </div>
+      <div class="bento-card">
+        <div class="bento-label">Last Snapshot</div>
+        <div class="bento-value" id="stat-updated-at" style="font-size: 1.35rem; padding-top: 0.35rem;">-</div>
+        <div class="bento-sub">Automated pipeline sync</div>
       </div>
     </div>
 
-    <!-- Controls Bar -->
-    <div class="controls-bar">
-      <div class="search-box">
-        <input type="text" id="search-input" class="search-input" placeholder="Filter by repo name, keyword, or description (e.g. vllm, agent, comfyui)...">
+    <!-- Controls Panel -->
+    <div class="controls-panel">
+      <div class="search-wrapper">
+        <svg class="search-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+        </svg>
+        <input type="text" id="search-input" class="search-input" placeholder="Search by repository name, keyword, or model (e.g. vllm, comfyui, deepseek)...">
       </div>
-      <select id="category-filter" class="category-select">
+      <select id="category-filter" class="custom-select">
         <option value="">All Categories</option>
       </select>
-      <select id="sort-filter" class="sort-select">
+      <select id="sort-filter" class="custom-select">
         <option value="star_1d_desc">Fastest Growing (1-Day Stars)</option>
         <option value="star_7d_desc">Trending This Week (7-Day Stars)</option>
         <option value="stars_desc">Total Stars (All Time)</option>
@@ -65,45 +86,48 @@
       </select>
     </div>
 
-    <!-- Repos Table -->
-    <div class="table-wrapper">
-      <table class="repo-table">
+    <!-- Table Container -->
+    <div class="table-container">
+      <table class="table-linear">
         <thead>
           <tr>
-            <th style="width: 60px;">Rank</th>
+            <th style="width: 60px;">#</th>
             <th>Repository</th>
-            <th style="width: 120px;">Total Stars</th>
-            <th style="width: 110px;">+1D Stars</th>
-            <th style="width: 110px;">+7D Stars</th>
-            <th style="width: 180px;">Cloud Deploy & API</th>
+            <th style="width: 130px;">Total Stars</th>
+            <th style="width: 120px;">+1D Stars</th>
+            <th style="width: 120px;">+7D Stars</th>
+            <th style="width: 200px;">Deploy & Inference</th>
           </tr>
         </thead>
         <tbody id="repos-tbody">
-          <!-- Populated by js/app.js -->
+          <!-- Populated by app.js -->
         </tbody>
       </table>
-    </div>
 
-    <!-- Pagination -->
-    <div class="pagination">
-      <button id="prev-page-btn" class="pagination-btn">Previous</button>
-      <span id="page-info">Loading repositories...</span>
-      <button id="next-page-btn" class="pagination-btn">Next</button>
+      <!-- Pagination -->
+      <div class="pagination-row">
+        <span id="page-info">Loading repositories...</span>
+        <div class="pagination-controls">
+          <button id="prev-page-btn" class="btn-page">Previous</button>
+          <button id="next-page-btn" class="btn-page">Next</button>
+        </div>
+      </div>
     </div>
 
   </main>
 
-  <!-- Footer with FTC / Affiliate Disclosure -->
+  <!-- Footer -->
   <footer class="site-footer">
-    <div class="footer-content">
-      <div class="ftc-disclosure">
-        <strong>Affiliate & Advertising Disclosure:</strong> Some links on this directory are affiliate or referral links (such as cloud deployment credits, GPU providers, and API token platforms). When you click these links and purchase a service, we may receive compensation or platform credits at no extra cost to you. This keeps the directory free and updated round-the-clock.
+    <div class="container" style="padding-top: 0; padding-bottom: 0;">
+      <div class="disclosure-card">
+        <strong>Partner & Affiliate Notice:</strong> Some deploy actions and API integrations contain referral partnerships (RunPod, Railway, OpenRouter). We may earn credit or commission upon signup/usage at zero added expense to you, fueling automated index pipelines.
       </div>
       <div style="display: flex; justify-content: space-between; align-items: center;">
-        <div>&copy; 2026 AI Rank Hub. Designed with UI/UX Pro Max. Built for GitHub Pages.</div>
-        <div style="display: flex; gap: 1rem;">
-          <a href="#" style="text-decoration: underline;">Privacy Policy</a>
-          <a href="#" style="text-decoration: underline;">Terms of Service</a>
+        <div>&copy; 2026 Linear AI Index. Built with Linear Design System. Hosted on GitHub Pages.</div>
+        <div style="display: flex; gap: 1.5rem;">
+          <a href="#" style="color: var(--text-tertiary); text-decoration: none;">Privacy</a>
+          <a href="#" style="color: var(--text-tertiary); text-decoration: none;">Terms</a>
+          <a href="https://github.com/nplong90/ai-rank-hub" target="_blank" rel="noopener" style="color: var(--accent-violet);">GitHub Source</a>
         </div>
       </div>
     </div>

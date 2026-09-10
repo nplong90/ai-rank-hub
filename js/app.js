@@ -1,4 +1,4 @@
-// js/app.js - Client-side state & rendering engine
+// js/app.js - Modernized for Linear Dark Aesthetics
 
 let allRepos = [];
 let filteredRepos = [];
@@ -31,9 +31,9 @@ async function init() {
 }
 
 function renderSummary() {
-  document.getElementById('stat-total-repos').textContent = summary.total_repos?.toLocaleString() || allRepos.length;
+  document.getElementById('stat-total-repos').textContent = (summary.total_repos || allRepos.length).toLocaleString();
   document.getElementById('stat-total-stars').textContent = summary.total_stars ? (summary.total_stars / 1e6).toFixed(1) + 'M' : '-';
-  document.getElementById('stat-updated-at').textContent = summary.updated_at ? new Date(summary.updated_at).toLocaleDateString() : 'Today';
+  document.getElementById('stat-updated-at').textContent = summary.updated_at ? new Date(summary.updated_at).toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' }) : 'Today';
 }
 
 function populateCategories() {
@@ -48,7 +48,7 @@ function populateCategories() {
 }
 
 function setupEventListeners() {
-  document.getElementById('search-input').addEventListener('input', (e) => {
+  document.getElementById('search-input').addEventListener('input', () => {
     currentPage = 1;
     applyFiltersAndSort();
   });
@@ -109,53 +109,56 @@ function renderTable() {
   const start = (currentPage - 1) * pageSize;
   const pageRepos = filteredRepos.slice(start, start + pageSize);
 
-  document.getElementById('page-info').textContent = `Page ${currentPage} of ${totalPages} (${filteredRepos.length} repos)`;
+  document.getElementById('page-info').textContent = `Showing ${start + 1}–${Math.min(start + pageSize, filteredRepos.length)} of ${filteredRepos.length} repositories`;
   document.getElementById('prev-page-btn').disabled = currentPage === 1;
   document.getElementById('next-page-btn').disabled = currentPage >= totalPages;
 
   pageRepos.forEach((repo, idx) => {
     const tr = document.createElement('tr');
-
-    // Rank
     const rank = start + idx + 1;
 
-    // Ref URLs
     const runpodRef = affiliates.cloud_deploy?.runpod?.url_template || "https://runpod.io";
     const railwayRef = affiliates.cloud_deploy?.railway?.url_template || "https://railway.app";
     const openrouterRef = affiliates.api_inference?.openrouter?.url || "https://openrouter.ai";
 
+    const isGpu = repo.deploy_type === 'gpu';
+
     tr.innerHTML = `
-      <td class="font-mono" style="color: var(--color-muted); font-size: 0.85rem;">#${rank}</td>
+      <td class="rank-number">${rank < 10 ? '0' + rank : rank}</td>
       <td>
-        <div class="repo-cell">
-          <a href="${repo.url}" target="_blank" rel="noopener" class="repo-name">${repo.repo}</a>
-          <span class="repo-desc">${repo.description || 'No description provided.'}</span>
-          <div style="display: flex; gap: 0.5rem; align-items: center; margin-top: 0.25rem;">
-            <span class="badge badge-cat">${repo.category}</span>
-            <span class="badge" style="background: #1e293b; color: #94a3b8;">${repo.language || 'Code'}</span>
+        <div class="repo-block">
+          <div class="repo-title-row">
+            <a href="${repo.url}" target="_blank" rel="noopener" class="repo-link">${repo.repo}</a>
+            <span class="tag-badge">${repo.category}</span>
+            <span class="tag-badge" style="color: var(--text-quaternary);">${repo.language || 'Code'}</span>
           </div>
+          <p class="repo-summary">${repo.description || 'No description provided.'}</p>
         </div>
       </td>
-      <td class="font-mono" style="font-weight: 600;">${repo.stars.toLocaleString()}</td>
-      <td class="font-mono">
-        <span class="badge badge-green">+${repo.star_1d.toLocaleString()}</span>
-      </td>
-      <td class="font-mono">
-        <span class="badge" style="background: rgba(56, 189, 248, 0.15); color: #38bdf8;">+${repo.star_7d.toLocaleString()}</span>
+      <td style="font-family: var(--font-mono); font-weight: 500; color: var(--text-primary);">
+        ${repo.stars.toLocaleString()}
       </td>
       <td>
-        <div class="deploy-group">
-          ${repo.deploy_type === 'gpu' ? `
-            <a href="${runpodRef}" target="_blank" rel="noopener sponsored" class="btn-deploy btn-deploy-runpod" title="1-Click GPU Deploy on RunPod">
-              Deploy GPU
+        <span class="metric-pill metric-green">+${repo.star_1d.toLocaleString()}</span>
+      </td>
+      <td>
+        <span class="metric-pill metric-sky">+${repo.star_7d.toLocaleString()}</span>
+      </td>
+      <td>
+        <div class="actions-cell">
+          ${isGpu ? `
+            <a href="${runpodRef}" target="_blank" rel="noopener sponsored" class="btn-action btn-action-primary" title="Deploy on RunPod GPU">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+              <span>Deploy GPU</span>
             </a>
           ` : `
-            <a href="${railwayRef}" target="_blank" rel="noopener sponsored" class="btn-deploy" title="Deploy Server on Railway">
-              Deploy
+            <a href="${railwayRef}" target="_blank" rel="noopener sponsored" class="btn-action" title="Deploy on Railway">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>
+              <span>Deploy</span>
             </a>
           `}
-          <a href="${openrouterRef}" target="_blank" rel="noopener sponsored" class="btn-deploy" title="Get API Key for this AI repo">
-            API Key
+          <a href="${openrouterRef}" target="_blank" rel="noopener sponsored" class="btn-action" title="OpenRouter API Key">
+            <span>API</span>
           </a>
         </div>
       </td>
