@@ -191,6 +191,8 @@ function initReposTab() {
     const parts = e.target.value.split('_');
     reposSort.desc = parts.pop() === 'desc';
     reposSort.col = parts.join('_');
+    reposPage = 1;
+    syncSortHeaders();
     applyReposFilter();
   });
 
@@ -200,16 +202,41 @@ function initReposTab() {
     renderReposTable();
   });
 
-  document.getElementById('repos-prev-btn').addEventListener('click', () => {
-    if (reposPage > 1) { reposPage--; renderReposTable(); }
-  });
-
-  document.getElementById('repos-next-btn').addEventListener('click', () => {
-    const totalPages = Math.ceil(reposFiltered.length / reposPageSize);
-    if (reposPage < totalPages) { reposPage++; renderReposTable(); }
+  // Clickable sort headers
+  document.querySelectorAll('#repos-table-container .th-sortable').forEach(th => {
+    th.addEventListener('click', () => {
+      const col = th.dataset.sort;
+      if (reposSort.col === col) {
+        reposSort.desc = !reposSort.desc;
+      } else {
+        reposSort.col = col;
+        reposSort.desc = true;
+      }
+      reposPage = 1;
+      syncSortHeaders();
+      applyReposFilter();
+    });
   });
 
   applyReposFilter();
+}
+
+function syncSortHeaders() {
+  document.querySelectorAll('#repos-table-container .th-sortable').forEach(th => {
+    const col = th.dataset.sort;
+    const arrow = th.querySelector('.sort-arrow');
+    if (col === reposSort.col) {
+      th.classList.add('active-sort');
+      arrow.textContent = reposSort.desc ? '▼' : '▲';
+    } else {
+      th.classList.remove('active-sort');
+      arrow.textContent = '';
+    }
+  });
+  // Sync dropdown
+  const key = reposSort.col + '_' + (reposSort.desc ? 'desc' : 'asc');
+  const sel = document.getElementById('repos-sort-filter');
+  if (sel.querySelector(`option[value="${key}"]`)) sel.value = key;
 }
 
 function applyReposFilter() {
@@ -242,8 +269,7 @@ function renderReposTable() {
   const slice = reposFiltered.slice(start, start + reposPageSize);
 
   document.getElementById('repos-page-info').textContent = `Showing ${start + 1}–${Math.min(start + reposPageSize, reposFiltered.length)} of ${reposFiltered.length} repos`;
-  document.getElementById('repos-prev-btn').disabled = reposPage === 1;
-  document.getElementById('repos-next-btn').disabled = reposPage >= totalPages;
+  renderNumberedPagination('repos-pagination', reposPage, totalPages, (p) => { reposPage = p; renderReposTable(); });
 
   const railwayRef = affiliates.cloud_deploy?.railway?.url_template || "https://railway.com?referralCode=Ks00DU";
   const runpodRef = affiliates.cloud_deploy?.runpod?.url_template || "https://runpod.io";
@@ -315,15 +341,6 @@ function initDevsTab() {
     applyDevsFilter();
   });
 
-  document.getElementById('devs-prev-btn').addEventListener('click', () => {
-    if (devsPage > 1) { devsPage--; renderDevsTable(); }
-  });
-
-  document.getElementById('devs-next-btn').addEventListener('click', () => {
-    const totalPages = Math.ceil(devsFiltered.length / devsPageSize);
-    if (devsPage < totalPages) { devsPage++; renderDevsTable(); }
-  });
-
   applyDevsFilter();
 }
 
@@ -353,8 +370,7 @@ function renderDevsTable() {
   const slice = devsFiltered.slice(start, start + devsPageSize);
 
   document.getElementById('devs-page-info').textContent = `Showing ${start + 1}–${Math.min(start + devsPageSize, devsFiltered.length)} of ${devsFiltered.length} developers`;
-  document.getElementById('devs-prev-btn').disabled = devsPage === 1;
-  document.getElementById('devs-next-btn').disabled = devsPage >= totalPages;
+  renderNumberedPagination('devs-pagination', devsPage, totalPages, (p) => { devsPage = p; renderDevsTable(); });
 
   slice.forEach((d, idx) => {
     const tr = document.createElement('tr');
@@ -514,6 +530,53 @@ function renderCountriesChart() {
       }
     }
   });
+}
+
+// ── Numbered Pagination ──
+function renderNumberedPagination(containerId, current, total, onPageClick) {
+  const container = document.getElementById(containerId);
+  if (!container) return;
+  container.innerHTML = '';
+
+  if (total <= 1) return;
+
+  const addBtn = (label, page, disabled, active) => {
+    const btn = document.createElement('button');
+    btn.className = 'btn-page' + (active ? ' active-page' : '');
+    btn.textContent = label;
+    btn.disabled = disabled;
+    if (!disabled && !active) btn.addEventListener('click', () => onPageClick(page));
+    container.appendChild(btn);
+  };
+
+  const addEllipsis = () => {
+    const span = document.createElement('span');
+    span.className = 'btn-page-ellipsis';
+    span.textContent = '…';
+    container.appendChild(span);
+  };
+
+  // Prev
+  addBtn('‹', current - 1, current === 1, false);
+
+  // Page numbers with ellipsis
+  const delta = 2;
+  const pages = [];
+  for (let i = 1; i <= total; i++) {
+    if (i === 1 || i === total || (i >= current - delta && i <= current + delta)) {
+      pages.push(i);
+    }
+  }
+
+  let last = 0;
+  pages.forEach(p => {
+    if (last && p - last > 1) addEllipsis();
+    addBtn(String(p), p, false, p === current);
+    last = p;
+  });
+
+  // Next
+  addBtn('›', current + 1, current === total, false);
 }
 
 // ── Back to Top ──

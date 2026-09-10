@@ -142,6 +142,11 @@ body {
   gap: 0.75rem;
 }
 
+.chip-icon {
+  color: var(--text-tertiary);
+  flex-shrink: 0;
+}
+
 .header-chip {
   display: inline-flex;
   align-items: center;
@@ -491,6 +496,29 @@ body {
   min-width: 800px;
 }
 
+/* Sortable table headers */
+.th-sortable {
+  cursor: pointer;
+  user-select: none;
+  transition: color 0.15s;
+  white-space: nowrap;
+}
+.th-sortable:hover {
+  color: var(--text-primary);
+}
+.th-sortable.active-sort {
+  color: var(--brand-green);
+}
+.sort-arrow {
+  font-size: 0.7rem;
+  margin-left: 2px;
+  opacity: 0.5;
+}
+.th-sortable.active-sort .sort-arrow {
+  opacity: 1;
+  color: var(--brand-green);
+}
+
 .table-linear th {
   padding: 0.85rem 1rem;
   background: rgba(255, 255, 255, 0.02);
@@ -688,6 +716,20 @@ body {
 .btn-page:disabled {
   opacity: 0.3;
   cursor: not-allowed;
+}
+
+.btn-page.active-page {
+  background: var(--brand-green);
+  color: #052e16;
+  border-color: var(--brand-green);
+  font-weight: 600;
+}
+
+.btn-page-ellipsis {
+  color: var(--text-quaternary);
+  font-size: 0.75rem;
+  padding: 0 0.25rem;
+  line-height: 30px;
 }
 
 /* Chart Cards */
