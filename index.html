@@ -16,14 +16,16 @@
   <header class="site-header">
     <div class="header-left">
       <div class="logo-group">
-        <a href="/" class="logo-link">
-          <div class="logo-icon">▲</div>
+        <a href="/" class="logo-link" aria-label="ZenAIList Home">
+          <div class="logo-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          </div>
           <div class="logo-texts">
             <span class="logo-title">
               ZenAIList
-              <span class="badge-pro">PRO MAX</span>
+              <span class="badge-pro">PRO</span>
             </span>
-            <span class="logo-tagline">AI open source projects & developer intelligence</span>
+            <span class="logo-tagline">Open source AI projects & developer intelligence</span>
           </div>
         </a>
       </div>
@@ -48,18 +50,19 @@
         </span>
       </div>
       <a href="https://railway.com?referralCode=Ks00DU" target="_blank" rel="noopener sponsored" class="btn-primary-deploy">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
         <span>Deploy Cloud ($5 Free)</span>
       </a>
     </div>
   </header>
 
   <!-- Tabs Navigation -->
-  <nav class="tabs-bar">
+  <nav class="tabs-bar" role="tablist" aria-label="Main navigation">
     <div class="tabs">
-      <button class="tab-btn active" data-tab="repos">Repos Velocity</button>
-      <button class="tab-btn" data-tab="devs">Top Developers</button>
-      <button class="tab-btn" data-tab="categories">Category Growth</button>
-      <button class="tab-btn" data-tab="countries">Country Ecosystems</button>
+      <button class="tab-btn active" data-tab="repos" role="tab" aria-selected="true" aria-controls="tab-repos">Repos Velocity</button>
+      <button class="tab-btn" data-tab="devs" role="tab" aria-selected="false" aria-controls="tab-devs">Top Developers</button>
+      <button class="tab-btn" data-tab="categories" role="tab" aria-selected="false" aria-controls="tab-categories">Category Growth</button>
+      <button class="tab-btn" data-tab="countries" role="tab" aria-selected="false" aria-controls="tab-countries">Country Ecosystems</button>
     </div>
     <div class="tabs-actions" style="display: flex; align-items: center; gap: 0.75rem;">
       <a href="cli.txt" target="_blank" class="cli-badge-btn" title="Open Terminal Raw Feed">
@@ -75,7 +78,7 @@
   <main class="container">
 
     <!-- TAB 1: REPOS VELOCITY -->
-    <section id="tab-repos" class="tab-pane active">
+    <section id="tab-repos" class="tab-pane active" role="tabpanel" aria-labelledby="tab-repos">
 
       <!-- Velocity Radar (Spotlight Top 3 Breakout Repos) -->
       <div class="velocity-radar-grid" id="radar-grid">
@@ -85,33 +88,42 @@
       <!-- Controls Filter Bar -->
       <div class="controls-panel">
         <div class="search-wrapper">
-          <svg class="search-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <svg class="search-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
           </svg>
-          <input type="text" id="repos-search" class="search-input" placeholder="Search repos, models (vllm, deepseek, ollama, agent, comfyui)...">
+          <input type="text" id="repos-search" class="search-input" placeholder="Search repos, models (vllm, deepseek, ollama, agent, comfyui)..." aria-label="Search repositories">
         </div>
-        <select id="repos-category-filter" class="custom-select">
+        <select id="repos-category-filter" class="custom-select" aria-label="Filter by category">
           <option value="">All Categories</option>
         </select>
-        <select id="repos-subcat-filter" class="custom-select">
+        <select id="repos-subcat-filter" class="custom-select" aria-label="Filter by subcategory">
           <option value="">All Subcategories</option>
         </select>
-        <select id="repos-sort-filter" class="custom-select">
+        <select id="repos-sort-filter" class="custom-select" aria-label="Sort repositories">
           <option value="star_1d_desc">Fastest Velocity (+1D Stars)</option>
           <option value="star_7d_desc">Weekly Momentum (+7D Stars)</option>
           <option value="stars_desc">Total All-Time Stars</option>
           <option value="forks_desc">Fork Volume</option>
         </select>
-        <select id="repos-page-size" class="custom-select">
+        <select id="repos-page-size" class="custom-select" aria-label="Items per page">
           <option value="25">25 / page</option>
           <option value="50" selected>50 / page</option>
           <option value="100">100 / page</option>
         </select>
       </div>
 
-      <!-- Repos Table with Specs & Deploy Buttons -->
-      <div class="table-container">
-        <table class="table-linear">
+      <!-- Loading skeleton -->
+      <div id="repos-skeleton" class="table-container">
+        <div class="skeleton-row"><div class="skeleton-block" style="width:40px"></div><div class="skeleton-block" style="flex:3"></div><div class="skeleton-block" style="flex:1"></div><div class="skeleton-block" style="flex:1"></div></div>
+        <div class="skeleton-row"><div class="skeleton-block" style="width:40px"></div><div class="skeleton-block" style="flex:3"></div><div class="skeleton-block" style="flex:1"></div><div class="skeleton-block" style="flex:1"></div></div>
+        <div class="skeleton-row"><div class="skeleton-block" style="width:40px"></div><div class="skeleton-block" style="flex:3"></div><div class="skeleton-block" style="flex:1"></div><div class="skeleton-block" style="flex:1"></div></div>
+        <div class="skeleton-row"><div class="skeleton-block" style="width:40px"></div><div class="skeleton-block" style="flex:3"></div><div class="skeleton-block" style="flex:1"></div><div class="skeleton-block" style="flex:1"></div></div>
+        <div class="skeleton-row"><div class="skeleton-block" style="width:40px"></div><div class="skeleton-block" style="flex:3"></div><div class="skeleton-block" style="flex:1"></div><div class="skeleton-block" style="flex:1"></div></div>
+      </div>
+
+      <!-- Repos Table -->
+      <div class="table-container" id="repos-table-container" style="display:none;">
+        <table class="table-linear" role="table">
           <thead>
             <tr>
               <th style="width: 50px;">#</th>
@@ -124,7 +136,6 @@
             </tr>
           </thead>
           <tbody id="repos-tbody">
-            <!-- Populated by JS -->
           </tbody>
         </table>
         <div class="pagination-row">
@@ -138,15 +149,15 @@
     </section>
 
     <!-- TAB 2: DEVS TAB -->
-    <section id="tab-devs" class="tab-pane">
+    <section id="tab-devs" class="tab-pane" role="tabpanel" aria-labelledby="tab-devs">
       <div class="controls-panel">
         <div class="search-wrapper">
-          <input type="text" id="devs-search" class="search-input" placeholder="Search developer username, name, or repo...">
+          <input type="text" id="devs-search" class="search-input" placeholder="Search developer username, name, or repo..." aria-label="Search developers">
         </div>
-        <select id="devs-country-filter" class="custom-select">
+        <select id="devs-country-filter" class="custom-select" aria-label="Filter by country">
           <option value="">All Countries</option>
         </select>
-        <select id="devs-sort-filter" class="custom-select">
+        <select id="devs-sort-filter" class="custom-select" aria-label="Sort developers">
           <option value="weighted_desc">Weighted Contributions</option>
           <option value="contributions_desc">Total Contributions</option>
           <option value="repos_desc">Repo Count</option>
@@ -154,7 +165,7 @@
       </div>
 
       <div class="table-container">
-        <table class="table-linear">
+        <table class="table-linear" role="table">
           <thead>
             <tr>
               <th style="width: 50px;">#</th>
@@ -167,7 +178,6 @@
             </tr>
           </thead>
           <tbody id="devs-tbody">
-            <!-- Populated by JS -->
           </tbody>
         </table>
         <div class="pagination-row">
@@ -181,7 +191,7 @@
     </section>
 
     <!-- TAB 3: CATEGORIES OVER TIME (CHARTS) -->
-    <section id="tab-categories" class="tab-pane">
+    <section id="tab-categories" class="tab-pane" role="tabpanel" aria-labelledby="tab-categories">
       <div class="chart-section">
         <div class="chart-card">
           <h2 class="chart-title">Cumulative Repo Count Over Time</h2>
@@ -190,8 +200,7 @@
             <canvas id="chart-repos-time"></canvas>
           </div>
         </div>
-
-        <div class="chart-card" style="margin-top: 2rem;">
+        <div class="chart-card">
           <h2 class="chart-title">Cumulative Star Count Over Time</h2>
           <p class="chart-desc">Total ecosystem adoption measured by cumulative GitHub stars.</p>
           <div class="canvas-wrapper">
@@ -202,7 +211,7 @@
     </section>
 
     <!-- TAB 4: COUNTRIES TAB -->
-    <section id="tab-countries" class="tab-pane">
+    <section id="tab-countries" class="tab-pane" role="tabpanel" aria-labelledby="tab-countries">
       <div class="chart-card">
         <h2 class="chart-title">Global Open Source AI Distribution</h2>
         <p class="chart-desc">Top developer ecosystems by country, repo output, and contribution volume.</p>
@@ -212,7 +221,7 @@
       </div>
 
       <div class="table-container" style="margin-top: 2rem;">
-        <table class="table-linear">
+        <table class="table-linear" role="table">
           <thead>
             <tr>
               <th>Rank</th>
@@ -224,13 +233,17 @@
             </tr>
           </thead>
           <tbody id="countries-tbody">
-            <!-- Populated by JS -->
           </tbody>
         </table>
       </div>
     </section>
 
   </main>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
 
   <!-- Footer -->
   <footer class="site-footer">
@@ -239,9 +252,9 @@
         <strong>Partner & Affiliate Notice:</strong> Cloud deployment actions contain referral partnerships (Railway, RunPod, OpenRouter). We may earn credit or commission upon signup at zero extra cost to you, fueling free daily metric pipelines.
       </div>
       <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
-        <div>&copy; 2026 ZenAIList Pro. Open Source Intelligence Engine.</div>
+        <div>&copy; 2026 ZenAIList. Open Source Intelligence Engine.</div>
         <div style="display: flex; gap: 1.5rem;">
-          <a href="https://railway.com?referralCode=Ks00DU" target="_blank" rel="noopener sponsored" style="color: var(--accent-violet);">Deploy Railway ($5 Credit)</a>
+          <a href="https://railway.com?referralCode=Ks00DU" target="_blank" rel="noopener sponsored" style="color: var(--brand-green);">Deploy Railway ($5 Credit)</a>
           <a href="https://github.com/nplong90/ai-rank-hub" target="_blank" rel="noopener" style="color: var(--text-tertiary);">GitHub Source</a>
         </div>
       </div>
