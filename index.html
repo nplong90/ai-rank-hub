@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AIRankHub - Open Source AI Rankings & One-Click Deploy</title>
+  <meta name="description" content="Discover top trending AI open source repositories, star growth velocities, and 1-click cloud deployment.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="logo-group">
+      <span class="logo-badge">PRO MAX</span>
+      <span class="logo-text">AI Rank Hub</span>
+    </div>
+    <div class="header-links">
+      <a href="#repos" class="header-link">Top Repos</a>
+      <a href="config/affiliates.json" class="header-link" target="_blank">Partner Deals</a>
+      <a href="https://github.com" target="_blank" rel="noopener" class="btn-affiliate-top">Get GPU Credits ($25)</a>
+    </div>
+  </header>
+
+  <!-- Main App -->
+  <main class="container" id="repos">
+    
+    <!-- Top Summary Banner -->
+    <div class="stats-banner">
+      <div class="stat-card">
+        <div class="stat-label">Tracked Repos</div>
+        <div class="stat-value" id="stat-total-repos">-</div>
+        <div class="stat-sub">Top Trending AI Models & Tools</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Total Stars Monitored</div>
+        <div class="stat-value" id="stat-total-stars">-</div>
+        <div class="stat-sub">Open Source Ecosystem</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Growth Velocity</div>
+        <div class="stat-value" style="color: var(--color-accent);">1D / 7D Deltas</div>
+        <div class="stat-sub">Auto-updated every 6 hours</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Last Synchronized</div>
+        <div class="stat-value" id="stat-updated-at" style="font-size: 1.25rem;">-</div>
+        <div class="stat-sub">GitHub Actions Pipeline</div>
+      </div>
+    </div>
+
+    <!-- Controls Bar -->
+    <div class="controls-bar">
+      <div class="search-box">
+        <input type="text" id="search-input" class="search-input" placeholder="Filter by repo name, keyword, or description (e.g. vllm, agent, comfyui)...">
+      </div>
+      <select id="category-filter" class="category-select">
+        <option value="">All Categories</option>
+      </select>
+      <select id="sort-filter" class="sort-select">
+        <option value="star_1d_desc">Fastest Growing (1-Day Stars)</option>
+        <option value="star_7d_desc">Trending This Week (7-Day Stars)</option>
+        <option value="stars_desc">Total Stars (All Time)</option>
+        <option value="forks_desc">Most Forked</option>
+      </select>
+    </div>
+
+    <!-- Repos Table -->
+    <div class="table-wrapper">
+      <table class="repo-table">
+        <thead>
+          <tr>
+            <th style="width: 60px;">Rank</th>
+            <th>Repository</th>
+            <th style="width: 120px;">Total Stars</th>
+            <th style="width: 110px;">+1D Stars</th>
+            <th style="width: 110px;">+7D Stars</th>
+            <th style="width: 180px;">Cloud Deploy & API</th>
+          </tr>
+        </thead>
+        <tbody id="repos-tbody">
+          <!-- Populated by js/app.js -->
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Pagination -->
+    <div class="pagination">
+      <button id="prev-page-btn" class="pagination-btn">Previous</button>
+      <span id="page-info">Loading repositories...</span>
+      <button id="next-page-btn" class="pagination-btn">Next</button>
+    </div>
+
+  </main>
+
+  <!-- Footer with FTC / Affiliate Disclosure -->
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="ftc-disclosure">
+        <strong>Affiliate & Advertising Disclosure:</strong> Some links on this directory are affiliate or referral links (such as cloud deployment credits, GPU providers, and API token platforms). When you click these links and purchase a service, we may receive compensation or platform credits at no extra cost to you. This keeps the directory free and updated round-the-clock.
+      </div>
+      <div style="display: flex; justify-content: space-between; align-items: center;">
+        <div>&copy; 2026 AI Rank Hub. Designed with UI/UX Pro Max. Built for GitHub Pages.</div>
+        <div style="display: flex; gap: 1rem;">
+          <a href="#" style="text-decoration: underline;">Privacy Policy</a>
+          <a href="#" style="text-decoration: underline;">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

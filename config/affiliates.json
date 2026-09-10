@@ -1,0 +1,31 @@
+{
+  "cloud_deploy": {
+    "runpod": {
+      "name": "RunPod (GPU)",
+      "url_template": "https://runpod.io?ref=YOUR_REF_ID",
+      "badge": "GPU Cloud"
+    },
+    "railway": {
+      "name": "Railway (1-Click)",
+      "url_template": "https://railway.app?referralCode=YOUR_REF_ID",
+      "badge": "Serverless"
+    },
+    "digitalocean": {
+      "name": "DigitalOcean ($200 Credit)",
+      "url_template": "https://m.do.co/c/YOUR_REF_ID",
+      "badge": "VPS / Droplet"
+    }
+  },
+  "api_inference": {
+    "openrouter": {
+      "name": "OpenRouter (All Models)",
+      "url": "https://openrouter.ai/?ref=YOUR_REF_ID",
+      "badge": "Recommended"
+    },
+    "together": {
+      "name": "Together AI ($5 Credit)",
+      "url": "https://together.ai/?ref=YOUR_REF_ID",
+      "badge": "Fast Inference"
+    }
+  }
+}
